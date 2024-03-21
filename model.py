@@ -11,7 +11,6 @@ from keras.models import Sequential, Model
 from keras.layers import Dense, Input, Conv2D, MaxPooling2D, Flatten
 from keras.optimizers import Adam
 
-# Define your custom feature extraction function
 def featureExtraction(imgFiles):
     # Load MTCNN for face detection
     faceDetector = MTCNN()
@@ -41,8 +40,10 @@ def featureExtraction(imgFiles):
             faceImg = Image.fromarray(faceImg)
             faceImg = faceImg.resize((224, 224))
             
+            # Convert to float array
+            faceArray = np.array(faceImg, dtype=np.float32)  # Convert to float32
+            
             # Preprocess input for your custom model
-            faceArray = np.array(faceImg)
             faceArray = preprocess_input(faceArray, version=2)  # Assuming your model expects VGGFace preprocessing
             
             # Extract features using your custom model
@@ -56,9 +57,12 @@ def featureExtraction(imgFiles):
     
     return features
 
+
 names = ['Akshay Kumar', 'Alexandra Daddario', 'Alia Bhatt', 'Amitabh Bachchan', 'Andy Samberg', 'Anushka Sharma',
         'Billie Eilish', 'Brad Pitt', 'Camila Cabello', 'Charlize Theron', 'Claire Holt', 'Courtney Cox',
-        'Dwayne Johnson', 'Elizabeth Olsen', 'Ellen Degeneres', 'Henry Cavill', 'Hrithik Roshan', 'Hugh Jackman',
+        'Dwayne Johnson', 'Elizabeth Olsen', 'Ellen Degeneres']
+        
+notinvited = ['Henry Cavill', 'Hrithik Roshan', 'Hugh Jackman',
         'Jessica Alba', 'Kashyap', 'Lisa Kudrow', 'Margot Robbie', 'Marmik', 'Natalie Portman', 'Priyanka Chopra',
         'Robert Downey Jr', 'Roger Federer', 'Tom Cruise', 'Vijay Deverakonda', 'Virat Kohli', 'Zac Efron']
 
@@ -109,7 +113,7 @@ model = Sequential([
 model.compile(loss='sparse_categorical_crossentropy', optimizer=Adam(learning_rate=0.001), metrics=['accuracy'])
 
 # Train the model
-history = model.fit(X_train, y_train, batch_size=10, epochs=5, validation_data=(X_val, y_val))
+history = model.fit(X_train, y_train, batch_size=128, epochs=100, validation_data=(X_val, y_val))
 
 # Evaluate the model on a separate test set
 test_loss, test_accuracy = model.evaluate(X_val, y_val)
@@ -117,27 +121,33 @@ print("Test Loss:", test_loss)
 print("Test Accuracy:", test_accuracy)
 
 # define imgFiles
-imgFiles = ['sharon_stone1.jpg', 'sharon_stone2.jpg', 'sharon_stone3.jpg', 'Faces/Camila Cabello/Camila Cabello_0.jpg']
+#imgFiles = ['sharon_stone3.jpg', 'sharon_stone4.jpg', 'sharon_stone1.jpg', 'Faces/Camila Cabello/Camila Cabello_0.jpg']
+#imgFiles = ['sharon_stone3.jpg', 'sharon_stone4.jpg', 'sharon_stone1.jpg', 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
+imgFiles = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg', 'Faces/Dwayne Johnson/Dwayne Johnson_1.jpg', 'Faces/Dwayne Johnson/Dwayne Johnson_2.jpg', 'sharon_stone1.jpg']
 
 # get embeddings file imgFiles
 embeddings = featureExtraction(imgFiles)
 
 # define sharon stone
-sharon_id = embeddings[0]
+akshay_id = embeddings[0]
 
 # determine if a candidate face is a match for a known face
-def cosine_similarity(known_embedding, candidate_embedding, thresh=0.5):
+
+def cosine_similarity(known_embedding, candidate_embedding, thresh=0.9):
+    # cosine similarity between embeddings
     dot_product = np.dot(known_embedding, candidate_embedding)
     norm_vector1 = np.linalg.norm(known_embedding)
     norm_vector2 = np.linalg.norm(candidate_embedding)
     similarity_score = dot_product / (norm_vector1 * norm_vector2)
 
-    if similarity_score >= thresh:
-        print('> Face is a Match (Cosine Distance: %.3f >= %.3f)' % (similarity_score, thresh))
+    #similarity_score = cosine_similarity(known_embedding, candidate_embedding)
+    if similarity_score <= thresh:
+        print('< Face is NOT a Match (Cosine Distance: %.3f <= %.3f)' % (similarity_score, thresh))
     else:
-        print('> Face is NOT a Match (Cosine Distance: %.3f < %.3f)' % (similarity_score, thresh))
+        print('> Face is a Match (Cosine Distance: %.3f > %.3f)' % (similarity_score, thresh))
+    
 
-def euclidean_distance(known_embedding, candidate_embedding, thresh=121):
+def euclidean_distance(known_embedding, candidate_embedding, thresh=37):
     squared_diff = np.square(known_embedding - candidate_embedding)
     sum_squared_diff = np.sum(squared_diff)
     distance = np.sqrt(sum_squared_diff)
@@ -147,29 +157,13 @@ def euclidean_distance(known_embedding, candidate_embedding, thresh=121):
     else:
         print('> Face is NOT a Match (Euclidean Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
 
-def manhattan_distance(known_embedding, candidate_embedding, thresh=3200):
+def manhattan_distance(known_embedding, candidate_embedding, thresh=250):
     distance = np.sum(np.abs(known_embedding - candidate_embedding))
 
     if distance <= thresh:
         print('> Face is a Match (Manhattan Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
     else:
         print('> Face is NOT a Match (Manhattan Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
-
-
-names = ['Akshay Kumar', 'Alexandra Daddario', 'Alia Bhatt', 'Amitabh Bachchan', 'Andy Samberg', 'Anushka Sharma',
-        'Billie Eilish', 'Brad Pitt', 'Camila Cabello', 'Charlize Theron', 'Claire Holt', 'Courtney Cox',
-        'Dwayne Johnson', 'Elizabeth Olsen', 'Ellen Degeneres', 'Henry Cavill', 'Hrithik Roshan', 'Hugh Jackman',
-        'Jessica Alba', 'Kashyap', 'Lisa Kudrow', 'Margot Robbie', 'Marmik', 'Natalie Portman', 'Priyanka Chopra',
-        'Robert Downey Jr', 'Roger Federer', 'Tom Cruise', 'Vijay Deverakonda', 'Virat Kohli', 'Zac Efron']
-
-# define imgFiles
-imgFiles = ['sharon_stone1.jpg', 'sharon_stone2.jpg', 'sharon_stone3.jpg', 'Faces/Camila Cabello/Camila Cabello_0.jpg']
-
-# get embeddings file imgFiles
-embeddings = featureExtraction(imgFiles)
-
-# define sharon stone
-sharon_id = embeddings[0]
 
 # verify known photos of sharon
 print("Euclidean")
