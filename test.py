@@ -6,6 +6,11 @@ from keras_vggface.utils import preprocess_input
 from PIL import Image
 from mtcnn.mtcnn import MTCNN
 from matplotlib import pyplot
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from keras.models import Sequential
+from keras.layers import Dense, Flatten
+from keras.optimizers import Adam
 
 '''
 Preprocess face by detecting face using MTCNN, extract box of the
@@ -13,24 +18,64 @@ detected face, crops and resizes face to 224x224 and returns processed
 image as an array
 '''
 def preprocessFace(imgFile, size=(224, 224)):
-	pixelData = pyplot.imread(imgFile)
-	faceDetect = MTCNN()
-	detectOutput = faceDetect.detect_faces(pixelData)
-	x1, y1, width, height = detectOutput[0]['box']
-	x2, y2 = x1 + width, y1 + height
-	face = pixelData[y1:y2, x1:x2]
-	image = Image.fromarray(face)
-	image = image.resize(size)
-	faceArr = asarray(image)
-	return faceArr
+    pixelData = pyplot.imread(imgFile)
+    faceDetect = MTCNN()
+    detectOutput = faceDetect.detect_faces(pixelData)
+    x1, y1, width, height = detectOutput[0]['box']
+    x2, y2 = x1 + width, y1 + height
+    face = pixelData[y1:y2, x1:x2]
+    image = Image.fromarray(face)
+    image = image.resize(size)
+    faceArr = asarray(image)
+    return faceArr
 
 def featureExtraction(imgFiles):
-	faces = [preprocessFace(i) for i in imgFiles]
-	preprocessed = asarray(faces, 'float32')
-	preprocessed = preprocess_input(preprocessed, version=2)
-	model = VGGFace(model='resnet50', include_top=False, input_shape=(224, 224, 3), pooling='avg')
-	featureVectors = model.predict(preprocessed)
-	return featureVectors
+    faces = [preprocessFace(i) for i in imgFiles]
+    preprocessed = asarray(faces, 'float32')
+    preprocessed = preprocess_input(preprocessed, version=2)
+    model = VGGFace(model='resnet50', include_top=False, input_shape=(224, 224, 3), pooling='avg')
+    featureVectors = model.predict(preprocessed)
+    return featureVectors
+
+names = ['Akshay Kumar', 'Alexandra Daddario', 'Alia Bhatt', 'Amitabh Bachchan', 'Andy Samberg', 'Anushka Sharma',
+        'Billie Eilish', 'Brad Pitt', 'Camila Cabello', 'Charlize Theron', 'Claire Holt', 'Courtney Cox',
+        'Dwayne Johnson', 'Elizabeth Olsen', 'Ellen Degeneres', 'Henry Cavill', 'Hrithik Roshan', 'Hugh Jackman',
+        'Jessica Alba', 'Kashyap', 'Lisa Kudrow', 'Margot Robbie', 'Marmik', 'Natalie Portman', 'Priyanka Chopra',
+        'Robert Downey Jr', 'Roger Federer', 'Tom Cruise', 'Vijay Deverakonda', 'Virat Kohli', 'Zac Efron']
+
+# Load images and labels
+imgFiles = []
+labels = []
+for name in names:
+    imgFiles.append(f'Faces/{name}/{name}_0.jpg')
+    labels.append(name)
+
+# Extract features
+embeddings = featureExtraction(imgFiles)
+
+# Label encoding
+label_encoder = LabelEncoder()
+encoded_labels = label_encoder.fit_transform(labels)
+
+# Split data into train and validation sets
+X_train, X_val, y_train, y_val = train_test_split(embeddings, encoded_labels, test_size=0.2, random_state=42)
+
+# Define the model
+model = Sequential([
+    Dense(128, activation='relu', input_shape=(2048,)),
+    Dense(len(names), activation='softmax')
+])
+
+# Compile the model
+model.compile(loss='sparse_categorical_crossentropy', optimizer=Adam(learning_rate=0.001), metrics=['accuracy'])
+
+# Train the model
+history = model.fit(X_train, y_train, batch_size=5, epochs=5, validation_data=(X_val, y_val))
+
+# Evaluate the model on a separate test set
+test_loss, test_accuracy = model.evaluate(X_val, y_val)
+print("Test Loss:", test_loss)
+print("Test Accuracy:", test_accuracy)
 
 # determine if a candidate face is a match for a known face
 def cosine_similarity(known_embedding, candidate_embedding, thresh=0.5):
