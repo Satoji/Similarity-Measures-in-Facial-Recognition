@@ -1,0 +1,527 @@
+Comparison results for image 1 (Akshay Kumar):
+Name: Akshay Kumar, Euclidean Distance: 0.0, Cosine Similarity: -1.1920928955078125e-07, Manhattan Distance: 0.0
+Name: Alexandra Daddario, Euclidean Distance: 149.21961975097656, Cosine Similarity: 0.7228375673294067, Manhattan Distance: 4106.7412109375
+Name: Alia Bhatt, Euclidean Distance: 143.8335723876953, Cosine Similarity: 0.6544302403926849, Manhattan Distance: 3827.337646484375
+Name: Amitabh Bachchan, Euclidean Distance: 149.1360321044922, Cosine Similarity: 0.7535880953073502, Manhattan Distance: 4001.4599609375
+Name: Andy Samberg, Euclidean Distance: 159.44094848632812, Cosine Similarity: 0.7591112554073334, Manhattan Distance: 4379.45947265625
+Name: Anushka Sharma, Euclidean Distance: 133.59188842773438, Cosine Similarity: 0.557814210653305, Manhattan Distance: 3559.80859375
+Name: Billie Eilish, Euclidean Distance: 151.3996124267578, Cosine Similarity: 0.7854982763528824, Manhattan Distance: 4040.5791015625
+Name: Brad Pitt, Euclidean Distance: 153.53077697753906, Cosine Similarity: 0.7593598067760468, Manhattan Distance: 4136.7666015625
+Name: Camila Cabello, Euclidean Distance: 141.60858154296875, Cosine Similarity: 0.7176468968391418, Manhattan Distance: 3939.37744140625
+Name: Charlize Theron, Euclidean Distance: 147.57199096679688, Cosine Similarity: 0.6806179881095886, Manhattan Distance: 3967.609619140625
+Name: Claire Holt, Euclidean Distance: 147.8010711669922, Cosine Similarity: 0.7254737615585327, Manhattan Distance: 4067.00634765625
+Name: Courtney Cox, Euclidean Distance: 151.73690795898438, Cosine Similarity: 0.696406751871109, Manhattan Distance: 4248.92236328125
+Name: Dwayne Johnson, Euclidean Distance: 145.7888641357422, Cosine Similarity: 0.7056706845760345, Manhattan Distance: 3887.447265625
+Name: Elizabeth Olsen, Euclidean Distance: 148.60556030273438, Cosine Similarity: 0.720754086971283, Manhattan Distance: 3998.30224609375
+Name: Ellen Degeneres, Euclidean Distance: 150.04754638671875, Cosine Similarity: 0.7418913543224335, Manhattan Distance: 3989.943359375
+
+Comparison results for image 2 (Alexandra Daddario):
+Name: Akshay Kumar, Euclidean Distance: 149.21961975097656, Cosine Similarity: 0.7228375673294067, Manhattan Distance: 4106.7412109375
+Name: Alexandra Daddario, Euclidean Distance: 0.0, Cosine Similarity: -1.1920928955078125e-07, Manhattan Distance: 0.0
+Name: Alia Bhatt, Euclidean Distance: 128.93875122070312, Cosine Similarity: 0.5847529172897339, Manhattan Distance: 3466.28369140625
+Name: Amitabh Bachchan, Euclidean Distance: 137.4901885986328, Cosine Similarity: 0.7195766866207123, Manhattan Distance: 3752.423583984375
+Name: Andy Samberg, Euclidean Distance: 148.44384765625, Cosine Similarity: 0.7250891029834747, Manhattan Distance: 4201.2744140625
+Name: Anushka Sharma, Euclidean Distance: 125.34001922607422, Cosine Similarity: 0.5450392067432404, Manhattan Distance: 3373.1328125
+Name: Billie Eilish, Euclidean Distance: 113.72593688964844, Cosine Similarity: 0.4978031516075134, Manhattan Distance: 2972.23291015625
+Name: Brad Pitt, Euclidean Distance: 132.90223693847656, Cosine Similarity: 0.6341090202331543, Manhattan Distance: 3642.193115234375
+Name: Camila Cabello, Euclidean Distance: 116.88899230957031, Cosine Similarity: 0.5537094473838806, Manhattan Distance: 3212.505615234375
+Name: Charlize Theron, Euclidean Distance: 114.44489288330078, Cosine Similarity: 0.45388948917388916, Manhattan Distance: 3030.94580078125
+Name: Claire Holt, Euclidean Distance: 105.37520599365234, Cosine Similarity: 0.4129999876022339, Manhattan Distance: 2850.14599609375
+Name: Courtney Cox, Euclidean Distance: 123.59915924072266, Cosine Similarity: 0.5092509686946869, Manhattan Distance: 3474.876220703125
+Name: Dwayne Johnson, Euclidean Distance: 136.27410888671875, Cosine Similarity: 0.6910116076469421, Manhattan Distance: 3726.1162109375
+Name: Elizabeth Olsen, Euclidean Distance: 121.49358367919922, Cosine Similarity: 0.5382110774517059, Manhattan Distance: 3204.5537109375
+Name: Ellen Degeneres, Euclidean Distance: 137.56057739257812, Cosine Similarity: 0.6975195705890656, Manhattan Distance: 3731.31298828125
+
+Comparison results for image 3 (Alia Bhatt):
+Name: Akshay Kumar, Euclidean Distance: 143.8335723876953, Cosine Similarity: 0.6544302403926849, Manhattan Distance: 3827.337646484375
+Name: Alexandra Daddario, Euclidean Distance: 128.93875122070312, Cosine Similarity: 0.5847529172897339, Manhattan Distance: 3466.28369140625
+Name: Alia Bhatt, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Amitabh Bachchan, Euclidean Distance: 138.02001953125, Cosine Similarity: 0.7024519443511963, Manhattan Distance: 3719.8798828125
+Name: Andy Samberg, Euclidean Distance: 155.5747528076172, Cosine Similarity: 0.7761283665895462, Manhattan Distance: 4414.94287109375
+Name: Anushka Sharma, Euclidean Distance: 128.43214416503906, Cosine Similarity: 0.5567009747028351, Manhattan Distance: 3399.5380859375
+Name: Billie Eilish, Euclidean Distance: 131.05685424804688, Cosine Similarity: 0.6404781341552734, Manhattan Distance: 3565.27099609375
+Name: Brad Pitt, Euclidean Distance: 133.49546813964844, Cosine Similarity: 0.6213221251964569, Manhattan Distance: 3639.018310546875
+Name: Camila Cabello, Euclidean Distance: 121.40960693359375, Cosine Similarity: 0.576557993888855, Manhattan Distance: 3320.904052734375
+Name: Charlize Theron, Euclidean Distance: 138.93858337402344, Cosine Similarity: 0.6510313153266907, Manhattan Distance: 3847.651611328125
+Name: Claire Holt, Euclidean Distance: 131.61181640625, Cosine Similarity: 0.6248112916946411, Manhattan Distance: 3638.46826171875
+Name: Courtney Cox, Euclidean Distance: 154.78709411621094, Cosine Similarity: 0.7792280167341232, Manhattan Distance: 4457.81787109375
+Name: Dwayne Johnson, Euclidean Distance: 148.03912353515625, Cosine Similarity: 0.7909901887178421, Manhattan Distance: 4078.361083984375
+Name: Elizabeth Olsen, Euclidean Distance: 134.2868194580078, Cosine Similarity: 0.6381120979785919, Manhattan Distance: 3614.76318359375
+Name: Ellen Degeneres, Euclidean Distance: 135.8036346435547, Cosine Similarity: 0.6594316065311432, Manhattan Distance: 3672.38037109375
+
+Comparison results for image 4 (Amitabh Bachchan):
+Name: Akshay Kumar, Euclidean Distance: 149.1360321044922, Cosine Similarity: 0.7535880953073502, Manhattan Distance: 4001.4599609375
+Name: Alexandra Daddario, Euclidean Distance: 137.4901885986328, Cosine Similarity: 0.7195766866207123, Manhattan Distance: 3752.423583984375
+Name: Alia Bhatt, Euclidean Distance: 138.02001953125, Cosine Similarity: 0.7024519443511963, Manhattan Distance: 3719.8798828125
+Name: Amitabh Bachchan, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Andy Samberg, Euclidean Distance: 133.50611877441406, Cosine Similarity: 0.6106868088245392, Manhattan Distance: 3555.92529296875
+Name: Anushka Sharma, Euclidean Distance: 140.02325439453125, Cosine Similarity: 0.7127134799957275, Manhattan Distance: 3799.683837890625
+Name: Billie Eilish, Euclidean Distance: 140.18087768554688, Cosine Similarity: 0.7992388904094696, Manhattan Distance: 3810.927490234375
+Name: Brad Pitt, Euclidean Distance: 128.42324829101562, Cosine Similarity: 0.6213579475879669, Manhattan Distance: 3441.85791015625
+Name: Camila Cabello, Euclidean Distance: 131.38182067871094, Cosine Similarity: 0.7439932823181152, Manhattan Distance: 3659.689453125
+Name: Charlize Theron, Euclidean Distance: 137.43157958984375, Cosine Similarity: 0.6858361959457397, Manhattan Distance: 3660.234375
+Name: Claire Holt, Euclidean Distance: 135.6199493408203, Cosine Similarity: 0.7203187942504883, Manhattan Distance: 3661.0771484375
+Name: Courtney Cox, Euclidean Distance: 139.48728942871094, Cosine Similarity: 0.6783450245857239, Manhattan Distance: 3902.45263671875
+Name: Dwayne Johnson, Euclidean Distance: 138.24697875976562, Cosine Similarity: 0.7485641241073608, Manhattan Distance: 3701.5244140625
+Name: Elizabeth Olsen, Euclidean Distance: 134.5754852294922, Cosine Similarity: 0.6940040588378906, Manhattan Distance: 3619.57177734375
+Name: Ellen Degeneres, Euclidean Distance: 137.2219696044922, Cosine Similarity: 0.7300734221935272, Manhattan Distance: 3609.85009765625
+
+Comparison results for image 5 (Andy Samberg):
+Name: Akshay Kumar, Euclidean Distance: 159.44094848632812, Cosine Similarity: 0.7591112554073334, Manhattan Distance: 4379.45947265625
+Name: Alexandra Daddario, Euclidean Distance: 148.44384765625, Cosine Similarity: 0.7250891029834747, Manhattan Distance: 4201.2744140625
+Name: Alia Bhatt, Euclidean Distance: 155.5747528076172, Cosine Similarity: 0.7761283665895462, Manhattan Distance: 4414.94287109375
+Name: Amitabh Bachchan, Euclidean Distance: 133.50611877441406, Cosine Similarity: 0.6106868088245392, Manhattan Distance: 3555.92529296875
+Name: Andy Samberg, Euclidean Distance: 0.0, Cosine Similarity: -1.1920928955078125e-07, Manhattan Distance: 0.0
+Name: Anushka Sharma, Euclidean Distance: 146.20518493652344, Cosine Similarity: 0.6771851480007172, Manhattan Distance: 4052.57080078125
+Name: Billie Eilish, Euclidean Distance: 145.83914184570312, Cosine Similarity: 0.7386840879917145, Manhattan Distance: 3979.242919921875
+Name: Brad Pitt, Euclidean Distance: 144.44049072265625, Cosine Similarity: 0.6807561814785004, Manhattan Distance: 3992.81591796875
+Name: Camila Cabello, Euclidean Distance: 141.93594360351562, Cosine Similarity: 0.7327413856983185, Manhattan Distance: 4012.275634765625
+Name: Charlize Theron, Euclidean Distance: 150.81056213378906, Cosine Similarity: 0.720097541809082, Manhattan Distance: 4168.244140625
+Name: Claire Holt, Euclidean Distance: 146.42303466796875, Cosine Similarity: 0.7219758331775665, Manhattan Distance: 4140.8115234375
+Name: Courtney Cox, Euclidean Distance: 143.06134033203125, Cosine Similarity: 0.6266750395298004, Manhattan Distance: 4044.79296875
+Name: Dwayne Johnson, Euclidean Distance: 146.43624877929688, Cosine Similarity: 0.7221529483795166, Manhattan Distance: 4045.166015625
+Name: Elizabeth Olsen, Euclidean Distance: 143.1934814453125, Cosine Similarity: 0.6781147420406342, Manhattan Distance: 3964.6181640625
+Name: Ellen Degeneres, Euclidean Distance: 142.4927978515625, Cosine Similarity: 0.6778281331062317, Manhattan Distance: 3795.7578125
+
+Comparison results for image 6 (Anushka Sharma):
+Name: Akshay Kumar, Euclidean Distance: 133.59188842773438, Cosine Similarity: 0.557814210653305, Manhattan Distance: 3559.80859375
+Name: Alexandra Daddario, Euclidean Distance: 125.34001922607422, Cosine Similarity: 0.5450392067432404, Manhattan Distance: 3373.1328125
+Name: Alia Bhatt, Euclidean Distance: 128.43214416503906, Cosine Similarity: 0.5567009747028351, Manhattan Distance: 3399.5380859375
+Name: Amitabh Bachchan, Euclidean Distance: 140.02325439453125, Cosine Similarity: 0.7127134799957275, Manhattan Distance: 3799.683837890625
+Name: Andy Samberg, Euclidean Distance: 146.20518493652344, Cosine Similarity: 0.6771851480007172, Manhattan Distance: 4052.57080078125
+Name: Anushka Sharma, Euclidean Distance: 0.0, Cosine Similarity: -1.1920928955078125e-07, Manhattan Distance: 0.0
+Name: Billie Eilish, Euclidean Distance: 131.7284393310547, Cosine Similarity: 0.6375136077404022, Manhattan Distance: 3520.987060546875
+Name: Brad Pitt, Euclidean Distance: 142.0284881591797, Cosine Similarity: 0.6940107345581055, Manhattan Distance: 3945.21826171875
+Name: Camila Cabello, Euclidean Distance: 129.73007202148438, Cosine Similarity: 0.6493516862392426, Manhattan Distance: 3603.32568359375
+Name: Charlize Theron, Euclidean Distance: 133.17349243164062, Cosine Similarity: 0.590582549571991, Manhattan Distance: 3578.23388671875
+Name: Claire Holt, Euclidean Distance: 128.00140380859375, Cosine Similarity: 0.5825610756874084, Manhattan Distance: 3499.421875
+Name: Courtney Cox, Euclidean Distance: 139.4528350830078, Cosine Similarity: 0.6247273683547974, Manhattan Distance: 3907.97509765625
+Name: Dwayne Johnson, Euclidean Distance: 139.25538635253906, Cosine Similarity: 0.6899847686290741, Manhattan Distance: 3776.77197265625
+Name: Elizabeth Olsen, Euclidean Distance: 142.57704162597656, Cosine Similarity: 0.7096962034702301, Manhattan Distance: 3859.80859375
+Name: Ellen Degeneres, Euclidean Distance: 137.7719268798828, Cosine Similarity: 0.6693723499774933, Manhattan Distance: 3685.98193359375
+
+Comparison results for image 7 (Billie Eilish):
+Name: Akshay Kumar, Euclidean Distance: 151.3996124267578, Cosine Similarity: 0.7854982763528824, Manhattan Distance: 4040.5791015625
+Name: Alexandra Daddario, Euclidean Distance: 113.72593688964844, Cosine Similarity: 0.4978031516075134, Manhattan Distance: 2972.23291015625
+Name: Alia Bhatt, Euclidean Distance: 131.05685424804688, Cosine Similarity: 0.6404781341552734, Manhattan Distance: 3565.27099609375
+Name: Amitabh Bachchan, Euclidean Distance: 140.18087768554688, Cosine Similarity: 0.7992388904094696, Manhattan Distance: 3810.927490234375
+Name: Andy Samberg, Euclidean Distance: 145.83914184570312, Cosine Similarity: 0.7386840879917145, Manhattan Distance: 3979.242919921875
+Name: Anushka Sharma, Euclidean Distance: 131.7284393310547, Cosine Similarity: 0.6375136077404022, Manhattan Distance: 3520.987060546875
+Name: Billie Eilish, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Brad Pitt, Euclidean Distance: 139.03509521484375, Cosine Similarity: 0.7375734150409698, Manhattan Distance: 3800.672119140625
+Name: Camila Cabello, Euclidean Distance: 111.95154571533203, Cosine Similarity: 0.5476801693439484, Manhattan Distance: 3039.3955078125
+Name: Charlize Theron, Euclidean Distance: 131.62071228027344, Cosine Similarity: 0.6359082162380219, Manhattan Distance: 3505.43701171875
+Name: Claire Holt, Euclidean Distance: 107.385009765625, Cosine Similarity: 0.4571959376335144, Manhattan Distance: 2852.8740234375
+Name: Courtney Cox, Euclidean Distance: 142.33221435546875, Cosine Similarity: 0.7144794464111328, Manhattan Distance: 3995.06396484375
+Name: Dwayne Johnson, Euclidean Distance: 143.3910675048828, Cosine Similarity: 0.8158057928085327, Manhattan Distance: 3919.435302734375
+Name: Elizabeth Olsen, Euclidean Distance: 130.37356567382812, Cosine Similarity: 0.6594048142433167, Manhattan Distance: 3476.865234375
+Name: Ellen Degeneres, Euclidean Distance: 129.46080017089844, Cosine Similarity: 0.6580081284046173, Manhattan Distance: 3356.023193359375
+
+Comparison results for image 8 (Brad Pitt):
+Name: Akshay Kumar, Euclidean Distance: 153.53077697753906, Cosine Similarity: 0.7593598067760468, Manhattan Distance: 4136.7666015625
+Name: Alexandra Daddario, Euclidean Distance: 132.90223693847656, Cosine Similarity: 0.6341090202331543, Manhattan Distance: 3642.193115234375
+Name: Alia Bhatt, Euclidean Distance: 133.49546813964844, Cosine Similarity: 0.6213221251964569, Manhattan Distance: 3639.018310546875
+Name: Amitabh Bachchan, Euclidean Distance: 128.42324829101562, Cosine Similarity: 0.6213579475879669, Manhattan Distance: 3441.85791015625
+Name: Andy Samberg, Euclidean Distance: 144.44049072265625, Cosine Similarity: 0.6807561814785004, Manhattan Distance: 3992.81591796875
+Name: Anushka Sharma, Euclidean Distance: 142.0284881591797, Cosine Similarity: 0.6940107345581055, Manhattan Distance: 3945.21826171875
+Name: Billie Eilish, Euclidean Distance: 139.03509521484375, Cosine Similarity: 0.7375734150409698, Manhattan Distance: 3800.672119140625
+Name: Brad Pitt, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Camila Cabello, Euclidean Distance: 131.52825927734375, Cosine Similarity: 0.6954887211322784, Manhattan Distance: 3678.414306640625
+Name: Charlize Theron, Euclidean Distance: 140.1504364013672, Cosine Similarity: 0.6752398610115051, Manhattan Distance: 3811.138671875
+Name: Claire Holt, Euclidean Distance: 136.64065551757812, Cosine Similarity: 0.6880272924900055, Manhattan Distance: 3788.9189453125
+Name: Courtney Cox, Euclidean Distance: 140.8799285888672, Cosine Similarity: 0.6570795774459839, Manhattan Distance: 3963.1005859375
+Name: Dwayne Johnson, Euclidean Distance: 142.18453979492188, Cosine Similarity: 0.7450973093509674, Manhattan Distance: 3870.950927734375
+Name: Elizabeth Olsen, Euclidean Distance: 131.77154541015625, Cosine Similarity: 0.627227395772934, Manhattan Distance: 3545.42138671875
+Name: Ellen Degeneres, Euclidean Distance: 137.1450958251953, Cosine Similarity: 0.6867562234401703, Manhattan Distance: 3675.00341796875
+
+Comparison results for image 9 (Camila Cabello):
+Name: Akshay Kumar, Euclidean Distance: 141.60858154296875, Cosine Similarity: 0.7176468968391418, Manhattan Distance: 3939.37744140625
+Name: Alexandra Daddario, Euclidean Distance: 116.88899230957031, Cosine Similarity: 0.5537094473838806, Manhattan Distance: 3212.505615234375
+Name: Alia Bhatt, Euclidean Distance: 121.40960693359375, Cosine Similarity: 0.576557993888855, Manhattan Distance: 3320.904052734375
+Name: Amitabh Bachchan, Euclidean Distance: 131.38182067871094, Cosine Similarity: 0.7439932823181152, Manhattan Distance: 3659.689453125
+Name: Andy Samberg, Euclidean Distance: 141.93594360351562, Cosine Similarity: 0.7327413856983185, Manhattan Distance: 4012.275634765625
+Name: Anushka Sharma, Euclidean Distance: 129.73007202148438, Cosine Similarity: 0.6493516862392426, Manhattan Distance: 3603.32568359375
+Name: Billie Eilish, Euclidean Distance: 111.95154571533203, Cosine Similarity: 0.5476801693439484, Manhattan Distance: 3039.3955078125
+Name: Brad Pitt, Euclidean Distance: 131.52825927734375, Cosine Similarity: 0.6954887211322784, Manhattan Distance: 3678.414306640625
+Name: Camila Cabello, Euclidean Distance: 0.0, Cosine Similarity: -1.1920928955078125e-07, Manhattan Distance: 0.0
+Name: Charlize Theron, Euclidean Distance: 137.70584106445312, Cosine Similarity: 0.7327671349048615, Manhattan Distance: 3840.06103515625
+Name: Claire Holt, Euclidean Distance: 122.12274932861328, Cosine Similarity: 0.624973863363266, Manhattan Distance: 3415.73828125
+Name: Courtney Cox, Euclidean Distance: 139.07272338867188, Cosine Similarity: 0.7149753868579865, Manhattan Distance: 4058.224853515625
+Name: Dwayne Johnson, Euclidean Distance: 131.5140838623047, Cosine Similarity: 0.7256404459476471, Manhattan Distance: 3593.81396484375
+Name: Elizabeth Olsen, Euclidean Distance: 124.69602966308594, Cosine Similarity: 0.6360634863376617, Manhattan Distance: 3429.613037109375
+Name: Ellen Degeneres, Euclidean Distance: 135.38624572753906, Cosine Similarity: 0.7607803344726562, Manhattan Distance: 3793.8017578125
+
+Comparison results for image 10 (Charlize Theron):
+Name: Akshay Kumar, Euclidean Distance: 147.57199096679688, Cosine Similarity: 0.6806179881095886, Manhattan Distance: 3967.609619140625
+Name: Alexandra Daddario, Euclidean Distance: 114.44489288330078, Cosine Similarity: 0.45388948917388916, Manhattan Distance: 3030.94580078125
+Name: Alia Bhatt, Euclidean Distance: 138.93858337402344, Cosine Similarity: 0.6510313153266907, Manhattan Distance: 3847.651611328125
+Name: Amitabh Bachchan, Euclidean Distance: 137.43157958984375, Cosine Similarity: 0.6858361959457397, Manhattan Distance: 3660.234375
+Name: Andy Samberg, Euclidean Distance: 150.81056213378906, Cosine Similarity: 0.720097541809082, Manhattan Distance: 4168.244140625
+Name: Anushka Sharma, Euclidean Distance: 133.17349243164062, Cosine Similarity: 0.590582549571991, Manhattan Distance: 3578.23388671875
+Name: Billie Eilish, Euclidean Distance: 131.62071228027344, Cosine Similarity: 0.6359082162380219, Manhattan Distance: 3505.43701171875
+Name: Brad Pitt, Euclidean Distance: 140.1504364013672, Cosine Similarity: 0.6752398610115051, Manhattan Distance: 3811.138671875
+Name: Camila Cabello, Euclidean Distance: 137.70584106445312, Cosine Similarity: 0.7327671349048615, Manhattan Distance: 3840.06103515625
+Name: Charlize Theron, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Claire Holt, Euclidean Distance: 111.2618179321289, Cosine Similarity: 0.4391956329345703, Manhattan Distance: 2984.369384765625
+Name: Courtney Cox, Euclidean Distance: 131.69664001464844, Cosine Similarity: 0.556711733341217, Manhattan Distance: 3615.73681640625
+Name: Dwayne Johnson, Euclidean Distance: 142.19500732421875, Cosine Similarity: 0.7189394533634186, Manhattan Distance: 3810.545166015625
+Name: Elizabeth Olsen, Euclidean Distance: 134.7503204345703, Cosine Similarity: 0.633288562297821, Manhattan Distance: 3613.948974609375
+Name: Ellen Degeneres, Euclidean Distance: 136.48312377929688, Cosine Similarity: 0.6563439965248108, Manhattan Distance: 3556.96435546875
+
+Comparison results for image 11 (Claire Holt):
+Name: Akshay Kumar, Euclidean Distance: 147.8010711669922, Cosine Similarity: 0.7254737615585327, Manhattan Distance: 4067.00634765625
+Name: Alexandra Daddario, Euclidean Distance: 105.37520599365234, Cosine Similarity: 0.4129999876022339, Manhattan Distance: 2850.14599609375
+Name: Alia Bhatt, Euclidean Distance: 131.61181640625, Cosine Similarity: 0.6248112916946411, Manhattan Distance: 3638.46826171875
+Name: Amitabh Bachchan, Euclidean Distance: 135.6199493408203, Cosine Similarity: 0.7203187942504883, Manhattan Distance: 3661.0771484375
+Name: Andy Samberg, Euclidean Distance: 146.42303466796875, Cosine Similarity: 0.7219758331775665, Manhattan Distance: 4140.8115234375
+Name: Anushka Sharma, Euclidean Distance: 128.00140380859375, Cosine Similarity: 0.5825610756874084, Manhattan Distance: 3499.421875
+Name: Billie Eilish, Euclidean Distance: 107.385009765625, Cosine Similarity: 0.4571959376335144, Manhattan Distance: 2852.8740234375
+Name: Brad Pitt, Euclidean Distance: 136.64065551757812, Cosine Similarity: 0.6880272924900055, Manhattan Distance: 3788.9189453125
+Name: Camila Cabello, Euclidean Distance: 122.12274932861328, Cosine Similarity: 0.624973863363266, Manhattan Distance: 3415.73828125
+Name: Charlize Theron, Euclidean Distance: 111.2618179321289, Cosine Similarity: 0.4391956329345703, Manhattan Distance: 2984.369384765625
+Name: Claire Holt, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Courtney Cox, Euclidean Distance: 132.5496826171875, Cosine Similarity: 0.5997965633869171, Manhattan Distance: 3748.50244140625
+Name: Dwayne Johnson, Euclidean Distance: 135.0561065673828, Cosine Similarity: 0.6976679563522339, Manhattan Distance: 3716.7626953125
+Name: Elizabeth Olsen, Euclidean Distance: 120.02820587158203, Cosine Similarity: 0.5394948124885559, Manhattan Distance: 3234.216552734375
+Name: Ellen Degeneres, Euclidean Distance: 128.45462036132812, Cosine Similarity: 0.6249717175960541, Manhattan Distance: 3376.9072265625
+
+Comparison results for image 12 (Courtney Cox):
+Name: Akshay Kumar, Euclidean Distance: 151.73690795898438, Cosine Similarity: 0.696406751871109, Manhattan Distance: 4248.92236328125
+Name: Alexandra Daddario, Euclidean Distance: 123.59915924072266, Cosine Similarity: 0.5092509686946869, Manhattan Distance: 3474.876220703125
+Name: Alia Bhatt, Euclidean Distance: 154.78709411621094, Cosine Similarity: 0.7792280167341232, Manhattan Distance: 4457.81787109375
+Name: Amitabh Bachchan, Euclidean Distance: 139.48728942871094, Cosine Similarity: 0.6783450245857239, Manhattan Distance: 3902.45263671875
+Name: Andy Samberg, Euclidean Distance: 143.06134033203125, Cosine Similarity: 0.6266750395298004, Manhattan Distance: 4044.79296875
+Name: Anushka Sharma, Euclidean Distance: 139.4528350830078, Cosine Similarity: 0.6247273683547974, Manhattan Distance: 3907.97509765625
+Name: Billie Eilish, Euclidean Distance: 142.33221435546875, Cosine Similarity: 0.7144794464111328, Manhattan Distance: 3995.06396484375
+Name: Brad Pitt, Euclidean Distance: 140.8799285888672, Cosine Similarity: 0.6570795774459839, Manhattan Distance: 3963.1005859375
+Name: Camila Cabello, Euclidean Distance: 139.07272338867188, Cosine Similarity: 0.7149753868579865, Manhattan Distance: 4058.224853515625
+Name: Charlize Theron, Euclidean Distance: 131.69664001464844, Cosine Similarity: 0.556711733341217, Manhattan Distance: 3615.73681640625
+Name: Claire Holt, Euclidean Distance: 132.5496826171875, Cosine Similarity: 0.5997965633869171, Manhattan Distance: 3748.50244140625
+Name: Courtney Cox, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Dwayne Johnson, Euclidean Distance: 129.7167510986328, Cosine Similarity: 0.574236273765564, Manhattan Distance: 3618.87890625
+Name: Elizabeth Olsen, Euclidean Distance: 138.4494171142578, Cosine Similarity: 0.643293708562851, Manhattan Distance: 3900.060302734375
+Name: Ellen Degeneres, Euclidean Distance: 143.92227172851562, Cosine Similarity: 0.7022198438644409, Manhattan Distance: 3958.6376953125
+
+Comparison results for image 13 (Dwayne Johnson):
+Name: Akshay Kumar, Euclidean Distance: 145.7888641357422, Cosine Similarity: 0.7056706845760345, Manhattan Distance: 3887.447265625
+Name: Alexandra Daddario, Euclidean Distance: 136.27410888671875, Cosine Similarity: 0.6910116076469421, Manhattan Distance: 3726.1162109375
+Name: Alia Bhatt, Euclidean Distance: 148.03912353515625, Cosine Similarity: 0.7909901887178421, Manhattan Distance: 4078.361083984375
+Name: Amitabh Bachchan, Euclidean Distance: 138.24697875976562, Cosine Similarity: 0.7485641241073608, Manhattan Distance: 3701.5244140625
+Name: Andy Samberg, Euclidean Distance: 146.43624877929688, Cosine Similarity: 0.7221529483795166, Manhattan Distance: 4045.166015625
+Name: Anushka Sharma, Euclidean Distance: 139.25538635253906, Cosine Similarity: 0.6899847686290741, Manhattan Distance: 3776.77197265625
+Name: Billie Eilish, Euclidean Distance: 143.3910675048828, Cosine Similarity: 0.8158057928085327, Manhattan Distance: 3919.435302734375
+Name: Brad Pitt, Euclidean Distance: 142.18453979492188, Cosine Similarity: 0.7450973093509674, Manhattan Distance: 3870.950927734375
+Name: Camila Cabello, Euclidean Distance: 131.5140838623047, Cosine Similarity: 0.7256404459476471, Manhattan Distance: 3593.81396484375
+Name: Charlize Theron, Euclidean Distance: 142.19500732421875, Cosine Similarity: 0.7189394533634186, Manhattan Distance: 3810.545166015625
+Name: Claire Holt, Euclidean Distance: 135.0561065673828, Cosine Similarity: 0.6976679563522339, Manhattan Distance: 3716.7626953125
+Name: Courtney Cox, Euclidean Distance: 129.7167510986328, Cosine Similarity: 0.574236273765564, Manhattan Distance: 3618.87890625
+Name: Dwayne Johnson, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+Name: Elizabeth Olsen, Euclidean Distance: 140.7823944091797, Cosine Similarity: 0.7423282861709595, Manhattan Distance: 3862.77978515625
+Name: Ellen Degeneres, Euclidean Distance: 143.22409057617188, Cosine Similarity: 0.7770186960697174, Manhattan Distance: 3800.7001953125
+
+Comparison results for image 14 (Elizabeth Olsen):
+Name: Akshay Kumar, Euclidean Distance: 148.60556030273438, Cosine Similarity: 0.720754086971283, Manhattan Distance: 3998.30224609375
+Name: Alexandra Daddario, Euclidean Distance: 121.49358367919922, Cosine Similarity: 0.5382110774517059, Manhattan Distance: 3204.5537109375
+Name: Alia Bhatt, Euclidean Distance: 134.2868194580078, Cosine Similarity: 0.6381120979785919, Manhattan Distance: 3614.76318359375
+Name: Amitabh Bachchan, Euclidean Distance: 134.5754852294922, Cosine Similarity: 0.6940040588378906, Manhattan Distance: 3619.57177734375
+Name: Andy Samberg, Euclidean Distance: 143.1934814453125, Cosine Similarity: 0.6781147420406342, Manhattan Distance: 3964.6181640625
+Name: Anushka Sharma, Euclidean Distance: 142.57704162597656, Cosine Similarity: 0.7096962034702301, Manhattan Distance: 3859.80859375
+Name: Billie Eilish, Euclidean Distance: 130.37356567382812, Cosine Similarity: 0.6594048142433167, Manhattan Distance: 3476.865234375
+Name: Brad Pitt, Euclidean Distance: 131.77154541015625, Cosine Similarity: 0.627227395772934, Manhattan Distance: 3545.42138671875
+Name: Camila Cabello, Euclidean Distance: 124.69602966308594, Cosine Similarity: 0.6360634863376617, Manhattan Distance: 3429.613037109375
+Name: Charlize Theron, Euclidean Distance: 134.7503204345703, Cosine Similarity: 0.633288562297821, Manhattan Distance: 3613.948974609375
+Name: Claire Holt, Euclidean Distance: 120.02820587158203, Cosine Similarity: 0.5394948124885559, Manhattan Distance: 3234.216552734375
+Name: Courtney Cox, Euclidean Distance: 138.4494171142578, Cosine Similarity: 0.643293708562851, Manhattan Distance: 3900.060302734375
+Name: Dwayne Johnson, Euclidean Distance: 140.7823944091797, Cosine Similarity: 0.7423282861709595, Manhattan Distance: 3862.77978515625
+Name: Elizabeth Olsen, Euclidean Distance: 0.0, Cosine Similarity: 5.960464477539063e-08, Manhattan Distance: 0.0
+Name: Ellen Degeneres, Euclidean Distance: 140.0334930419922, Cosine Similarity: 0.7274883687496185, Manhattan Distance: 3721.77001953125
+
+Comparison results for image 15 (Ellen Degeneres):
+Name: Akshay Kumar, Euclidean Distance: 150.04754638671875, Cosine Similarity: 0.7418913543224335, Manhattan Distance: 3989.943359375
+Name: Alexandra Daddario, Euclidean Distance: 137.56057739257812, Cosine Similarity: 0.6975195705890656, Manhattan Distance: 3731.31298828125
+Name: Alia Bhatt, Euclidean Distance: 135.8036346435547, Cosine Similarity: 0.6594316065311432, Manhattan Distance: 3672.38037109375
+Name: Amitabh Bachchan, Euclidean Distance: 137.2219696044922, Cosine Similarity: 0.7300734221935272, Manhattan Distance: 3609.85009765625
+Name: Andy Samberg, Euclidean Distance: 142.4927978515625, Cosine Similarity: 0.6778281331062317, Manhattan Distance: 3795.7578125
+Name: Anushka Sharma, Euclidean Distance: 137.7719268798828, Cosine Similarity: 0.6693723499774933, Manhattan Distance: 3685.98193359375
+Name: Billie Eilish, Euclidean Distance: 129.46080017089844, Cosine Similarity: 0.6580081284046173, Manhattan Distance: 3356.023193359375
+Name: Brad Pitt, Euclidean Distance: 137.1450958251953, Cosine Similarity: 0.6867562234401703, Manhattan Distance: 3675.00341796875
+Name: Camila Cabello, Euclidean Distance: 135.38624572753906, Cosine Similarity: 0.7607803344726562, Manhattan Distance: 3793.8017578125
+Name: Charlize Theron, Euclidean Distance: 136.48312377929688, Cosine Similarity: 0.6563439965248108, Manhattan Distance: 3556.96435546875
+Name: Claire Holt, Euclidean Distance: 128.45462036132812, Cosine Similarity: 0.6249717175960541, Manhattan Distance: 3376.9072265625
+Name: Courtney Cox, Euclidean Distance: 143.92227172851562, Cosine Similarity: 0.7022198438644409, Manhattan Distance: 3958.6376953125
+Name: Dwayne Johnson, Euclidean Distance: 143.22409057617188, Cosine Similarity: 0.7770186960697174, Manhattan Distance: 3800.7001953125
+Name: Elizabeth Olsen, Euclidean Distance: 140.0334930419922, Cosine Similarity: 0.7274883687496185, Manhattan Distance: 3721.77001953125
+Name: Ellen Degeneres, Euclidean Distance: 0.0, Cosine Similarity: 0.0, Manhattan Distance: 0.0
+
+Comparison results for image 16 (Henry Cavill):
+Name: Akshay Kumar, Euclidean Distance: 152.0357666015625, Cosine Similarity: 0.7416191697120667, Manhattan Distance: 4325.541015625
+Name: Alexandra Daddario, Euclidean Distance: 126.3249282836914, Cosine Similarity: 0.5702809989452362, Manhattan Distance: 3606.042236328125
+Name: Alia Bhatt, Euclidean Distance: 142.9379425048828, Cosine Similarity: 0.7092477083206177, Manhattan Distance: 4101.10107421875
+Name: Amitabh Bachchan, Euclidean Distance: 138.07205200195312, Cosine Similarity: 0.7150163948535919, Manhattan Distance: 3934.130615234375
+Name: Andy Samberg, Euclidean Distance: 138.23703002929688, Cosine Similarity: 0.6208117604255676, Manhattan Distance: 3901.126953125
+Name: Anushka Sharma, Euclidean Distance: 141.37124633789062, Cosine Similarity: 0.684656947851181, Manhattan Distance: 4048.88916015625
+Name: Billie Eilish, Euclidean Distance: 131.07949829101562, Cosine Similarity: 0.6519951224327087, Manhattan Distance: 3719.90625
+Name: Brad Pitt, Euclidean Distance: 130.38827514648438, Cosine Similarity: 0.6020808517932892, Manhattan Distance: 3648.271484375
+Name: Camila Cabello, Euclidean Distance: 134.8251953125, Cosine Similarity: 0.7273290753364563, Manhattan Distance: 3941.66064453125
+Name: Charlize Theron, Euclidean Distance: 140.24559020996094, Cosine Similarity: 0.673271507024765, Manhattan Distance: 3932.73779296875
+Name: Claire Holt, Euclidean Distance: 136.6290283203125, Cosine Similarity: 0.6846589148044586, Manhattan Distance: 3904.224609375
+Name: Courtney Cox, Euclidean Distance: 133.7533721923828, Cosine Similarity: 0.5896914005279541, Manhattan Distance: 3859.314697265625
+Name: Dwayne Johnson, Euclidean Distance: 130.59303283691406, Cosine Similarity: 0.6254735291004181, Manhattan Distance: 3676.607666015625
+Name: Elizabeth Olsen, Euclidean Distance: 133.9030303955078, Cosine Similarity: 0.6447106599807739, Manhattan Distance: 3769.47314453125
+Name: Ellen Degeneres, Euclidean Distance: 137.77166748046875, Cosine Similarity: 0.6898193359375, Manhattan Distance: 3878.4482421875
+
+Comparison results for image 17 (Hrithik Roshan):
+Name: Akshay Kumar, Euclidean Distance: 140.7363739013672, Cosine Similarity: 0.6073012351989746, Manhattan Distance: 3820.777099609375
+Name: Alexandra Daddario, Euclidean Distance: 129.2795867919922, Cosine Similarity: 0.5665890574455261, Manhattan Distance: 3522.18798828125
+Name: Alia Bhatt, Euclidean Distance: 141.88067626953125, Cosine Similarity: 0.6646479368209839, Manhattan Distance: 3857.16552734375
+Name: Amitabh Bachchan, Euclidean Distance: 144.28768920898438, Cosine Similarity: 0.7388671338558197, Manhattan Distance: 3914.58154296875
+Name: Andy Samberg, Euclidean Distance: 151.42507934570312, Cosine Similarity: 0.7120239734649658, Manhattan Distance: 4214.390625
+Name: Anushka Sharma, Euclidean Distance: 135.39129638671875, Cosine Similarity: 0.5978187024593353, Manhattan Distance: 3681.031982421875
+Name: Billie Eilish, Euclidean Distance: 138.49839782714844, Cosine Similarity: 0.6879073083400726, Manhattan Distance: 3742.90478515625
+Name: Brad Pitt, Euclidean Distance: 140.39938354492188, Cosine Similarity: 0.6630014777183533, Manhattan Distance: 3840.12255859375
+Name: Camila Cabello, Euclidean Distance: 137.5641632080078, Cosine Similarity: 0.712431788444519, Manhattan Distance: 3869.1328125
+Name: Charlize Theron, Euclidean Distance: 144.1593017578125, Cosine Similarity: 0.6773002743721008, Manhattan Distance: 3912.83642578125
+Name: Claire Holt, Euclidean Distance: 142.03555297851562, Cosine Similarity: 0.7010482549667358, Manhattan Distance: 3954.6103515625
+Name: Courtney Cox, Euclidean Distance: 145.00660705566406, Cosine Similarity: 0.6618658900260925, Manhattan Distance: 4043.148193359375
+Name: Dwayne Johnson, Euclidean Distance: 139.11837768554688, Cosine Similarity: 0.6724258661270142, Manhattan Distance: 3730.714599609375
+Name: Elizabeth Olsen, Euclidean Distance: 135.1108856201172, Cosine Similarity: 0.6225465834140778, Manhattan Distance: 3611.35205078125
+Name: Ellen Degeneres, Euclidean Distance: 148.1029052734375, Cosine Similarity: 0.7560313045978546, Manhattan Distance: 3977.110107421875
+
+Comparison results for image 18 (Hugh Jackman):
+Name: Akshay Kumar, Euclidean Distance: 146.7646484375, Cosine Similarity: 0.7185943424701691, Manhattan Distance: 3972.068115234375
+Name: Alexandra Daddario, Euclidean Distance: 135.4185791015625, Cosine Similarity: 0.6860388219356537, Manhattan Distance: 3753.80126953125
+Name: Alia Bhatt, Euclidean Distance: 137.59909057617188, Cosine Similarity: 0.6866739690303802, Manhattan Distance: 3772.88525390625
+Name: Amitabh Bachchan, Euclidean Distance: 134.44180297851562, Cosine Similarity: 0.7120197117328644, Manhattan Distance: 3641.30126953125
+Name: Andy Samberg, Euclidean Distance: 137.19700622558594, Cosine Similarity: 0.6359801590442657, Manhattan Distance: 3789.73681640625
+Name: Anushka Sharma, Euclidean Distance: 138.9677734375, Cosine Similarity: 0.690611332654953, Manhattan Distance: 3800.184326171875
+Name: Billie Eilish, Euclidean Distance: 133.7643280029297, Cosine Similarity: 0.7140522599220276, Manhattan Distance: 3635.49609375
+Name: Brad Pitt, Euclidean Distance: 117.00939178466797, Cosine Similarity: 0.5070178508758545, Manhattan Distance: 3094.544921875
+Name: Camila Cabello, Euclidean Distance: 132.6148223876953, Cosine Similarity: 0.7426512241363525, Manhattan Distance: 3783.16552734375
+Name: Charlize Theron, Euclidean Distance: 137.7425079345703, Cosine Similarity: 0.6778789758682251, Manhattan Distance: 3716.15185546875
+Name: Claire Holt, Euclidean Distance: 134.48728942871094, Cosine Similarity: 0.6956876516342163, Manhattan Distance: 3748.431884765625
+Name: Courtney Cox, Euclidean Distance: 134.2054443359375, Cosine Similarity: 0.6179443299770355, Manhattan Distance: 3774.58642578125
+Name: Dwayne Johnson, Euclidean Distance: 129.5013427734375, Cosine Similarity: 0.6451077461242676, Manhattan Distance: 3408.534423828125
+Name: Elizabeth Olsen, Euclidean Distance: 133.16006469726562, Cosine Similarity: 0.6677108705043793, Manhattan Distance: 3619.85546875
+Name: Ellen Degeneres, Euclidean Distance: 136.4129180908203, Cosine Similarity: 0.708771288394928, Manhattan Distance: 3651.90869140625
+
+Comparison results for image 19 (Jessica Alba):
+Name: Akshay Kumar, Euclidean Distance: 150.19384765625, Cosine Similarity: 0.678915411233902, Manhattan Distance: 4111.6171875
+Name: Alexandra Daddario, Euclidean Distance: 132.58184814453125, Cosine Similarity: 0.5829707384109497, Manhattan Distance: 3603.505859375
+Name: Alia Bhatt, Euclidean Distance: 132.16928100585938, Cosine Similarity: 0.5646338760852814, Manhattan Distance: 3577.109375
+Name: Amitabh Bachchan, Euclidean Distance: 145.51458740234375, Cosine Similarity: 0.7344464063644409, Manhattan Distance: 3996.041259765625
+Name: Andy Samberg, Euclidean Distance: 152.5613555908203, Cosine Similarity: 0.7090698480606079, Manhattan Distance: 4285.37890625
+Name: Anushka Sharma, Euclidean Distance: 131.67367553710938, Cosine Similarity: 0.5538400709629059, Manhattan Distance: 3527.102783203125
+Name: Billie Eilish, Euclidean Distance: 130.42189025878906, Cosine Similarity: 0.5944109559059143, Manhattan Distance: 3464.281005859375
+Name: Brad Pitt, Euclidean Distance: 149.60072326660156, Cosine Similarity: 0.7370565831661224, Manhattan Distance: 4203.5634765625
+Name: Camila Cabello, Euclidean Distance: 129.36288452148438, Cosine Similarity: 0.6114727854728699, Manhattan Distance: 3548.0859375
+Name: Charlize Theron, Euclidean Distance: 142.08155822753906, Cosine Similarity: 0.6445441842079163, Manhattan Distance: 3828.7822265625
+Name: Claire Holt, Euclidean Distance: 128.5413360595703, Cosine Similarity: 0.5602638423442841, Manhattan Distance: 3536.2548828125
+Name: Courtney Cox, Euclidean Distance: 149.53781127929688, Cosine Similarity: 0.6903103291988373, Manhattan Distance: 4280.63671875
+Name: Dwayne Johnson, Euclidean Distance: 151.100341796875, Cosine Similarity: 0.77652208507061, Manhattan Distance: 4212.25732421875
+Name: Elizabeth Olsen, Euclidean Distance: 135.72311401367188, Cosine Similarity: 0.6144294440746307, Manhattan Distance: 3685.5224609375
+Name: Ellen Degeneres, Euclidean Distance: 144.01019287109375, Cosine Similarity: 0.6989430785179138, Manhattan Distance: 3880.491943359375
+
+Comparison results for image 20 (Kashyap):
+Name: Akshay Kumar, Euclidean Distance: 153.56605529785156, Cosine Similarity: 0.6910235583782196, Manhattan Distance: 4190.3125
+Name: Alexandra Daddario, Euclidean Distance: 146.28858947753906, Cosine Similarity: 0.6888747811317444, Manhattan Distance: 4042.006103515625
+Name: Alia Bhatt, Euclidean Distance: 140.66973876953125, Cosine Similarity: 0.620901346206665, Manhattan Distance: 3816.60791015625
+Name: Amitabh Bachchan, Euclidean Distance: 146.7334747314453, Cosine Similarity: 0.7228349149227142, Manhattan Distance: 3961.232421875
+Name: Andy Samberg, Euclidean Distance: 156.6603546142578, Cosine Similarity: 0.7276285886764526, Manhattan Distance: 4374.11669921875
+Name: Anushka Sharma, Euclidean Distance: 144.8284454345703, Cosine Similarity: 0.6508698463439941, Manhattan Distance: 3911.65380859375
+Name: Billie Eilish, Euclidean Distance: 146.5146484375, Cosine Similarity: 0.7282982766628265, Manhattan Distance: 4049.63623046875
+Name: Brad Pitt, Euclidean Distance: 149.8191680908203, Cosine Similarity: 0.717112809419632, Manhattan Distance: 4144.326171875
+Name: Camila Cabello, Euclidean Distance: 136.8137664794922, Cosine Similarity: 0.661618173122406, Manhattan Distance: 3790.64501953125
+Name: Charlize Theron, Euclidean Distance: 152.6188201904297, Cosine Similarity: 0.7225421071052551, Manhattan Distance: 4214.37451171875
+Name: Claire Holt, Euclidean Distance: 146.57650756835938, Cosine Similarity: 0.7073785364627838, Manhattan Distance: 4112.4169921875
+Name: Courtney Cox, Euclidean Distance: 151.19810485839844, Cosine Similarity: 0.686428964138031, Manhattan Distance: 4272.47265625
+Name: Dwayne Johnson, Euclidean Distance: 139.94544982910156, Cosine Similarity: 0.6440346240997314, Manhattan Distance: 3672.73388671875
+Name: Elizabeth Olsen, Euclidean Distance: 154.18255615234375, Cosine Similarity: 0.7700603604316711, Manhattan Distance: 4328.04296875
+Name: Ellen Degeneres, Euclidean Distance: 145.09085083007812, Cosine Similarity: 0.6874499917030334, Manhattan Distance: 3951.472900390625
+
+Comparison results for image 21 (Lisa Kudrow):
+Name: Akshay Kumar, Euclidean Distance: 142.9589080810547, Cosine Similarity: 0.6638293564319611, Manhattan Distance: 3798.21240234375
+Name: Alexandra Daddario, Euclidean Distance: 141.7526092529297, Cosine Similarity: 0.7291343510150909, Manhattan Distance: 3928.54833984375
+Name: Alia Bhatt, Euclidean Distance: 144.1584930419922, Cosine Similarity: 0.7320558726787567, Manhattan Distance: 3976.191162109375
+Name: Amitabh Bachchan, Euclidean Distance: 134.8357391357422, Cosine Similarity: 0.6930735409259796, Manhattan Distance: 3620.375732421875
+Name: Andy Samberg, Euclidean Distance: 143.4069366455078, Cosine Similarity: 0.6772849857807159, Manhattan Distance: 3893.27392578125
+Name: Anushka Sharma, Euclidean Distance: 136.508056640625, Cosine Similarity: 0.6475226581096649, Manhattan Distance: 3697.551025390625
+Name: Billie Eilish, Euclidean Distance: 141.1983642578125, Cosine Similarity: 0.7696788907051086, Manhattan Distance: 3834.071533203125
+Name: Brad Pitt, Euclidean Distance: 133.81546020507812, Cosine Similarity: 0.6437591314315796, Manhattan Distance: 3636.60791015625
+Name: Camila Cabello, Euclidean Distance: 136.8206024169922, Cosine Similarity: 0.762876495718956, Manhattan Distance: 3783.434814453125
+Name: Charlize Theron, Euclidean Distance: 132.20816040039062, Cosine Similarity: 0.6068322360515594, Manhattan Distance: 3494.36767578125
+Name: Claire Holt, Euclidean Distance: 137.48837280273438, Cosine Similarity: 0.7043807208538055, Manhattan Distance: 3787.160888671875
+Name: Courtney Cox, Euclidean Distance: 133.36318969726562, Cosine Similarity: 0.5941229164600372, Manhattan Distance: 3647.3037109375
+Name: Dwayne Johnson, Euclidean Distance: 137.540771484375, Cosine Similarity: 0.7049687802791595, Manhattan Distance: 3616.2529296875
+Name: Elizabeth Olsen, Euclidean Distance: 137.8782196044922, Cosine Similarity: 0.6941710114479065, Manhattan Distance: 3729.718505859375
+Name: Ellen Degeneres, Euclidean Distance: 132.29669189453125, Cosine Similarity: 0.6460937559604645, Manhattan Distance: 3457.302734375
+
+Comparison results for image 22 (Margot Robbie):
+Name: Akshay Kumar, Euclidean Distance: 149.94981384277344, Cosine Similarity: 0.7113846242427826, Manhattan Distance: 4115.51953125
+Name: Alexandra Daddario, Euclidean Distance: 130.8037567138672, Cosine Similarity: 0.6016839742660522, Manhattan Distance: 3595.85302734375
+Name: Alia Bhatt, Euclidean Distance: 140.35784912109375, Cosine Similarity: 0.67344531416893, Manhattan Distance: 3873.12841796875
+Name: Amitabh Bachchan, Euclidean Distance: 143.1284942626953, Cosine Similarity: 0.7554968744516373, Manhattan Distance: 3946.583740234375
+Name: Andy Samberg, Euclidean Distance: 147.7030029296875, Cosine Similarity: 0.6992658376693726, Manhattan Distance: 4158.60205078125
+Name: Anushka Sharma, Euclidean Distance: 137.57687377929688, Cosine Similarity: 0.6386943757534027, Manhattan Distance: 3836.2373046875
+Name: Billie Eilish, Euclidean Distance: 122.06114959716797, Cosine Similarity: 0.5548671185970306, Manhattan Distance: 3247.551025390625
+Name: Brad Pitt, Euclidean Distance: 141.62232971191406, Cosine Similarity: 0.6991624236106873, Manhattan Distance: 3957.51025390625
+Name: Camila Cabello, Euclidean Distance: 125.63941955566406, Cosine Similarity: 0.61813884973526, Manhattan Distance: 3468.5732421875
+Name: Charlize Theron, Euclidean Distance: 133.76136779785156, Cosine Similarity: 0.60329869389534, Manhattan Distance: 3642.037841796875
+Name: Claire Holt, Euclidean Distance: 118.75111389160156, Cosine Similarity: 0.5082690119743347, Manhattan Distance: 3196.799072265625
+Name: Courtney Cox, Euclidean Distance: 138.65782165527344, Cosine Similarity: 0.6249518394470215, Manhattan Distance: 3907.898193359375
+Name: Dwayne Johnson, Euclidean Distance: 140.5237274169922, Cosine Similarity: 0.7124158442020416, Manhattan Distance: 3845.7177734375
+Name: Elizabeth Olsen, Euclidean Distance: 132.16790771484375, Cosine Similarity: 0.6179902255535126, Manhattan Distance: 3598.92138671875
+Name: Ellen Degeneres, Euclidean Distance: 134.31634521484375, Cosine Similarity: 0.6449123919010162, Manhattan Distance: 3559.40625
+
+Comparison results for image 23 (Marmik):
+Name: Akshay Kumar, Euclidean Distance: 145.26771545410156, Cosine Similarity: 0.6747097074985504, Manhattan Distance: 3904.4365234375
+Name: Alexandra Daddario, Euclidean Distance: 139.60870361328125, Cosine Similarity: 0.6941357851028442, Manhattan Distance: 3864.62255859375
+Name: Alia Bhatt, Euclidean Distance: 138.23846435546875, Cosine Similarity: 0.661171942949295, Manhattan Distance: 3813.755126953125
+Name: Amitabh Bachchan, Euclidean Distance: 123.12191009521484, Cosine Similarity: 0.5659743845462799, Manhattan Distance: 3286.27001953125
+Name: Andy Samberg, Euclidean Distance: 138.79122924804688, Cosine Similarity: 0.6239520907402039, Manhattan Distance: 3876.5927734375
+Name: Anushka Sharma, Euclidean Distance: 138.62237548828125, Cosine Similarity: 0.656137079000473, Manhattan Distance: 3840.60205078125
+Name: Billie Eilish, Euclidean Distance: 137.37322998046875, Cosine Similarity: 0.7137052118778229, Manhattan Distance: 3723.348388671875
+Name: Brad Pitt, Euclidean Distance: 136.46714782714844, Cosine Similarity: 0.6572783589363098, Manhattan Distance: 3742.867431640625
+Name: Camila Cabello, Euclidean Distance: 132.21856689453125, Cosine Similarity: 0.6962228417396545, Manhattan Distance: 3749.967041015625
+Name: Charlize Theron, Euclidean Distance: 145.64974975585938, Cosine Similarity: 0.7238257229328156, Manhattan Distance: 4004.1494140625
+Name: Claire Holt, Euclidean Distance: 136.18101501464844, Cosine Similarity: 0.6777236461639404, Manhattan Distance: 3811.9609375
+Name: Courtney Cox, Euclidean Distance: 151.59352111816406, Cosine Similarity: 0.7557091265916824, Manhattan Distance: 4344.14794921875
+Name: Dwayne Johnson, Euclidean Distance: 141.60523986816406, Cosine Similarity: 0.7329182028770447, Manhattan Distance: 3861.48486328125
+Name: Elizabeth Olsen, Euclidean Distance: 140.75466918945312, Cosine Similarity: 0.7099141180515289, Manhattan Distance: 3828.114501953125
+Name: Ellen Degeneres, Euclidean Distance: 146.43873596191406, Cosine Similarity: 0.7766547352075577, Manhattan Distance: 4009.263671875
+
+Comparison results for image 24 (Natalie Portman):
+Name: Akshay Kumar, Euclidean Distance: 152.6210479736328, Cosine Similarity: 0.6995724141597748, Manhattan Distance: 4057.2255859375
+Name: Alexandra Daddario, Euclidean Distance: 138.42239379882812, Cosine Similarity: 0.6342147290706635, Manhattan Distance: 3726.33740234375
+Name: Alia Bhatt, Euclidean Distance: 144.38162231445312, Cosine Similarity: 0.6725029349327087, Manhattan Distance: 3923.7626953125
+Name: Amitabh Bachchan, Euclidean Distance: 144.79783630371094, Cosine Similarity: 0.7252635657787323, Manhattan Distance: 3863.418212890625
+Name: Andy Samberg, Euclidean Distance: 143.9279327392578, Cosine Similarity: 0.629740297794342, Manhattan Distance: 3910.91162109375
+Name: Anushka Sharma, Euclidean Distance: 142.95204162597656, Cosine Similarity: 0.6514307260513306, Manhattan Distance: 3843.21142578125
+Name: Billie Eilish, Euclidean Distance: 133.92515563964844, Cosine Similarity: 0.625668078660965, Manhattan Distance: 3520.91552734375
+Name: Brad Pitt, Euclidean Distance: 136.4198760986328, Cosine Similarity: 0.6109578907489777, Manhattan Distance: 3642.36376953125
+Name: Camila Cabello, Euclidean Distance: 135.05056762695312, Cosine Similarity: 0.6664488613605499, Manhattan Distance: 3643.19140625
+Name: Charlize Theron, Euclidean Distance: 138.40956115722656, Cosine Similarity: 0.610210120677948, Manhattan Distance: 3635.1142578125
+Name: Claire Holt, Euclidean Distance: 124.69398498535156, Cosine Similarity: 0.5254850089550018, Manhattan Distance: 3308.40478515625
+Name: Courtney Cox, Euclidean Distance: 131.48040771484375, Cosine Similarity: 0.5324936509132385, Manhattan Distance: 3607.97998046875
+Name: Dwayne Johnson, Euclidean Distance: 146.14736938476562, Cosine Similarity: 0.7242432534694672, Manhattan Distance: 3906.035888671875
+Name: Elizabeth Olsen, Euclidean Distance: 128.93106079101562, Cosine Similarity: 0.552688866853714, Manhattan Distance: 3327.460205078125
+Name: Ellen Degeneres, Euclidean Distance: 131.51693725585938, Cosine Similarity: 0.580618679523468, Manhattan Distance: 3369.8203125
+
+Comparison results for image 25 (Priyanka Chopra):
+Name: Akshay Kumar, Euclidean Distance: 140.4709930419922, Cosine Similarity: 0.6448282301425934, Manhattan Distance: 3724.63720703125
+Name: Alexandra Daddario, Euclidean Distance: 124.84395599365234, Cosine Similarity: 0.5698184072971344, Manhattan Distance: 3406.171630859375
+Name: Alia Bhatt, Euclidean Distance: 135.3740997314453, Cosine Similarity: 0.6501499116420746, Manhattan Distance: 3611.515625
+Name: Amitabh Bachchan, Euclidean Distance: 134.4285430908203, Cosine Similarity: 0.694475382566452, Manhattan Distance: 3594.51171875
+Name: Andy Samberg, Euclidean Distance: 141.82733154296875, Cosine Similarity: 0.6666897833347321, Manhattan Distance: 3948.135498046875
+Name: Anushka Sharma, Euclidean Distance: 114.85152435302734, Cosine Similarity: 0.4612221121788025, Manhattan Distance: 3001.955322265625
+Name: Billie Eilish, Euclidean Distance: 123.28177642822266, Cosine Similarity: 0.5911869704723358, Manhattan Distance: 3207.80712890625
+Name: Brad Pitt, Euclidean Distance: 138.6285858154297, Cosine Similarity: 0.6960452795028687, Manhattan Distance: 3751.48779296875
+Name: Camila Cabello, Euclidean Distance: 122.59284210205078, Cosine Similarity: 0.6165452301502228, Manhattan Distance: 3360.71826171875
+Name: Charlize Theron, Euclidean Distance: 121.80970764160156, Cosine Similarity: 0.5185394585132599, Manhattan Distance: 3221.221435546875
+Name: Claire Holt, Euclidean Distance: 120.59553527832031, Cosine Similarity: 0.5461311042308807, Manhattan Distance: 3246.790283203125
+Name: Courtney Cox, Euclidean Distance: 139.6321258544922, Cosine Similarity: 0.655937135219574, Manhattan Distance: 3896.107666015625
+Name: Dwayne Johnson, Euclidean Distance: 141.68081665039062, Cosine Similarity: 0.7539173066616058, Manhattan Distance: 3859.450927734375
+Name: Elizabeth Olsen, Euclidean Distance: 140.0621337890625, Cosine Similarity: 0.7217854857444763, Manhattan Distance: 3779.33984375
+Name: Ellen Degeneres, Euclidean Distance: 140.10092163085938, Cosine Similarity: 0.7301803231239319, Manhattan Distance: 3711.00244140625
+
+Comparison results for image 26 (Robert Downey Jr):
+Name: Akshay Kumar, Euclidean Distance: 153.8787078857422, Cosine Similarity: 0.7554545104503632, Manhattan Distance: 4223.19873046875
+Name: Alexandra Daddario, Euclidean Distance: 138.38980102539062, Cosine Similarity: 0.6799302399158478, Manhattan Distance: 3832.8115234375
+Name: Alia Bhatt, Euclidean Distance: 147.71604919433594, Cosine Similarity: 0.7526807188987732, Manhattan Distance: 4117.8134765625
+Name: Amitabh Bachchan, Euclidean Distance: 130.9346923828125, Cosine Similarity: 0.6382151544094086, Manhattan Distance: 3475.59814453125
+Name: Andy Samberg, Euclidean Distance: 118.97578430175781, Cosine Similarity: 0.45660310983657837, Manhattan Distance: 3280.874755859375
+Name: Anushka Sharma, Euclidean Distance: 139.40061950683594, Cosine Similarity: 0.6615768373012543, Manhattan Distance: 3828.55126953125
+Name: Billie Eilish, Euclidean Distance: 138.87188720703125, Cosine Similarity: 0.7269488871097565, Manhattan Distance: 3779.603515625
+Name: Brad Pitt, Euclidean Distance: 135.34278869628906, Cosine Similarity: 0.6444933116436005, Manhattan Distance: 3631.1279296875
+Name: Camila Cabello, Euclidean Distance: 130.57801818847656, Cosine Similarity: 0.6762561202049255, Manhattan Distance: 3694.26953125
+Name: Charlize Theron, Euclidean Distance: 142.46705627441406, Cosine Similarity: 0.6904858946800232, Manhattan Distance: 3927.783935546875
+Name: Claire Holt, Euclidean Distance: 142.9539031982422, Cosine Similarity: 0.7444936335086823, Manhattan Distance: 4027.587890625
+Name: Courtney Cox, Euclidean Distance: 136.78721618652344, Cosine Similarity: 0.6132575273513794, Manhattan Distance: 3831.97314453125
+Name: Dwayne Johnson, Euclidean Distance: 131.88619995117188, Cosine Similarity: 0.6335550546646118, Manhattan Distance: 3537.417724609375
+Name: Elizabeth Olsen, Euclidean Distance: 140.9077606201172, Cosine Similarity: 0.7092152237892151, Manhattan Distance: 3836.97412109375
+Name: Ellen Degeneres, Euclidean Distance: 143.2405242919922, Cosine Similarity: 0.7406998872756958, Manhattan Distance: 3906.66650390625
+
+Comparison results for image 27 (Roger Federer):
+Name: Akshay Kumar, Euclidean Distance: 133.27984619140625, Cosine Similarity: 0.5469976365566254, Manhattan Distance: 3549.985107421875
+Name: Alexandra Daddario, Euclidean Distance: 142.74386596679688, Cosine Similarity: 0.6948198676109314, Manhattan Distance: 4053.8837890625
+Name: Alia Bhatt, Euclidean Distance: 149.329345703125, Cosine Similarity: 0.740030825138092, Manhattan Distance: 4184.884765625
+Name: Amitabh Bachchan, Euclidean Distance: 144.78903198242188, Cosine Similarity: 0.7482088804244995, Manhattan Distance: 3937.0927734375
+Name: Andy Samberg, Euclidean Distance: 154.95008850097656, Cosine Similarity: 0.7490261793136597, Manhattan Distance: 4384.5947265625
+Name: Anushka Sharma, Euclidean Distance: 142.3859405517578, Cosine Similarity: 0.6644835770130157, Manhattan Distance: 3925.9736328125
+Name: Billie Eilish, Euclidean Distance: 136.55662536621094, Cosine Similarity: 0.6723882555961609, Manhattan Distance: 3724.62939453125
+Name: Brad Pitt, Euclidean Distance: 152.64845275878906, Cosine Similarity: 0.78802889585495, Manhattan Distance: 4368.86572265625
+Name: Camila Cabello, Euclidean Distance: 137.61241149902344, Cosine Similarity: 0.7173676490783691, Manhattan Distance: 3916.02734375
+Name: Charlize Theron, Euclidean Distance: 139.06394958496094, Cosine Similarity: 0.6333761811256409, Manhattan Distance: 3793.655029296875
+Name: Claire Holt, Euclidean Distance: 136.3993377685547, Cosine Similarity: 0.6497521996498108, Manhattan Distance: 3790.65087890625
+Name: Courtney Cox, Euclidean Distance: 145.6458282470703, Cosine Similarity: 0.6708501279354095, Manhattan Distance: 4170.0341796875
+Name: Dwayne Johnson, Euclidean Distance: 147.8541259765625, Cosine Similarity: 0.7641546428203583, Manhattan Distance: 4098.97265625
+Name: Elizabeth Olsen, Euclidean Distance: 148.33445739746094, Cosine Similarity: 0.7548138350248337, Manhattan Distance: 4155.90234375
+Name: Ellen Degeneres, Euclidean Distance: 143.121826171875, Cosine Similarity: 0.709607869386673, Manhattan Distance: 3910.71484375
+
+Comparison results for image 28 (Tom Cruise):
+Name: Akshay Kumar, Euclidean Distance: 150.24424743652344, Cosine Similarity: 0.7381506860256195, Manhattan Distance: 4038.501220703125
+Name: Alexandra Daddario, Euclidean Distance: 138.54872131347656, Cosine Similarity: 0.7013329565525055, Manhattan Distance: 3873.56689453125
+Name: Alia Bhatt, Euclidean Distance: 143.78993225097656, Cosine Similarity: 0.7331239283084869, Manhattan Distance: 3971.040771484375
+Name: Amitabh Bachchan, Euclidean Distance: 135.421630859375, Cosine Similarity: 0.7042854428291321, Manhattan Distance: 3705.398193359375
+Name: Andy Samberg, Euclidean Distance: 136.7321319580078, Cosine Similarity: 0.6189448535442352, Manhattan Distance: 3720.5673828125
+Name: Anushka Sharma, Euclidean Distance: 145.94435119628906, Cosine Similarity: 0.7450788915157318, Manhattan Distance: 4088.81787109375
+Name: Billie Eilish, Euclidean Distance: 137.9014129638672, Cosine Similarity: 0.7395676374435425, Manhattan Distance: 3842.74462890625
+Name: Brad Pitt, Euclidean Distance: 131.27000427246094, Cosine Similarity: 0.623688280582428, Manhattan Distance: 3535.1279296875
+Name: Camila Cabello, Euclidean Distance: 136.5417938232422, Cosine Similarity: 0.7658882737159729, Manhattan Distance: 3902.81298828125
+Name: Charlize Theron, Euclidean Distance: 136.1450958251953, Cosine Similarity: 0.6477022469043732, Manhattan Distance: 3687.485595703125
+Name: Claire Holt, Euclidean Distance: 133.87551879882812, Cosine Similarity: 0.6726072430610657, Manhattan Distance: 3738.8173828125
+Name: Courtney Cox, Euclidean Distance: 138.9460906982422, Cosine Similarity: 0.6490902900695801, Manhattan Distance: 3942.2880859375
+Name: Dwayne Johnson, Euclidean Distance: 139.36407470703125, Cosine Similarity: 0.7289557158946991, Manhattan Distance: 3808.275634765625
+Name: Elizabeth Olsen, Euclidean Distance: 141.17013549804688, Cosine Similarity: 0.7327599227428436, Manhattan Distance: 3933.45166015625
+Name: Ellen Degeneres, Euclidean Distance: 136.24940490722656, Cosine Similarity: 0.6901143491268158, Manhattan Distance: 3645.074951171875
+
+Comparison results for image 29 (Vijay Deverakonda):
+Name: Akshay Kumar, Euclidean Distance: 148.87054443359375, Cosine Similarity: 0.7092511057853699, Manhattan Distance: 4014.82666015625
+Name: Alexandra Daddario, Euclidean Distance: 128.04273986816406, Cosine Similarity: 0.5843201577663422, Manhattan Distance: 3438.4169921875
+Name: Alia Bhatt, Euclidean Distance: 127.12106323242188, Cosine Similarity: 0.5595063269138336, Manhattan Distance: 3380.285400390625
+Name: Amitabh Bachchan, Euclidean Distance: 131.43653869628906, Cosine Similarity: 0.6458650529384613, Manhattan Distance: 3517.818359375
+Name: Andy Samberg, Euclidean Distance: 148.0000457763672, Cosine Similarity: 0.7103538513183594, Manhattan Distance: 4098.8203125
+Name: Anushka Sharma, Euclidean Distance: 131.6444091796875, Cosine Similarity: 0.5921421051025391, Manhattan Distance: 3513.99755859375
+Name: Billie Eilish, Euclidean Distance: 138.48980712890625, Cosine Similarity: 0.7260231077671051, Manhattan Distance: 3760.302001953125
+Name: Brad Pitt, Euclidean Distance: 137.6343536376953, Cosine Similarity: 0.6690830290317535, Manhattan Distance: 3676.478759765625
+Name: Camila Cabello, Euclidean Distance: 129.25253295898438, Cosine Similarity: 0.665501207113266, Manhattan Distance: 3577.76123046875
+Name: Charlize Theron, Euclidean Distance: 140.47216796875, Cosine Similarity: 0.6737475097179413, Manhattan Distance: 3796.096923828125
+Name: Claire Holt, Euclidean Distance: 134.889404296875, Cosine Similarity: 0.6654486954212189, Manhattan Distance: 3694.764892578125
+Name: Courtney Cox, Euclidean Distance: 142.6571502685547, Cosine Similarity: 0.6694912910461426, Manhattan Distance: 4012.32275390625
+Name: Dwayne Johnson, Euclidean Distance: 128.5774688720703, Cosine Similarity: 0.6045846045017242, Manhattan Distance: 3351.22802734375
+Name: Elizabeth Olsen, Euclidean Distance: 139.38113403320312, Cosine Similarity: 0.6966667473316193, Manhattan Distance: 3757.89453125
+Name: Ellen Degeneres, Euclidean Distance: 143.11181640625, Cosine Similarity: 0.7423283159732819, Manhattan Distance: 3856.6953125
+
+Comparison results for image 30 (Virat Kohli):
+Name: Akshay Kumar, Euclidean Distance: 144.6684112548828, Cosine Similarity: 0.675067663192749, Manhattan Distance: 3878.5927734375
+Name: Alexandra Daddario, Euclidean Distance: 137.38595581054688, Cosine Similarity: 0.6791867613792419, Manhattan Distance: 3833.5966796875
+Name: Alia Bhatt, Euclidean Distance: 140.46656799316406, Cosine Similarity: 0.6894529759883881, Manhattan Distance: 3880.838134765625
+Name: Amitabh Bachchan, Euclidean Distance: 134.92330932617188, Cosine Similarity: 0.6877452731132507, Manhattan Distance: 3688.58642578125
+Name: Andy Samberg, Euclidean Distance: 142.28627014160156, Cosine Similarity: 0.6618315279483795, Manhattan Distance: 3889.83349609375
+Name: Anushka Sharma, Euclidean Distance: 134.437255859375, Cosine Similarity: 0.6230951547622681, Manhattan Distance: 3697.925537109375
+Name: Billie Eilish, Euclidean Distance: 136.4764862060547, Cosine Similarity: 0.7123738527297974, Manhattan Distance: 3701.73193359375
+Name: Brad Pitt, Euclidean Distance: 136.54795837402344, Cosine Similarity: 0.664800614118576, Manhattan Distance: 3709.21630859375
+Name: Camila Cabello, Euclidean Distance: 132.2898712158203, Cosine Similarity: 0.7056101262569427, Manhattan Distance: 3755.56591796875
+Name: Charlize Theron, Euclidean Distance: 140.7159423828125, Cosine Similarity: 0.682182788848877, Manhattan Distance: 3845.10107421875
+Name: Claire Holt, Euclidean Distance: 128.9746551513672, Cosine Similarity: 0.6144026219844818, Manhattan Distance: 3587.620361328125
+Name: Courtney Cox, Euclidean Distance: 144.63601684570312, Cosine Similarity: 0.6941403746604919, Manhattan Distance: 4121.4716796875
+Name: Dwayne Johnson, Euclidean Distance: 138.5919189453125, Cosine Similarity: 0.7095866799354553, Manhattan Distance: 3739.801513671875
+Name: Elizabeth Olsen, Euclidean Distance: 139.5005340576172, Cosine Similarity: 0.7046188116073608, Manhattan Distance: 3831.658203125
+Name: Ellen Degeneres, Euclidean Distance: 142.0959014892578, Cosine Similarity: 0.739003598690033, Manhattan Distance: 3818.88720703125
+
+Comparison results for image 31 (Zac Efron):
+Name: Akshay Kumar, Euclidean Distance: 151.24183654785156, Cosine Similarity: 0.7079478800296783, Manhattan Distance: 4113.6337890625
+Name: Alexandra Daddario, Euclidean Distance: 125.06304168701172, Cosine Similarity: 0.5359114706516266, Manhattan Distance: 3410.912109375
+Name: Alia Bhatt, Euclidean Distance: 136.0729217529297, Cosine Similarity: 0.617609292268753, Manhattan Distance: 3733.599609375
+Name: Amitabh Bachchan, Euclidean Distance: 139.6075439453125, Cosine Similarity: 0.6992360353469849, Manhattan Distance: 3793.7236328125
+Name: Andy Samberg, Euclidean Distance: 147.64794921875, Cosine Similarity: 0.6832740306854248, Manhattan Distance: 4030.09375
+Name: Anushka Sharma, Euclidean Distance: 136.01414489746094, Cosine Similarity: 0.6094335913658142, Manhattan Distance: 3709.9873046875
+Name: Billie Eilish, Euclidean Distance: 124.49691009521484, Cosine Similarity: 0.5610249042510986, Manhattan Distance: 3301.620361328125
+Name: Brad Pitt, Euclidean Distance: 136.3085174560547, Cosine Similarity: 0.6314884126186371, Manhattan Distance: 3741.55126953125
+Name: Camila Cabello, Euclidean Distance: 134.54730224609375, Cosine Similarity: 0.6894396543502808, Manhattan Distance: 3799.05517578125
+Name: Charlize Theron, Euclidean Distance: 136.39157104492188, Cosine Similarity: 0.6123761236667633, Manhattan Distance: 3700.3974609375
+Name: Claire Holt, Euclidean Distance: 134.99505615234375, Cosine Similarity: 0.6399823129177094, Manhattan Distance: 3757.01513671875
+Name: Courtney Cox, Euclidean Distance: 147.6670684814453, Cosine Similarity: 0.6929459273815155, Manhattan Distance: 4199.4296875
+Name: Dwayne Johnson, Euclidean Distance: 147.79502868652344, Cosine Similarity: 0.7677920311689377, Manhattan Distance: 4036.439453125
+Name: Elizabeth Olsen, Euclidean Distance: 134.15774536132812, Cosine Similarity: 0.620456337928772, Manhattan Distance: 3623.5654296875
+Name: Ellen Degeneres, Euclidean Distance: 138.80465698242188, Cosine Similarity: 0.670990914106369, Manhattan Distance: 3696.99560546875
+
