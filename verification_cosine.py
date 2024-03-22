@@ -42,10 +42,10 @@ def cosine_similarity(known_embedding, candidate_embedding, thresh=0.5):
     similarity_score = dot_product / (norm_vector1 * norm_vector2)
 
     #similarity_score = cosine_similarity(known_embedding, candidate_embedding)
-    if similarity_score >= thresh:
-        print('> Face is a Match (Cosine Distance: %.3f >= %.3f)' % (similarity_score, thresh))
+    if similarity_score <= thresh:
+        print('> Face is a Match (Cosine Distance: %.3f <= %.3f)' % (similarity_score, thresh))
     else:
-        print('> Face is NOT a Match (Cosine Distance: %.3f < %.3f)' % (similarity_score, thresh))
+        print('> Face is NOT a Match (Cosine Distance: %.3f > %.3f)' % (similarity_score, thresh))
     return similarity_score
 
 # determine if a candidate face is a match for a known face
@@ -123,16 +123,17 @@ def write_to_file(output_file, results):
             file.write(result + '\n')
 
 results = []
-false_positives = {'cosine_similarity': [], 'euclidean_distance': [], 'manhattan_distance': []}
-false_negatives = {'cosine_similarity': [], 'euclidean_distance': [], 'manhattan_distance': []}
-
-# Initialize counts for true positives and true negatives
 true_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
 true_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
+false_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
+false_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
 
 
 for combined_embedding, combined_name in zip(combined_embeddings, all):
     results.append(f"\nComparison Results for {combined_name}:")
+    eucMatch = False  # Flag to check if there's any match
+    cosMatch = False  # Flag to check if there's any match
+    manMatch = False  # Flag to check if there's any match
 
     for invited_embedding, invited_name in zip(invited_embeddings, names):
         combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
@@ -141,25 +142,142 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
         result_str = f"{invited_name}: "
         result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}"
         results.append(result_str)
+        if euclidean_dist <= 121:
+            eucMatch = True
+            if combined_name in names and invited_name in names:
+                true_positives['euclidean_distance'] += 1
+            elif combined_name in notinvited and invited_name in notinvited:
+                true_negatives['euclidean_distance'] += 1
+            elif combined_name in notinvited and invited_name in names:
+                false_positives['euclidean_distance'] += 1
+            elif combined_name in names and invited_name in notinvited:
+                false_negatives['euclidean_distance'] += 1
+                
+        if cosine_sim <= 0.5:
+            cosMatch = True
+            if combined_name in names and invited_name in names:
+                true_positives['cosine_similarity'] += 1
+            elif combined_name in notinvited and invited_name in notinvited:
+                true_negatives['cosine_similarity'] += 1
+            elif combined_name in notinvited and invited_name in names:
+                false_positives['cosine_similarity'] += 1
+            elif combined_name in names and invited_name in notinvited:
+                false_negatives['cosine_similarity'] += 1
+
+        if manhattan_dist <= 3200:
+            manMatch = True
+            if combined_name in names and invited_name in names:
+                true_positives['manhattan_distance'] += 1
+            elif combined_name in notinvited and invited_name in notinvited:
+                true_negatives['manhattan_distance'] += 1
+            elif combined_name in notinvited and invited_name in names:
+                false_positives['manhattan_distance'] += 1
+            elif combined_name in names and invited_name in notinvited:
+                false_negatives['manhattan_distance'] += 1
+            
+    # Print if any match is found for the combined name
+    if eucMatch:
+        results.append(f"Match with Euclidean distance found for {combined_name} in invited names.")
+    else:
+        results.append(f"No match with Euclidean distance found for {combined_name} in invited names.")
+    if cosMatch:
+        results.append(f"Match with Cosine similarity found for {combined_name} in invited names.")
+    else:
+        results.append(f"No match with Cosine similarity found for {combined_name} in invited names.")
+    if manMatch:
+        results.append(f"Match with Manhattan distance found for {combined_name} in invited names.")
+    else:
+        results.append(f"No match with Manhattan distance found for {combined_name} in invited names.")
+
          # Check for false positives and false negatives
+        '''
+        if combined_name in names and invited_name in names:
+            if cosine_sim:
+                true_positives['cosine_similarity'] += 1
+            if euclidean_dist:
+                true_positives['euclidean_distance'] += 1
+            if manhattan_dist:
+                true_positives['manhattan_distance'] += 1
+        elif combined_name in notinvited and invited_name in notinvited:
+            true_negatives['cosine_similarity'] += 1
+            true_negatives['euclidean_distance'] += 1
+            true_negatives['manhattan_distance'] += 1
         if combined_name in notinvited and invited_name in names:
-            if cosine_sim >= 0.5:  # Adjust threshold as needed
+            if cosine_sim:
                 false_positives['cosine_similarity'].append((combined_name, invited_name))
-            if euclidean_dist <= 121:  # Adjust threshold as needed
+            if euclidean_dist:
                 false_positives['euclidean_distance'].append((combined_name, invited_name))
-            if manhattan_dist <= 3200:  # Adjust threshold as needed
+            if manhattan_dist:
                 false_positives['manhattan_distance'].append((combined_name, invited_name))
         elif combined_name in names and invited_name in notinvited:
-            if cosine_sim < 0.5:  # Adjust threshold as needed
+            if not cosine_sim:
                 false_negatives['cosine_similarity'].append((combined_name, invited_name))
-            if euclidean_dist > 121:  # Adjust threshold as needed
+            if not euclidean_dist:
                 false_negatives['euclidean_distance'].append((combined_name, invited_name))
-            if manhattan_dist > 3200:  # Adjust threshold as needed
+            if not manhattan_dist:
                 false_negatives['manhattan_distance'].append((combined_name, invited_name))
-
+        '''
         
 write_to_file(output_file, results)
 
+print("Euclidean Distance:")
+print("TP:", true_positives['euclidean_distance'])
+print("TN:", true_negatives['euclidean_distance'])
+print("FP:", false_positives['euclidean_distance'])
+print("FN:", false_negatives['euclidean_distance'])
+
+print("\nCosine Similarity:")
+print("TP:", true_positives['cosine_similarity'])
+print("TN:", true_negatives['cosine_similarity'])
+print("FP:", false_positives['cosine_similarity'])
+print("FN:", false_negatives['cosine_similarity'])
+
+print("\nManhattan Distance:")
+print("TP:", true_positives['manhattan_distance'])
+print("TN:", true_negatives['manhattan_distance'])
+print("FP:", false_positives['manhattan_distance'])
+print("FN:", false_negatives['manhattan_distance'])
+
+
+# Define function to plot the graph
+def plot_graph(metrics_dict, title):
+    labels = list(metrics_dict.keys())
+    counts = list(metrics_dict.values())
+
+    x = range(len(labels))
+
+    pyplot.figure(figsize=(8, 6))
+    pyplot.bar(x, counts, color=['green', 'blue', 'red', 'orange'])
+    pyplot.xlabel('Categories')
+    pyplot.ylabel('Count')
+    pyplot.title(title)
+    pyplot.xticks(x, labels)
+    pyplot.show()
+
+# Plot graphs for Euclidean distance
+plot_graph({'TP': true_positives['euclidean_distance'], 
+            'TN': true_negatives['euclidean_distance'], 
+            'FP': false_positives['euclidean_distance'], 
+            'FN': false_negatives['euclidean_distance']}, 
+           'Euclidean Distance')
+
+# Plot graphs for Cosine similarity
+plot_graph({'TP': true_positives['cosine_similarity'], 
+            'TN': true_negatives['cosine_similarity'], 
+            'FP': false_positives['cosine_similarity'], 
+            'FN': false_negatives['cosine_similarity']}, 
+           'Cosine Similarity')
+
+# Plot graphs for Manhattan distance
+plot_graph({'TP': true_positives['manhattan_distance'], 
+            'TN': true_negatives['manhattan_distance'], 
+            'FP': false_positives['manhattan_distance'], 
+            'FN': false_negatives['manhattan_distance']}, 
+           'Manhattan Distance')
+
+
+
+'''
 # Ensure all arrays have the same length
 max_length = max(len(false_positives[key]) for key in false_positives)
 for key in false_positives:
@@ -170,26 +288,34 @@ max_length = max(len(false_negatives[key]) for key in false_negatives)
 for key in false_negatives:
     while len(false_negatives[key]) < max_length:
         false_negatives[key].append(None)
+'''
 
+'''
 # Create DataFrames for false positives and false negatives
 false_positives_df = pandas.DataFrame.from_dict(false_positives)
 false_negatives_df = pandas.DataFrame.from_dict(false_negatives)
 
-# Visualize false positives and false negatives for each metric
 metrics = ['cosine_similarity', 'euclidean_distance', 'manhattan_distance']
-pyplot.figure(figsize=(10, 6))
+pyplot.figure(figsize=(15, 8))
 
 for i, metric in enumerate(metrics, start=1):
-    pyplot.subplot(1, 3, i)
-    pyplot.bar(['False Positives', 'False Negatives'], [len(false_positives[metric]), len(false_negatives[metric])])
-    pyplot.title(metric)
-    pyplot.xlabel('Type of Error')
+    pyplot.subplot(2, 3, i)
+    pyplot.bar(['True Positives', 'True Negatives'], [true_positives[metric], true_negatives[metric]], color='blue')
+    pyplot.title(f'{metric.capitalize()} - True Positives and True Negatives')
+    pyplot.xlabel('Type of Correct Identification')
+    pyplot.ylabel('Count')
+
+for i, metric in enumerate(metrics, start=4):
+    pyplot.subplot(2, 3, i)
+    pyplot.bar(['False Positives', 'False Negatives'], [len(false_positives[metric]), len(false_negatives[metric])], color='red')
+    pyplot.title(f'{metric.capitalize()} - False Positives and False Negatives')
+    pyplot.xlabel('Type of Incorrect Identification')
     pyplot.ylabel('Count')
 
 pyplot.tight_layout()
 pyplot.show()
 
-
+'''
 
 '''
 # define sharon stone

@@ -21,6 +21,9 @@ Hugh Jackman: Euclidean Distance: 146.7646484375, Cosine Similarity: 0.718594312
 Jessica Alba: Euclidean Distance: 150.19384765625, Cosine Similarity: 0.6789153814315796, Manhattan Distance: 4111.6171875
 Kashyap: Euclidean Distance: 153.56605529785156, Cosine Similarity: 0.6910235583782196, Manhattan Distance: 4190.3125
 Lisa Kudrow: Euclidean Distance: 142.95892333984375, Cosine Similarity: 0.6638293564319611, Manhattan Distance: 3798.21240234375
+No match with Euclidean distance found for Akshay Kumar in invited names.
+No match with Cosine similarity found for Akshay Kumar in invited names.
+No match with Manhattan distance found for Akshay Kumar in invited names.
 
 Comparison Results for Alexandra Daddario:
 Akshay Kumar: Euclidean Distance: 152.73892211914062, Cosine Similarity: 0.7567174434661865, Manhattan Distance: 4206.8271484375
@@ -44,6 +47,9 @@ Hugh Jackman: Euclidean Distance: 135.4185791015625, Cosine Similarity: 0.686038
 Jessica Alba: Euclidean Distance: 132.58184814453125, Cosine Similarity: 0.5829707384109497, Manhattan Distance: 3603.505859375
 Kashyap: Euclidean Distance: 146.28858947753906, Cosine Similarity: 0.688874751329422, Manhattan Distance: 4042.00634765625
 Lisa Kudrow: Euclidean Distance: 141.7526092529297, Cosine Similarity: 0.7291343212127686, Manhattan Distance: 3928.548095703125
+Match with Euclidean distance found for Alexandra Daddario in invited names.
+Match with Cosine similarity found for Alexandra Daddario in invited names.
+Match with Manhattan distance found for Alexandra Daddario in invited names.
 
 Comparison Results for Alia Bhatt:
 Akshay Kumar: Euclidean Distance: 151.62493896484375, Cosine Similarity: 0.7267445027828217, Manhattan Distance: 4083.128173828125
@@ -67,6 +73,9 @@ Hugh Jackman: Euclidean Distance: 137.59909057617188, Cosine Similarity: 0.68667
 Jessica Alba: Euclidean Distance: 132.16928100585938, Cosine Similarity: 0.564633846282959, Manhattan Distance: 3577.109375
 Kashyap: Euclidean Distance: 140.66973876953125, Cosine Similarity: 0.6209013760089874, Manhattan Distance: 3816.60791015625
 Lisa Kudrow: Euclidean Distance: 144.1584930419922, Cosine Similarity: 0.7320558726787567, Manhattan Distance: 3976.19091796875
+Match with Euclidean distance found for Alia Bhatt in invited names.
+Match with Cosine similarity found for Alia Bhatt in invited names.
+Match with Manhattan distance found for Alia Bhatt in invited names.
 
 Comparison Results for Amitabh Bachchan:
 Akshay Kumar: Euclidean Distance: 143.0836944580078, Cosine Similarity: 0.6918591856956482, Manhattan Distance: 3831.96484375
@@ -90,6 +99,9 @@ Hugh Jackman: Euclidean Distance: 134.44180297851562, Cosine Similarity: 0.71201
 Jessica Alba: Euclidean Distance: 145.51458740234375, Cosine Similarity: 0.7344464063644409, Manhattan Distance: 3996.041015625
 Kashyap: Euclidean Distance: 146.7334747314453, Cosine Similarity: 0.7228349149227142, Manhattan Distance: 3961.23193359375
 Lisa Kudrow: Euclidean Distance: 134.8357391357422, Cosine Similarity: 0.6930735111236572, Manhattan Distance: 3620.37548828125
+Match with Euclidean distance found for Amitabh Bachchan in invited names.
+Match with Cosine similarity found for Amitabh Bachchan in invited names.
+Match with Manhattan distance found for Amitabh Bachchan in invited names.
 
 Comparison Results for Andy Samberg:
 Akshay Kumar: Euclidean Distance: 151.75228881835938, Cosine Similarity: 0.686954140663147, Manhattan Distance: 4167.1337890625
@@ -113,6 +125,9 @@ Hugh Jackman: Euclidean Distance: 137.19700622558594, Cosine Similarity: 0.63598
 Jessica Alba: Euclidean Distance: 152.56134033203125, Cosine Similarity: 0.7090698480606079, Manhattan Distance: 4285.37939453125
 Kashyap: Euclidean Distance: 156.6603546142578, Cosine Similarity: 0.7276285886764526, Manhattan Distance: 4374.11669921875
 Lisa Kudrow: Euclidean Distance: 143.4069366455078, Cosine Similarity: 0.6772849857807159, Manhattan Distance: 3893.273681640625
+Match with Euclidean distance found for Andy Samberg in invited names.
+Match with Cosine similarity found for Andy Samberg in invited names.
+Match with Manhattan distance found for Andy Samberg in invited names.
 
 Comparison Results for Anushka Sharma:
 Akshay Kumar: Euclidean Distance: 143.98626708984375, Cosine Similarity: 0.6475791931152344, Manhattan Distance: 3867.13232421875
@@ -136,6 +151,9 @@ Hugh Jackman: Euclidean Distance: 138.9677734375, Cosine Similarity: 0.690611362
 Jessica Alba: Euclidean Distance: 131.67367553710938, Cosine Similarity: 0.5538400709629059, Manhattan Distance: 3527.1025390625
 Kashyap: Euclidean Distance: 144.82843017578125, Cosine Similarity: 0.6508698463439941, Manhattan Distance: 3911.65380859375
 Lisa Kudrow: Euclidean Distance: 136.508056640625, Cosine Similarity: 0.6475226581096649, Manhattan Distance: 3697.55078125
+Match with Euclidean distance found for Anushka Sharma in invited names.
+Match with Cosine similarity found for Anushka Sharma in invited names.
+Match with Manhattan distance found for Anushka Sharma in invited names.
 
 Comparison Results for Billie Eilish:
 Akshay Kumar: Euclidean Distance: 148.98275756835938, Cosine Similarity: 0.7592297047376633, Manhattan Distance: 3995.527587890625
@@ -159,6 +177,9 @@ Hugh Jackman: Euclidean Distance: 133.7643280029297, Cosine Similarity: 0.714052
 Jessica Alba: Euclidean Distance: 130.42189025878906, Cosine Similarity: 0.5944109559059143, Manhattan Distance: 3464.281005859375
 Kashyap: Euclidean Distance: 146.5146484375, Cosine Similarity: 0.7282982468605042, Manhattan Distance: 4049.63623046875
 Lisa Kudrow: Euclidean Distance: 141.1983642578125, Cosine Similarity: 0.7696788907051086, Manhattan Distance: 3834.0712890625
+Match with Euclidean distance found for Billie Eilish in invited names.
+Match with Cosine similarity found for Billie Eilish in invited names.
+Match with Manhattan distance found for Billie Eilish in invited names.
 
 Comparison Results for Brad Pitt:
 Akshay Kumar: Euclidean Distance: 156.12030029296875, Cosine Similarity: 0.7844524383544922, Manhattan Distance: 4287.48046875
@@ -182,6 +203,9 @@ Hugh Jackman: Euclidean Distance: 117.00939178466797, Cosine Similarity: 0.50701
 Jessica Alba: Euclidean Distance: 149.60072326660156, Cosine Similarity: 0.7370565831661224, Manhattan Distance: 4203.5634765625
 Kashyap: Euclidean Distance: 149.8191680908203, Cosine Similarity: 0.717112809419632, Manhattan Distance: 4144.326171875
 Lisa Kudrow: Euclidean Distance: 133.81546020507812, Cosine Similarity: 0.6437590420246124, Manhattan Distance: 3636.60791015625
+Match with Euclidean distance found for Brad Pitt in invited names.
+Match with Cosine similarity found for Brad Pitt in invited names.
+Match with Manhattan distance found for Brad Pitt in invited names.
 
 Comparison Results for Camila Cabello:
 Akshay Kumar: Euclidean Distance: 146.5164337158203, Cosine Similarity: 0.7690762579441071, Manhattan Distance: 4110.4794921875
@@ -205,6 +229,9 @@ Hugh Jackman: Euclidean Distance: 132.6148223876953, Cosine Similarity: 0.742651
 Jessica Alba: Euclidean Distance: 129.36288452148438, Cosine Similarity: 0.6114727556705475, Manhattan Distance: 3548.0859375
 Kashyap: Euclidean Distance: 136.81378173828125, Cosine Similarity: 0.661618173122406, Manhattan Distance: 3790.645263671875
 Lisa Kudrow: Euclidean Distance: 136.8206024169922, Cosine Similarity: 0.762876495718956, Manhattan Distance: 3783.434814453125
+Match with Euclidean distance found for Camila Cabello in invited names.
+Match with Cosine similarity found for Camila Cabello in invited names.
+Match with Manhattan distance found for Camila Cabello in invited names.
 
 Comparison Results for Charlize Theron:
 Akshay Kumar: Euclidean Distance: 152.71701049804688, Cosine Similarity: 0.7282373607158661, Manhattan Distance: 4078.38818359375
@@ -228,6 +255,9 @@ Hugh Jackman: Euclidean Distance: 137.74249267578125, Cosine Similarity: 0.67787
 Jessica Alba: Euclidean Distance: 142.08155822753906, Cosine Similarity: 0.6445441842079163, Manhattan Distance: 3828.7822265625
 Kashyap: Euclidean Distance: 152.6188201904297, Cosine Similarity: 0.7225420773029327, Manhattan Distance: 4214.37451171875
 Lisa Kudrow: Euclidean Distance: 132.20816040039062, Cosine Similarity: 0.6068322062492371, Manhattan Distance: 3494.367431640625
+Match with Euclidean distance found for Charlize Theron in invited names.
+Match with Cosine similarity found for Charlize Theron in invited names.
+Match with Manhattan distance found for Charlize Theron in invited names.
 
 Comparison Results for Claire Holt:
 Akshay Kumar: Euclidean Distance: 151.5340576171875, Cosine Similarity: 0.7621077746152878, Manhattan Distance: 4199.5791015625
@@ -251,6 +281,9 @@ Hugh Jackman: Euclidean Distance: 134.48728942871094, Cosine Similarity: 0.69568
 Jessica Alba: Euclidean Distance: 128.5413360595703, Cosine Similarity: 0.5602638423442841, Manhattan Distance: 3536.2548828125
 Kashyap: Euclidean Distance: 146.57650756835938, Cosine Similarity: 0.7073785364627838, Manhattan Distance: 4112.4169921875
 Lisa Kudrow: Euclidean Distance: 137.48837280273438, Cosine Similarity: 0.7043807208538055, Manhattan Distance: 3787.16064453125
+Match with Euclidean distance found for Claire Holt in invited names.
+Match with Cosine similarity found for Claire Holt in invited names.
+Match with Manhattan distance found for Claire Holt in invited names.
 
 Comparison Results for Courtney Cox:
 Akshay Kumar: Euclidean Distance: 153.56590270996094, Cosine Similarity: 0.7125619649887085, Manhattan Distance: 4297.4912109375
@@ -274,6 +307,9 @@ Hugh Jackman: Euclidean Distance: 134.2054443359375, Cosine Similarity: 0.617944
 Jessica Alba: Euclidean Distance: 149.53781127929688, Cosine Similarity: 0.6903103291988373, Manhattan Distance: 4280.63720703125
 Kashyap: Euclidean Distance: 151.19810485839844, Cosine Similarity: 0.6864289343357086, Manhattan Distance: 4272.47265625
 Lisa Kudrow: Euclidean Distance: 133.36318969726562, Cosine Similarity: 0.5941228866577148, Manhattan Distance: 3647.3037109375
+Match with Euclidean distance found for Courtney Cox in invited names.
+Match with Cosine similarity found for Courtney Cox in invited names.
+Match with Manhattan distance found for Courtney Cox in invited names.
 
 Comparison Results for Dwayne Johnson:
 Akshay Kumar: Euclidean Distance: 141.29417419433594, Cosine Similarity: 0.661513090133667, Manhattan Distance: 3712.65478515625
@@ -297,6 +333,9 @@ Hugh Jackman: Euclidean Distance: 129.5013427734375, Cosine Similarity: 0.645107
 Jessica Alba: Euclidean Distance: 151.100341796875, Cosine Similarity: 0.7765220999717712, Manhattan Distance: 4212.2568359375
 Kashyap: Euclidean Distance: 139.94544982910156, Cosine Similarity: 0.6440345942974091, Manhattan Distance: 3672.73388671875
 Lisa Kudrow: Euclidean Distance: 137.540771484375, Cosine Similarity: 0.7049687802791595, Manhattan Distance: 3616.2529296875
+Match with Euclidean distance found for Dwayne Johnson in invited names.
+Match with Cosine similarity found for Dwayne Johnson in invited names.
+Match with Manhattan distance found for Dwayne Johnson in invited names.
 
 Comparison Results for Elizabeth Olsen:
 Akshay Kumar: Euclidean Distance: 151.0275421142578, Cosine Similarity: 0.7437706291675568, Manhattan Distance: 4048.21875
@@ -320,6 +359,9 @@ Hugh Jackman: Euclidean Distance: 133.16006469726562, Cosine Similarity: 0.66771
 Jessica Alba: Euclidean Distance: 135.72311401367188, Cosine Similarity: 0.6144294142723083, Manhattan Distance: 3685.5224609375
 Kashyap: Euclidean Distance: 154.18255615234375, Cosine Similarity: 0.77006034553051, Manhattan Distance: 4328.04296875
 Lisa Kudrow: Euclidean Distance: 137.8782196044922, Cosine Similarity: 0.6941710114479065, Manhattan Distance: 3729.71875
+Match with Euclidean distance found for Elizabeth Olsen in invited names.
+Match with Cosine similarity found for Elizabeth Olsen in invited names.
+Match with Manhattan distance found for Elizabeth Olsen in invited names.
 
 Comparison Results for Ellen Degeneres:
 Akshay Kumar: Euclidean Distance: 155.48574829101562, Cosine Similarity: 0.7962458282709122, Manhattan Distance: 4135.7900390625
@@ -343,6 +385,9 @@ Hugh Jackman: Euclidean Distance: 136.4129180908203, Cosine Similarity: 0.708771
 Jessica Alba: Euclidean Distance: 144.0102081298828, Cosine Similarity: 0.6989430785179138, Manhattan Distance: 3880.491943359375
 Kashyap: Euclidean Distance: 145.09085083007812, Cosine Similarity: 0.6874499917030334, Manhattan Distance: 3951.47314453125
 Lisa Kudrow: Euclidean Distance: 132.29669189453125, Cosine Similarity: 0.6460937559604645, Manhattan Distance: 3457.302734375
+Match with Euclidean distance found for Ellen Degeneres in invited names.
+Match with Cosine similarity found for Ellen Degeneres in invited names.
+Match with Manhattan distance found for Ellen Degeneres in invited names.
 
 Comparison Results for Henry Cavill:
 Akshay Kumar: Euclidean Distance: 153.1014862060547, Cosine Similarity: 0.7569408565759659, Manhattan Distance: 4228.927734375
@@ -366,6 +411,9 @@ Hugh Jackman: Euclidean Distance: 120.56773376464844, Cosine Similarity: 0.54074
 Jessica Alba: Euclidean Distance: 142.84915161132812, Cosine Similarity: 0.6742372512817383, Manhattan Distance: 4000.377685546875
 Kashyap: Euclidean Distance: 148.92864990234375, Cosine Similarity: 0.7110476791858673, Manhattan Distance: 4211.7958984375
 Lisa Kudrow: Euclidean Distance: 133.79051208496094, Cosine Similarity: 0.6461810171604156, Manhattan Distance: 3693.3291015625
+Match with Euclidean distance found for Henry Cavill in invited names.
+Match with Cosine similarity found for Henry Cavill in invited names.
+Match with Manhattan distance found for Henry Cavill in invited names.
 
 Comparison Results for Hrithik Roshan:
 Akshay Kumar: Euclidean Distance: 136.94195556640625, Cosine Similarity: 0.6235869824886322, Manhattan Distance: 3576.697265625
@@ -389,6 +437,9 @@ Hugh Jackman: Euclidean Distance: 124.06291198730469, Cosine Similarity: 0.59532
 Jessica Alba: Euclidean Distance: 135.11936950683594, Cosine Similarity: 0.6225574612617493, Manhattan Distance: 3695.7099609375
 Kashyap: Euclidean Distance: 136.06634521484375, Cosine Similarity: 0.6109340786933899, Manhattan Distance: 3627.24560546875
 Lisa Kudrow: Euclidean Distance: 137.97454833984375, Cosine Similarity: 0.7131590247154236, Manhattan Distance: 3691.58154296875
+Match with Euclidean distance found for Hrithik Roshan in invited names.
+Match with Cosine similarity found for Hrithik Roshan in invited names.
+Match with Manhattan distance found for Hrithik Roshan in invited names.
 
 Comparison Results for Hugh Jackman:
 Akshay Kumar: Euclidean Distance: 162.00743103027344, Cosine Similarity: 0.823383018374443, Manhattan Distance: 4528.548828125
@@ -412,6 +463,9 @@ Hugh Jackman: Euclidean Distance: 102.48846435546875, Cosine Similarity: 0.37616
 Jessica Alba: Euclidean Distance: 150.4064178466797, Cosine Similarity: 0.7256284356117249, Manhattan Distance: 4252.1015625
 Kashyap: Euclidean Distance: 149.34788513183594, Cosine Similarity: 0.6947841048240662, Manhattan Distance: 4181.28173828125
 Lisa Kudrow: Euclidean Distance: 143.88009643554688, Cosine Similarity: 0.7225167155265808, Manhattan Distance: 3976.57373046875
+Match with Euclidean distance found for Hugh Jackman in invited names.
+Match with Cosine similarity found for Hugh Jackman in invited names.
+Match with Manhattan distance found for Hugh Jackman in invited names.
 
 Comparison Results for Jessica Alba:
 Akshay Kumar: Euclidean Distance: 145.6862335205078, Cosine Similarity: 0.7512759864330292, Manhattan Distance: 3894.960205078125
@@ -435,6 +489,9 @@ Hugh Jackman: Euclidean Distance: 128.07102966308594, Cosine Similarity: 0.68275
 Jessica Alba: Euclidean Distance: 96.70731353759766, Cosine Similarity: 0.3297078013420105, Manhattan Distance: 2474.14501953125
 Kashyap: Euclidean Distance: 142.7379913330078, Cosine Similarity: 0.7144839763641357, Manhattan Distance: 3865.2919921875
 Lisa Kudrow: Euclidean Distance: 137.17977905273438, Cosine Similarity: 0.7566177546977997, Manhattan Distance: 3693.55419921875
+Match with Euclidean distance found for Jessica Alba in invited names.
+Match with Cosine similarity found for Jessica Alba in invited names.
+Match with Manhattan distance found for Jessica Alba in invited names.
 
 Comparison Results for Kashyap:
 Akshay Kumar: Euclidean Distance: 146.8121337890625, Cosine Similarity: 0.7239972352981567, Manhattan Distance: 4000.134765625
@@ -458,6 +515,9 @@ Hugh Jackman: Euclidean Distance: 135.60794067382812, Cosine Similarity: 0.71837
 Jessica Alba: Euclidean Distance: 123.55645751953125, Cosine Similarity: 0.5235579013824463, Manhattan Distance: 3326.572509765625
 Kashyap: Euclidean Distance: 92.26951599121094, Cosine Similarity: 0.276857852935791, Manhattan Distance: 2385.976318359375
 Lisa Kudrow: Euclidean Distance: 134.3741912841797, Cosine Similarity: 0.6828410625457764, Manhattan Distance: 3712.0576171875
+Match with Euclidean distance found for Kashyap in invited names.
+Match with Cosine similarity found for Kashyap in invited names.
+Match with Manhattan distance found for Kashyap in invited names.
 
 Comparison Results for Lisa Kudrow:
 Akshay Kumar: Euclidean Distance: 148.82789611816406, Cosine Similarity: 0.6945551633834839, Manhattan Distance: 4006.1162109375
@@ -481,6 +541,9 @@ Hugh Jackman: Euclidean Distance: 125.50096130371094, Cosine Similarity: 0.56532
 Jessica Alba: Euclidean Distance: 152.51268005371094, Cosine Similarity: 0.7461530864238739, Manhattan Distance: 4279.3935546875
 Kashyap: Euclidean Distance: 153.1370391845703, Cosine Similarity: 0.7306484282016754, Manhattan Distance: 4290.51025390625
 Lisa Kudrow: Euclidean Distance: 98.66203308105469, Cosine Similarity: 0.3393480181694031, Manhattan Distance: 2507.29052734375
+Match with Euclidean distance found for Lisa Kudrow in invited names.
+Match with Cosine similarity found for Lisa Kudrow in invited names.
+Match with Manhattan distance found for Lisa Kudrow in invited names.
 
 Comparison Results for Margot Robbie:
 Akshay Kumar: Euclidean Distance: 148.03631591796875, Cosine Similarity: 0.6925031244754791, Manhattan Distance: 4083.63623046875
@@ -504,6 +567,9 @@ Hugh Jackman: Euclidean Distance: 136.4357147216797, Cosine Similarity: 0.674939
 Jessica Alba: Euclidean Distance: 144.0011444091797, Cosine Similarity: 0.6704037487506866, Manhattan Distance: 3992.2607421875
 Kashyap: Euclidean Distance: 153.51254272460938, Cosine Similarity: 0.7399460077285767, Manhattan Distance: 4335.44921875
 Lisa Kudrow: Euclidean Distance: 147.17958068847656, Cosine Similarity: 0.7629298269748688, Manhattan Distance: 4050.14404296875
+No match with Euclidean distance found for Margot Robbie in invited names.
+No match with Cosine similarity found for Margot Robbie in invited names.
+No match with Manhattan distance found for Margot Robbie in invited names.
 
 Comparison Results for Marmik:
 Akshay Kumar: Euclidean Distance: 152.94631958007812, Cosine Similarity: 0.7474789321422577, Manhattan Distance: 4133.76513671875
@@ -527,6 +593,9 @@ Hugh Jackman: Euclidean Distance: 139.02630615234375, Cosine Similarity: 0.71015
 Jessica Alba: Euclidean Distance: 140.26271057128906, Cosine Similarity: 0.6430386304855347, Manhattan Distance: 3857.8583984375
 Kashyap: Euclidean Distance: 135.6433563232422, Cosine Similarity: 0.5830372869968414, Manhattan Distance: 3655.6650390625
 Lisa Kudrow: Euclidean Distance: 139.4102020263672, Cosine Similarity: 0.6931275427341461, Manhattan Distance: 3757.327392578125
+Match with Euclidean distance found for Marmik in invited names.
+Match with Cosine similarity found for Marmik in invited names.
+Match with Manhattan distance found for Marmik in invited names.
 
 Comparison Results for Natalie Portman:
 Akshay Kumar: Euclidean Distance: 153.0716552734375, Cosine Similarity: 0.7029852271080017, Manhattan Distance: 4101.861328125
@@ -550,6 +619,9 @@ Hugh Jackman: Euclidean Distance: 132.45716857910156, Cosine Similarity: 0.59652
 Jessica Alba: Euclidean Distance: 125.42129516601562, Cosine Similarity: 0.48207682371139526, Manhattan Distance: 3381.78076171875
 Kashyap: Euclidean Distance: 152.22457885742188, Cosine Similarity: 0.6909243166446686, Manhattan Distance: 4235.791015625
 Lisa Kudrow: Euclidean Distance: 138.3814239501953, Cosine Similarity: 0.6346264779567719, Manhattan Distance: 3661.828369140625
+Match with Euclidean distance found for Natalie Portman in invited names.
+Match with Cosine similarity found for Natalie Portman in invited names.
+Match with Manhattan distance found for Natalie Portman in invited names.
 
 Comparison Results for Priyanka Chopra:
 Akshay Kumar: Euclidean Distance: 138.98431396484375, Cosine Similarity: 0.6303670108318329, Manhattan Distance: 3745.225830078125
@@ -573,6 +645,9 @@ Hugh Jackman: Euclidean Distance: 135.44210815429688, Cosine Similarity: 0.69273
 Jessica Alba: Euclidean Distance: 127.82869720458984, Cosine Similarity: 0.5458199679851532, Manhattan Distance: 3329.28466796875
 Kashyap: Euclidean Distance: 146.48440551757812, Cosine Similarity: 0.6960031390190125, Manhattan Distance: 3995.95263671875
 Lisa Kudrow: Euclidean Distance: 137.25680541992188, Cosine Similarity: 0.6897673308849335, Manhattan Distance: 3670.41455078125
+Match with Euclidean distance found for Priyanka Chopra in invited names.
+Match with Cosine similarity found for Priyanka Chopra in invited names.
+Match with Manhattan distance found for Priyanka Chopra in invited names.
 
 Comparison Results for Robert Downey Jr:
 Akshay Kumar: Euclidean Distance: 138.55020141601562, Cosine Similarity: 0.61109659075737, Manhattan Distance: 3743.8642578125
@@ -596,6 +671,9 @@ Hugh Jackman: Euclidean Distance: 122.3050537109375, Cosine Similarity: 0.547486
 Jessica Alba: Euclidean Distance: 150.07936096191406, Cosine Similarity: 0.7344547510147095, Manhattan Distance: 4221.8076171875
 Kashyap: Euclidean Distance: 150.66091918945312, Cosine Similarity: 0.7183572947978973, Manhattan Distance: 4191.1181640625
 Lisa Kudrow: Euclidean Distance: 138.76002502441406, Cosine Similarity: 0.6845219731330872, Manhattan Distance: 3794.560302734375
+No match with Euclidean distance found for Robert Downey Jr in invited names.
+No match with Cosine similarity found for Robert Downey Jr in invited names.
+No match with Manhattan distance found for Robert Downey Jr in invited names.
 
 Comparison Results for Roger Federer:
 Akshay Kumar: Euclidean Distance: 152.50811767578125, Cosine Similarity: 0.7157524526119232, Manhattan Distance: 4137.6533203125
@@ -619,6 +697,9 @@ Hugh Jackman: Euclidean Distance: 138.45254516601562, Cosine Similarity: 0.67291
 Jessica Alba: Euclidean Distance: 135.58670043945312, Cosine Similarity: 0.5782578587532043, Manhattan Distance: 3716.635498046875
 Kashyap: Euclidean Distance: 146.26165771484375, Cosine Similarity: 0.6539953052997589, Manhattan Distance: 4078.13916015625
 Lisa Kudrow: Euclidean Distance: 141.66534423828125, Cosine Similarity: 0.6852310001850128, Manhattan Distance: 3952.6953125
+No match with Euclidean distance found for Roger Federer in invited names.
+No match with Cosine similarity found for Roger Federer in invited names.
+No match with Manhattan distance found for Roger Federer in invited names.
 
 Comparison Results for Tom Cruise:
 Akshay Kumar: Euclidean Distance: 149.35250854492188, Cosine Similarity: 0.7284907698631287, Manhattan Distance: 4027.6318359375
@@ -642,6 +723,9 @@ Hugh Jackman: Euclidean Distance: 129.79530334472656, Cosine Similarity: 0.63571
 Jessica Alba: Euclidean Distance: 144.46139526367188, Cosine Similarity: 0.6978574395179749, Manhattan Distance: 4014.152099609375
 Kashyap: Euclidean Distance: 144.0601806640625, Cosine Similarity: 0.6725489795207977, Manhattan Distance: 4004.83740234375
 Lisa Kudrow: Euclidean Distance: 142.7694854736328, Cosine Similarity: 0.7457930147647858, Manhattan Distance: 3940.0078125
+Match with Euclidean distance found for Tom Cruise in invited names.
+No match with Cosine similarity found for Tom Cruise in invited names.
+No match with Manhattan distance found for Tom Cruise in invited names.
 
 Comparison Results for Vijay Deverakonda:
 Akshay Kumar: Euclidean Distance: 152.29710388183594, Cosine Similarity: 0.7416136562824249, Manhattan Distance: 4084.7197265625
@@ -665,6 +749,9 @@ Hugh Jackman: Euclidean Distance: 129.81956481933594, Cosine Similarity: 0.61956
 Jessica Alba: Euclidean Distance: 125.49143981933594, Cosine Similarity: 0.5146435499191284, Manhattan Distance: 3373.371337890625
 Kashyap: Euclidean Distance: 123.7607650756836, Cosine Similarity: 0.4849429130554199, Manhattan Distance: 3151.793701171875
 Lisa Kudrow: Euclidean Distance: 142.9003143310547, Cosine Similarity: 0.7288414537906647, Manhattan Distance: 3890.17626953125
+Match with Euclidean distance found for Vijay Deverakonda in invited names.
+Match with Cosine similarity found for Vijay Deverakonda in invited names.
+Match with Manhattan distance found for Vijay Deverakonda in invited names.
 
 Comparison Results for Virat Kohli:
 Akshay Kumar: Euclidean Distance: 149.010009765625, Cosine Similarity: 0.7156527042388916, Manhattan Distance: 4043.18701171875
@@ -688,6 +775,9 @@ Hugh Jackman: Euclidean Distance: 133.45852661132812, Cosine Similarity: 0.66145
 Jessica Alba: Euclidean Distance: 135.642578125, Cosine Similarity: 0.606673389673233, Manhattan Distance: 3693.3310546875
 Kashyap: Euclidean Distance: 135.3865966796875, Cosine Similarity: 0.5857932865619659, Manhattan Distance: 3578.088134765625
 Lisa Kudrow: Euclidean Distance: 143.65379333496094, Cosine Similarity: 0.7436254918575287, Manhattan Distance: 3919.0029296875
+No match with Euclidean distance found for Virat Kohli in invited names.
+No match with Cosine similarity found for Virat Kohli in invited names.
+No match with Manhattan distance found for Virat Kohli in invited names.
 
 Comparison Results for Zac Efron:
 Akshay Kumar: Euclidean Distance: 150.8236083984375, Cosine Similarity: 0.7032730579376221, Manhattan Distance: 4058.3037109375
@@ -711,3 +801,6 @@ Hugh Jackman: Euclidean Distance: 136.244873046875, Cosine Similarity: 0.6552160
 Jessica Alba: Euclidean Distance: 145.9285430908203, Cosine Similarity: 0.6731000244617462, Manhattan Distance: 4010.1279296875
 Kashyap: Euclidean Distance: 147.37864685058594, Cosine Similarity: 0.6671015620231628, Manhattan Distance: 4060.98876953125
 Lisa Kudrow: Euclidean Distance: 144.95838928222656, Cosine Similarity: 0.7214251756668091, Manhattan Distance: 3931.28955078125
+Match with Euclidean distance found for Zac Efron in invited names.
+Match with Cosine similarity found for Zac Efron in invited names.
+Match with Manhattan distance found for Zac Efron in invited names.
