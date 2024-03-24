@@ -89,10 +89,15 @@ def similarity_metrics(known_embedding, candidate_embedding):
 names = ['Akshay Kumar', 'Alexandra Daddario', 'Alia Bhatt', 'Amitabh Bachchan', 'Andy Samberg', 'Anushka Sharma',
         'Billie Eilish', 'Brad Pitt', 'Camila Cabello', 'Charlize Theron', 'Claire Holt', 'Courtney Cox',
         'Dwayne Johnson', 'Elizabeth Olsen', 'Ellen Degeneres', 'Henry Cavill', 'Hrithik Roshan', 'Hugh Jackman',
-        'Jessica Alba', 'Kashyap', 'Lisa Kudrow']
+        'Jessica Alba', 'Kashyap', 'Lisa Kudrow', 'Anne Hathaway', 'Arnold Schwarzenegger', 'Ben Afflek', 'Keanu Reeves',
+        'Jerry Seinfeld', 'Kate Beckinsale', 'Lauren Cohan', 'Simon Pegg', 'Will Smith']
         
 notinvited = ['Margot Robbie', 'Marmik', 'Natalie Portman', 'Priyanka Chopra',
         'Robert Downey Jr', 'Roger Federer', 'Tom Cruise', 'Vijay Deverakonda', 'Virat Kohli', 'Zac Efron']
+
+#names = ['Akshay Kumar','Henry Cavill','Tom Cruise', 'Will Smith']
+#notinvited = ['Zac Efron']
+
 
 all = names + notinvited
 
@@ -101,6 +106,7 @@ print(f"{all=}")
 
 # File path to images
 def get_image_paths(name, idx):
+    #return f'Faces/{name}/{name}_{idx}.jpg'
     return f'Faces/{name}/{name}_{idx}.jpg'
 
 
@@ -128,31 +134,57 @@ true_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_di
 false_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
 false_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0}
 
+outCount = 0
+inCount = 0
 
 for combined_embedding, combined_name in zip(combined_embeddings, all):
+    print(f"1{combined_name=}")
     results.append(f"\nComparison Results for {combined_name}:")
     eucMatch = False  # Flag to check if there's any match
     cosMatch = False  # Flag to check if there's any match
     manMatch = False  # Flag to check if there's any match
+    outCount += 1
 
     for invited_embedding, invited_name in zip(invited_embeddings, names):
+        print(f"2{combined_name=}")
+        print(f"2{invited_name=}")
+        
         combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
         invited_embedding_values = invited_embedding[0]
         euclidean_dist, cosine_sim, manhattan_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
         result_str = f"{invited_name}: "
         result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}"
         results.append(result_str)
+
         if euclidean_dist <= 121:
             eucMatch = True
-            if combined_name in names and invited_name in names:
+            if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
                 true_positives['euclidean_distance'] += 1
-            elif combined_name in notinvited and invited_name in notinvited:
-                true_negatives['euclidean_distance'] += 1
-            elif combined_name in notinvited and invited_name in names:
+                results.append(f"TP: {combined_name} is registered and matches w/ registered faces {invited_name}")
+            #elif combined_name in notinvited and invited_name in notinvited: #if person entering is not in registered set and 
+            #if combined_name in notinvited and invited_name in names:
+            #false positive: we incorrectly identify that the person who is not registered is shown that they are registered.
+            if combined_name in notinvited and combined_name != invited_name: #if person entering is not registered and matches
                 false_positives['euclidean_distance'] += 1
-            elif combined_name in names and invited_name in notinvited:
+                results.append(f"FP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
+        else:
+            if combined_name in notinvited and combined_name != invited_name: #if person entering is nonregistered and DOES NOT match
+                true_negatives['euclidean_distance'] += 1
+                results.append(f"TN: {combined_name} is not registered and DOES not match w/ {invited_name}")
+            if combined_name in names and combined_name == invited_name: #if person entering is registered and DOES NOT match
                 false_negatives['euclidean_distance'] += 1
-                
+                results.append(f"FN: {combined_name} is registered and DOES not match w/ {invited_name}")
+            #true positive: we correctly identify that the person is registered
+            #true negative: we correctly identify that the person is not registered 
+            #false positive: we incorrectly identify that the person who is not registered is shown that they are registered.
+            #false negative: we incorrectly identify that the person who is registered is shown that they are not registered
+
+            #combined embeddings is everyone trying to enter in (img1 from registered + img0 from nonregistered)
+            #invited embeddings are those who are registered (img0 from registered)
+            #notinvited embeddings are those who are NOT registered (img0 from nonregistered)
+            print(f"{combined_name} who is entering the event did not match with {invited_name}")
+            print(f"We inside here")
+        '''
         if cosine_sim <= 0.5:
             cosMatch = True
             if combined_name in names and invited_name in names:
@@ -174,23 +206,30 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
                 false_positives['manhattan_distance'] += 1
             elif combined_name in names and invited_name in notinvited:
                 false_negatives['manhattan_distance'] += 1
+        '''
+        inCount += 1
             
-    # Print if any match is found for the combined name
+    # Check for matches and update results
     if eucMatch:
-        results.append(f"Match with Euclidean distance found for {combined_name} in invited names.")
+        matched_invited_names = [name for name, dist in zip(names, [euclidean_dist <= 121 for invited_embedding in invited_embeddings]) if dist]
+        results.append(f"Match with Euclidean distance found for {combined_name} with: {', '.join(matched_invited_names)} in invited names.")
     else:
         results.append(f"No match with Euclidean distance found for {combined_name} in invited names.")
+    '''
     if cosMatch:
-        results.append(f"Match with Cosine similarity found for {combined_name} in invited names.")
+        matched_invited_names = [name for name, dist in zip(names, [cosine_sim <= 0.5 for invited_embedding in invited_embeddings]) if dist]
+        results.append(f"Match with Cosine similarity found for {combined_name} with: {', '.join(matched_invited_names)} in invited names.")
     else:
         results.append(f"No match with Cosine similarity found for {combined_name} in invited names.")
+
     if manMatch:
-        results.append(f"Match with Manhattan distance found for {combined_name} in invited names.")
+        matched_invited_names = [name for name, dist in zip(names, [manhattan_dist <= 3200 for invited_embedding in invited_embeddings]) if dist]
+        results.append(f"Match with Manhattan distance found for {combined_name} with: {', '.join(matched_invited_names)} in invited names.")
     else:
         results.append(f"No match with Manhattan distance found for {combined_name} in invited names.")
-
          # Check for false positives and false negatives
-        '''
+    '''
+    '''
         if combined_name in names and invited_name in names:
             if cosine_sim:
                 true_positives['cosine_similarity'] += 1
@@ -220,6 +259,8 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
         
 write_to_file(output_file, results)
 
+iterPerson = inCount/outCount
+
 print("Euclidean Distance:")
 print("TP:", true_positives['euclidean_distance'])
 print("TN:", true_negatives['euclidean_distance'])
@@ -238,7 +279,11 @@ print("TN:", true_negatives['manhattan_distance'])
 print("FP:", false_positives['manhattan_distance'])
 print("FN:", false_negatives['manhattan_distance'])
 
+print(f"{inCount=}")
+print(f"{outCount=}")
 
+'''
+#PLOT
 # Define function to plot the graph
 def plot_graph(metrics_dict, title):
     labels = list(metrics_dict.keys())
@@ -274,7 +319,7 @@ plot_graph({'TP': true_positives['manhattan_distance'],
             'FP': false_positives['manhattan_distance'], 
             'FN': false_negatives['manhattan_distance']}, 
            'Manhattan Distance')
-
+'''
 
 
 '''

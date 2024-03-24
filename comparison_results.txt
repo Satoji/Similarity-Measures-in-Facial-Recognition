@@ -1,6 +1,7 @@
 
 Comparison Results for Akshay Kumar:
 Akshay Kumar: Euclidean Distance: 134.5904083251953, Cosine Similarity: 0.5340194404125214, Manhattan Distance: 3460.555419921875
+FN: Akshay Kumar is registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 146.91217041015625, Cosine Similarity: 0.6880736947059631, Manhattan Distance: 4044.10205078125
 Alia Bhatt: Euclidean Distance: 138.7399444580078, Cosine Similarity: 0.6505285501480103, Manhattan Distance: 3708.302490234375
 Amitabh Bachchan: Euclidean Distance: 146.4381866455078, Cosine Similarity: 0.7643689215183258, Manhattan Distance: 3909.57958984375
@@ -21,13 +22,21 @@ Hugh Jackman: Euclidean Distance: 146.7646484375, Cosine Similarity: 0.718594312
 Jessica Alba: Euclidean Distance: 150.19384765625, Cosine Similarity: 0.6789153814315796, Manhattan Distance: 4111.6171875
 Kashyap: Euclidean Distance: 153.56605529785156, Cosine Similarity: 0.6910235583782196, Manhattan Distance: 4190.3125
 Lisa Kudrow: Euclidean Distance: 142.95892333984375, Cosine Similarity: 0.6638293564319611, Manhattan Distance: 3798.21240234375
+Anne Hathaway: Euclidean Distance: 153.49159240722656, Cosine Similarity: 0.7923313081264496, Manhattan Distance: 4144.12109375
+Arnold Schwarzenegger: Euclidean Distance: 151.85244750976562, Cosine Similarity: 0.7668790072202682, Manhattan Distance: 4176.71484375
+Ben Afflek: Euclidean Distance: 147.91529846191406, Cosine Similarity: 0.6919132769107819, Manhattan Distance: 3981.5576171875
+Keanu Reeves: Euclidean Distance: 151.35406494140625, Cosine Similarity: 0.7788364589214325, Manhattan Distance: 4096.7607421875
+Jerry Seinfeld: Euclidean Distance: 129.39918518066406, Cosine Similarity: 0.5973086953163147, Manhattan Distance: 3404.90576171875
+Kate Beckinsale: Euclidean Distance: 150.83953857421875, Cosine Similarity: 0.7971973866224289, Manhattan Distance: 4171.7294921875
+Lauren Cohan: Euclidean Distance: 147.33827209472656, Cosine Similarity: 0.7734888643026352, Manhattan Distance: 4069.782470703125
+Simon Pegg: Euclidean Distance: 148.13369750976562, Cosine Similarity: 0.7547407150268555, Manhattan Distance: 4012.27880859375
+Will Smith: Euclidean Distance: 147.90162658691406, Cosine Similarity: 0.7723457366228104, Manhattan Distance: 4001.4736328125
 No match with Euclidean distance found for Akshay Kumar in invited names.
-No match with Cosine similarity found for Akshay Kumar in invited names.
-No match with Manhattan distance found for Akshay Kumar in invited names.
 
 Comparison Results for Alexandra Daddario:
 Akshay Kumar: Euclidean Distance: 152.73892211914062, Cosine Similarity: 0.7567174434661865, Manhattan Distance: 4206.8271484375
 Alexandra Daddario: Euclidean Distance: 119.55480194091797, Cosine Similarity: 0.5072005093097687, Manhattan Distance: 3128.90185546875
+TP: Alexandra Daddario is registered and matches w/ registered faces Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 125.9476089477539, Cosine Similarity: 0.6035481691360474, Manhattan Distance: 3394.35009765625
 Amitabh Bachchan: Euclidean Distance: 132.75135803222656, Cosine Similarity: 0.7113222181797028, Manhattan Distance: 3595.71630859375
 Andy Samberg: Euclidean Distance: 150.81993103027344, Cosine Similarity: 0.7206413149833679, Manhattan Distance: 4274.255859375
@@ -47,14 +56,22 @@ Hugh Jackman: Euclidean Distance: 135.4185791015625, Cosine Similarity: 0.686038
 Jessica Alba: Euclidean Distance: 132.58184814453125, Cosine Similarity: 0.5829707384109497, Manhattan Distance: 3603.505859375
 Kashyap: Euclidean Distance: 146.28858947753906, Cosine Similarity: 0.688874751329422, Manhattan Distance: 4042.00634765625
 Lisa Kudrow: Euclidean Distance: 141.7526092529297, Cosine Similarity: 0.7291343212127686, Manhattan Distance: 3928.548095703125
-Match with Euclidean distance found for Alexandra Daddario in invited names.
-Match with Cosine similarity found for Alexandra Daddario in invited names.
-Match with Manhattan distance found for Alexandra Daddario in invited names.
+Anne Hathaway: Euclidean Distance: 129.13009643554688, Cosine Similarity: 0.6286697387695312, Manhattan Distance: 3500.65234375
+Arnold Schwarzenegger: Euclidean Distance: 139.31668090820312, Cosine Similarity: 0.7228461503982544, Manhattan Distance: 3996.796630859375
+Ben Afflek: Euclidean Distance: 139.0233917236328, Cosine Similarity: 0.6794768869876862, Manhattan Distance: 3900.853759765625
+Keanu Reeves: Euclidean Distance: 143.88343811035156, Cosine Similarity: 0.7908690124750137, Manhattan Distance: 4004.86279296875
+Jerry Seinfeld: Euclidean Distance: 130.3284912109375, Cosine Similarity: 0.6938433051109314, Manhattan Distance: 3632.249267578125
+Kate Beckinsale: Euclidean Distance: 131.64646911621094, Cosine Similarity: 0.6847385466098785, Manhattan Distance: 3626.79931640625
+Lauren Cohan: Euclidean Distance: 121.1915054321289, Cosine Similarity: 0.5911753475666046, Manhattan Distance: 3304.2548828125
+Simon Pegg: Euclidean Distance: 129.948974609375, Cosine Similarity: 0.6539024114608765, Manhattan Distance: 3501.60498046875
+Will Smith: Euclidean Distance: 140.46487426757812, Cosine Similarity: 0.7879523038864136, Manhattan Distance: 3910.77294921875
+Match with Euclidean distance found for Alexandra Daddario with:  in invited names.
 
 Comparison Results for Alia Bhatt:
 Akshay Kumar: Euclidean Distance: 151.62493896484375, Cosine Similarity: 0.7267445027828217, Manhattan Distance: 4083.128173828125
 Alexandra Daddario: Euclidean Distance: 137.48934936523438, Cosine Similarity: 0.6518265604972839, Manhattan Distance: 3706.8427734375
 Alia Bhatt: Euclidean Distance: 86.60765838623047, Cosine Similarity: 0.27462273836135864, Manhattan Distance: 2195.478515625
+TP: Alia Bhatt is registered and matches w/ registered faces Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 131.45733642578125, Cosine Similarity: 0.6733901500701904, Manhattan Distance: 3495.4921875
 Andy Samberg: Euclidean Distance: 151.0738067626953, Cosine Similarity: 0.705363541841507, Manhattan Distance: 4279.4638671875
 Anushka Sharma: Euclidean Distance: 140.36306762695312, Cosine Similarity: 0.6607012152671814, Manhattan Distance: 3813.24951171875
@@ -73,15 +90,23 @@ Hugh Jackman: Euclidean Distance: 137.59909057617188, Cosine Similarity: 0.68667
 Jessica Alba: Euclidean Distance: 132.16928100585938, Cosine Similarity: 0.564633846282959, Manhattan Distance: 3577.109375
 Kashyap: Euclidean Distance: 140.66973876953125, Cosine Similarity: 0.6209013760089874, Manhattan Distance: 3816.60791015625
 Lisa Kudrow: Euclidean Distance: 144.1584930419922, Cosine Similarity: 0.7320558726787567, Manhattan Distance: 3976.19091796875
-Match with Euclidean distance found for Alia Bhatt in invited names.
-Match with Cosine similarity found for Alia Bhatt in invited names.
-Match with Manhattan distance found for Alia Bhatt in invited names.
+Anne Hathaway: Euclidean Distance: 136.15487670898438, Cosine Similarity: 0.6773865520954132, Manhattan Distance: 3617.26953125
+Arnold Schwarzenegger: Euclidean Distance: 144.7827606201172, Cosine Similarity: 0.7571291029453278, Manhattan Distance: 4067.51953125
+Ben Afflek: Euclidean Distance: 146.51229858398438, Cosine Similarity: 0.7335325181484222, Manhattan Distance: 4071.4990234375
+Keanu Reeves: Euclidean Distance: 145.7975311279297, Cosine Similarity: 0.7868004143238068, Manhattan Distance: 4088.98193359375
+Jerry Seinfeld: Euclidean Distance: 135.7079315185547, Cosine Similarity: 0.7269648611545563, Manhattan Distance: 3762.802978515625
+Kate Beckinsale: Euclidean Distance: 141.11260986328125, Cosine Similarity: 0.7616207599639893, Manhattan Distance: 3980.22216796875
+Lauren Cohan: Euclidean Distance: 137.8441619873047, Cosine Similarity: 0.7408486604690552, Manhattan Distance: 3783.6455078125
+Simon Pegg: Euclidean Distance: 139.47927856445312, Cosine Similarity: 0.7296101450920105, Manhattan Distance: 3842.92578125
+Will Smith: Euclidean Distance: 142.9775390625, Cosine Similarity: 0.7896189093589783, Manhattan Distance: 3969.38671875
+Match with Euclidean distance found for Alia Bhatt with:  in invited names.
 
 Comparison Results for Amitabh Bachchan:
 Akshay Kumar: Euclidean Distance: 143.0836944580078, Cosine Similarity: 0.6918591856956482, Manhattan Distance: 3831.96484375
 Alexandra Daddario: Euclidean Distance: 137.2052001953125, Cosine Similarity: 0.7007709443569183, Manhattan Distance: 3737.05810546875
 Alia Bhatt: Euclidean Distance: 133.37831115722656, Cosine Similarity: 0.71389240026474, Manhattan Distance: 3569.532470703125
 Amitabh Bachchan: Euclidean Distance: 87.69416046142578, Cosine Similarity: 0.32765042781829834, Manhattan Distance: 2270.60595703125
+TP: Amitabh Bachchan is registered and matches w/ registered faces Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 140.00416564941406, Cosine Similarity: 0.6451795101165771, Manhattan Distance: 3814.494384765625
 Anushka Sharma: Euclidean Distance: 138.20143127441406, Cosine Similarity: 0.6892131865024567, Manhattan Distance: 3716.30029296875
 Billie Eilish: Euclidean Distance: 144.54888916015625, Cosine Similarity: 0.8366187214851379, Manhattan Distance: 3923.49658203125
@@ -99,9 +124,16 @@ Hugh Jackman: Euclidean Distance: 134.44180297851562, Cosine Similarity: 0.71201
 Jessica Alba: Euclidean Distance: 145.51458740234375, Cosine Similarity: 0.7344464063644409, Manhattan Distance: 3996.041015625
 Kashyap: Euclidean Distance: 146.7334747314453, Cosine Similarity: 0.7228349149227142, Manhattan Distance: 3961.23193359375
 Lisa Kudrow: Euclidean Distance: 134.8357391357422, Cosine Similarity: 0.6930735111236572, Manhattan Distance: 3620.37548828125
-Match with Euclidean distance found for Amitabh Bachchan in invited names.
-Match with Cosine similarity found for Amitabh Bachchan in invited names.
-Match with Manhattan distance found for Amitabh Bachchan in invited names.
+Anne Hathaway: Euclidean Distance: 142.0879364013672, Cosine Similarity: 0.8021064400672913, Manhattan Distance: 3898.6455078125
+Arnold Schwarzenegger: Euclidean Distance: 139.8933563232422, Cosine Similarity: 0.7672083228826523, Manhattan Distance: 3900.408203125
+Ben Afflek: Euclidean Distance: 141.37904357910156, Cosine Similarity: 0.7367647886276245, Manhattan Distance: 3956.111328125
+Keanu Reeves: Euclidean Distance: 131.51922607421875, Cosine Similarity: 0.6967482268810272, Manhattan Distance: 3511.9619140625
+Jerry Seinfeld: Euclidean Distance: 127.16151428222656, Cosine Similarity: 0.7006593644618988, Manhattan Distance: 3431.68994140625
+Kate Beckinsale: Euclidean Distance: 131.54812622070312, Cosine Similarity: 0.723226934671402, Manhattan Distance: 3640.381103515625
+Lauren Cohan: Euclidean Distance: 136.73641967773438, Cosine Similarity: 0.7989869117736816, Manhattan Distance: 3786.13037109375
+Simon Pegg: Euclidean Distance: 133.6829376220703, Cosine Similarity: 0.7308695316314697, Manhattan Distance: 3597.127685546875
+Will Smith: Euclidean Distance: 125.90972137451172, Cosine Similarity: 0.6694964468479156, Manhattan Distance: 3435.22509765625
+Match with Euclidean distance found for Amitabh Bachchan with:  in invited names.
 
 Comparison Results for Andy Samberg:
 Akshay Kumar: Euclidean Distance: 151.75228881835938, Cosine Similarity: 0.686954140663147, Manhattan Distance: 4167.1337890625
@@ -109,6 +141,7 @@ Alexandra Daddario: Euclidean Distance: 135.23875427246094, Cosine Similarity: 0
 Alia Bhatt: Euclidean Distance: 146.8319549560547, Cosine Similarity: 0.740716278553009, Manhattan Distance: 4053.61669921875
 Amitabh Bachchan: Euclidean Distance: 133.77626037597656, Cosine Similarity: 0.6443457007408142, Manhattan Distance: 3637.365234375
 Andy Samberg: Euclidean Distance: 100.57379150390625, Cosine Similarity: 0.29523342847824097, Manhattan Distance: 2589.8076171875
+TP: Andy Samberg is registered and matches w/ registered faces Andy Samberg
 Anushka Sharma: Euclidean Distance: 141.79307556152344, Cosine Similarity: 0.6331627666950226, Manhattan Distance: 3904.58544921875
 Billie Eilish: Euclidean Distance: 152.2571258544922, Cosine Similarity: 0.7957454025745392, Manhattan Distance: 4159.9501953125
 Brad Pitt: Euclidean Distance: 138.26646423339844, Cosine Similarity: 0.6048450767993927, Manhattan Distance: 3835.85498046875
@@ -125,9 +158,16 @@ Hugh Jackman: Euclidean Distance: 137.19700622558594, Cosine Similarity: 0.63598
 Jessica Alba: Euclidean Distance: 152.56134033203125, Cosine Similarity: 0.7090698480606079, Manhattan Distance: 4285.37939453125
 Kashyap: Euclidean Distance: 156.6603546142578, Cosine Similarity: 0.7276285886764526, Manhattan Distance: 4374.11669921875
 Lisa Kudrow: Euclidean Distance: 143.4069366455078, Cosine Similarity: 0.6772849857807159, Manhattan Distance: 3893.273681640625
-Match with Euclidean distance found for Andy Samberg in invited names.
-Match with Cosine similarity found for Andy Samberg in invited names.
-Match with Manhattan distance found for Andy Samberg in invited names.
+Anne Hathaway: Euclidean Distance: 138.2398223876953, Cosine Similarity: 0.6502023637294769, Manhattan Distance: 3761.45751953125
+Arnold Schwarzenegger: Euclidean Distance: 152.79576110839844, Cosine Similarity: 0.7874554842710495, Manhattan Distance: 4383.83251953125
+Ben Afflek: Euclidean Distance: 131.5718994140625, Cosine Similarity: 0.5542981326580048, Manhattan Distance: 3540.24365234375
+Keanu Reeves: Euclidean Distance: 126.5350341796875, Cosine Similarity: 0.5490646958351135, Manhattan Distance: 3382.663818359375
+Jerry Seinfeld: Euclidean Distance: 137.55758666992188, Cosine Similarity: 0.6898472011089325, Manhattan Distance: 3812.31640625
+Kate Beckinsale: Euclidean Distance: 139.23170471191406, Cosine Similarity: 0.6870073676109314, Manhattan Distance: 3964.5048828125
+Lauren Cohan: Euclidean Distance: 136.962646484375, Cosine Similarity: 0.6759428083896637, Manhattan Distance: 3844.27392578125
+Simon Pegg: Euclidean Distance: 142.62669372558594, Cosine Similarity: 0.7091378271579742, Manhattan Distance: 3939.1484375
+Will Smith: Euclidean Distance: 141.04946899414062, Cosine Similarity: 0.7115730345249176, Manhattan Distance: 3872.59228515625
+Match with Euclidean distance found for Andy Samberg with:  in invited names.
 
 Comparison Results for Anushka Sharma:
 Akshay Kumar: Euclidean Distance: 143.98626708984375, Cosine Similarity: 0.6475791931152344, Manhattan Distance: 3867.13232421875
@@ -136,6 +176,7 @@ Alia Bhatt: Euclidean Distance: 124.78169250488281, Cosine Similarity: 0.5650493
 Amitabh Bachchan: Euclidean Distance: 138.90798950195312, Cosine Similarity: 0.741430401802063, Manhattan Distance: 3747.526611328125
 Andy Samberg: Euclidean Distance: 152.31613159179688, Cosine Similarity: 0.7090210318565369, Manhattan Distance: 4245.5341796875
 Anushka Sharma: Euclidean Distance: 98.26573944091797, Cosine Similarity: 0.31976020336151123, Manhattan Distance: 2519.3466796875
+TP: Anushka Sharma is registered and matches w/ registered faces Anushka Sharma
 Billie Eilish: Euclidean Distance: 146.88055419921875, Cosine Similarity: 0.7830320447683334, Manhattan Distance: 3974.75634765625
 Brad Pitt: Euclidean Distance: 148.61009216308594, Cosine Similarity: 0.7350907623767853, Manhattan Distance: 4178.8603515625
 Camila Cabello: Euclidean Distance: 129.265625, Cosine Similarity: 0.5645426213741302, Manhattan Distance: 3436.492919921875
@@ -151,9 +192,16 @@ Hugh Jackman: Euclidean Distance: 138.9677734375, Cosine Similarity: 0.690611362
 Jessica Alba: Euclidean Distance: 131.67367553710938, Cosine Similarity: 0.5538400709629059, Manhattan Distance: 3527.1025390625
 Kashyap: Euclidean Distance: 144.82843017578125, Cosine Similarity: 0.6508698463439941, Manhattan Distance: 3911.65380859375
 Lisa Kudrow: Euclidean Distance: 136.508056640625, Cosine Similarity: 0.6475226581096649, Manhattan Distance: 3697.55078125
-Match with Euclidean distance found for Anushka Sharma in invited names.
-Match with Cosine similarity found for Anushka Sharma in invited names.
-Match with Manhattan distance found for Anushka Sharma in invited names.
+Anne Hathaway: Euclidean Distance: 138.88937377929688, Cosine Similarity: 0.6949672996997833, Manhattan Distance: 3745.1787109375
+Arnold Schwarzenegger: Euclidean Distance: 147.2783660888672, Cosine Similarity: 0.772688016295433, Manhattan Distance: 4166.4189453125
+Ben Afflek: Euclidean Distance: 142.27857971191406, Cosine Similarity: 0.6828575432300568, Manhattan Distance: 4043.488525390625
+Keanu Reeves: Euclidean Distance: 131.34190368652344, Cosine Similarity: 0.6285170316696167, Manhattan Distance: 3516.462646484375
+Jerry Seinfeld: Euclidean Distance: 136.5441436767578, Cosine Similarity: 0.7243974208831787, Manhattan Distance: 3823.885986328125
+Kate Beckinsale: Euclidean Distance: 140.15052795410156, Cosine Similarity: 0.7398484945297241, Manhattan Distance: 3878.62939453125
+Lauren Cohan: Euclidean Distance: 141.51968383789062, Cosine Similarity: 0.769401878118515, Manhattan Distance: 3932.562744140625
+Simon Pegg: Euclidean Distance: 134.20989990234375, Cosine Similarity: 0.6651307642459869, Manhattan Distance: 3628.675048828125
+Will Smith: Euclidean Distance: 140.9235076904297, Cosine Similarity: 0.7551550567150116, Manhattan Distance: 3882.060302734375
+Match with Euclidean distance found for Anushka Sharma with:  in invited names.
 
 Comparison Results for Billie Eilish:
 Akshay Kumar: Euclidean Distance: 148.98275756835938, Cosine Similarity: 0.7592297047376633, Manhattan Distance: 3995.527587890625
@@ -163,6 +211,7 @@ Amitabh Bachchan: Euclidean Distance: 132.2189483642578, Cosine Similarity: 0.75
 Andy Samberg: Euclidean Distance: 146.98765563964844, Cosine Similarity: 0.7201047837734222, Manhattan Distance: 4032.0361328125
 Anushka Sharma: Euclidean Distance: 131.53868103027344, Cosine Similarity: 0.6309712827205658, Manhattan Distance: 3428.0458984375
 Billie Eilish: Euclidean Distance: 85.79916381835938, Cosine Similarity: 0.29861778020858765, Manhattan Distance: 2089.949951171875
+TP: Billie Eilish is registered and matches w/ registered faces Billie Eilish
 Brad Pitt: Euclidean Distance: 146.16592407226562, Cosine Similarity: 0.7851455062627792, Manhattan Distance: 3995.2275390625
 Camila Cabello: Euclidean Distance: 127.31849670410156, Cosine Similarity: 0.6049677133560181, Manhattan Distance: 3308.54345703125
 Charlize Theron: Euclidean Distance: 133.97608947753906, Cosine Similarity: 0.6489956080913544, Manhattan Distance: 3564.8955078125
@@ -177,9 +226,16 @@ Hugh Jackman: Euclidean Distance: 133.7643280029297, Cosine Similarity: 0.714052
 Jessica Alba: Euclidean Distance: 130.42189025878906, Cosine Similarity: 0.5944109559059143, Manhattan Distance: 3464.281005859375
 Kashyap: Euclidean Distance: 146.5146484375, Cosine Similarity: 0.7282982468605042, Manhattan Distance: 4049.63623046875
 Lisa Kudrow: Euclidean Distance: 141.1983642578125, Cosine Similarity: 0.7696788907051086, Manhattan Distance: 3834.0712890625
-Match with Euclidean distance found for Billie Eilish in invited names.
-Match with Cosine similarity found for Billie Eilish in invited names.
-Match with Manhattan distance found for Billie Eilish in invited names.
+Anne Hathaway: Euclidean Distance: 128.4464874267578, Cosine Similarity: 0.6641097068786621, Manhattan Distance: 3315.30859375
+Arnold Schwarzenegger: Euclidean Distance: 130.72129821777344, Cosine Similarity: 0.67852583527565, Manhattan Distance: 3561.6669921875
+Ben Afflek: Euclidean Distance: 142.5430908203125, Cosine Similarity: 0.7579934746026993, Manhattan Distance: 3935.39013671875
+Keanu Reeves: Euclidean Distance: 139.24960327148438, Cosine Similarity: 0.7915785163640976, Manhattan Distance: 3747.36083984375
+Jerry Seinfeld: Euclidean Distance: 131.95782470703125, Cosine Similarity: 0.7660150825977325, Manhattan Distance: 3642.265380859375
+Kate Beckinsale: Euclidean Distance: 121.2229995727539, Cosine Similarity: 0.622800886631012, Manhattan Distance: 3219.214111328125
+Lauren Cohan: Euclidean Distance: 125.20347595214844, Cosine Similarity: 0.6794122457504272, Manhattan Distance: 3301.078369140625
+Simon Pegg: Euclidean Distance: 130.86129760742188, Cosine Similarity: 0.7099688053131104, Manhattan Distance: 3472.92236328125
+Will Smith: Euclidean Distance: 137.583740234375, Cosine Similarity: 0.8111216723918915, Manhattan Distance: 3738.729736328125
+Match with Euclidean distance found for Billie Eilish with:  in invited names.
 
 Comparison Results for Brad Pitt:
 Akshay Kumar: Euclidean Distance: 156.12030029296875, Cosine Similarity: 0.7844524383544922, Manhattan Distance: 4287.48046875
@@ -190,6 +246,7 @@ Andy Samberg: Euclidean Distance: 144.40638732910156, Cosine Similarity: 0.65499
 Anushka Sharma: Euclidean Distance: 143.5374298095703, Cosine Similarity: 0.7041946649551392, Manhattan Distance: 3979.087890625
 Billie Eilish: Euclidean Distance: 143.4175262451172, Cosine Similarity: 0.7736926674842834, Manhattan Distance: 3877.34521484375
 Brad Pitt: Euclidean Distance: 112.97016143798828, Cosine Similarity: 0.438315749168396, Manhattan Distance: 2951.28564453125
+TP: Brad Pitt is registered and matches w/ registered faces Brad Pitt
 Camila Cabello: Euclidean Distance: 144.98802185058594, Cosine Similarity: 0.7337490022182465, Manhattan Distance: 3885.266357421875
 Charlize Theron: Euclidean Distance: 131.16004943847656, Cosine Similarity: 0.5831420123577118, Manhattan Distance: 3544.3408203125
 Claire Holt: Euclidean Distance: 141.29092407226562, Cosine Similarity: 0.6617428958415985, Manhattan Distance: 3777.066162109375
@@ -203,9 +260,16 @@ Hugh Jackman: Euclidean Distance: 117.00939178466797, Cosine Similarity: 0.50701
 Jessica Alba: Euclidean Distance: 149.60072326660156, Cosine Similarity: 0.7370565831661224, Manhattan Distance: 4203.5634765625
 Kashyap: Euclidean Distance: 149.8191680908203, Cosine Similarity: 0.717112809419632, Manhattan Distance: 4144.326171875
 Lisa Kudrow: Euclidean Distance: 133.81546020507812, Cosine Similarity: 0.6437590420246124, Manhattan Distance: 3636.60791015625
-Match with Euclidean distance found for Brad Pitt in invited names.
-Match with Cosine similarity found for Brad Pitt in invited names.
-Match with Manhattan distance found for Brad Pitt in invited names.
+Anne Hathaway: Euclidean Distance: 137.19400024414062, Cosine Similarity: 0.7028179466724396, Manhattan Distance: 3734.020263671875
+Arnold Schwarzenegger: Euclidean Distance: 128.25453186035156, Cosine Similarity: 0.6066364943981171, Manhattan Distance: 3505.35107421875
+Ben Afflek: Euclidean Distance: 133.31292724609375, Cosine Similarity: 0.6192704737186432, Manhattan Distance: 3521.16845703125
+Keanu Reeves: Euclidean Distance: 139.08644104003906, Cosine Similarity: 0.7315856218338013, Manhattan Distance: 3827.977783203125
+Jerry Seinfeld: Euclidean Distance: 126.74617004394531, Cosine Similarity: 0.6483948826789856, Manhattan Distance: 3422.974609375
+Kate Beckinsale: Euclidean Distance: 135.0605926513672, Cosine Similarity: 0.7133992612361908, Manhattan Distance: 3752.6015625
+Lauren Cohan: Euclidean Distance: 135.56430053710938, Cosine Similarity: 0.7334477007389069, Manhattan Distance: 3738.29443359375
+Simon Pegg: Euclidean Distance: 138.56289672851562, Cosine Similarity: 0.7362777292728424, Manhattan Distance: 3783.187255859375
+Will Smith: Euclidean Distance: 134.79615783691406, Cosine Similarity: 0.7175118327140808, Manhattan Distance: 3714.96240234375
+Match with Euclidean distance found for Brad Pitt with:  in invited names.
 
 Comparison Results for Camila Cabello:
 Akshay Kumar: Euclidean Distance: 146.5164337158203, Cosine Similarity: 0.7690762579441071, Manhattan Distance: 4110.4794921875
@@ -217,6 +281,7 @@ Anushka Sharma: Euclidean Distance: 139.43597412109375, Cosine Similarity: 0.746
 Billie Eilish: Euclidean Distance: 120.11202239990234, Cosine Similarity: 0.6197258234024048, Manhattan Distance: 3254.416015625
 Brad Pitt: Euclidean Distance: 135.07688903808594, Cosine Similarity: 0.7041051089763641, Manhattan Distance: 3715.859619140625
 Camila Cabello: Euclidean Distance: 109.02616119384766, Cosine Similarity: 0.4632800221443176, Manhattan Distance: 2803.350830078125
+TP: Camila Cabello is registered and matches w/ registered faces Camila Cabello
 Charlize Theron: Euclidean Distance: 134.7656707763672, Cosine Similarity: 0.6896563768386841, Manhattan Distance: 3704.2607421875
 Claire Holt: Euclidean Distance: 129.54991149902344, Cosine Similarity: 0.6185929775238037, Manhattan Distance: 3561.4267578125
 Courtney Cox: Euclidean Distance: 133.83541870117188, Cosine Similarity: 0.7492994666099548, Manhattan Distance: 3785.93359375
@@ -229,9 +294,16 @@ Hugh Jackman: Euclidean Distance: 132.6148223876953, Cosine Similarity: 0.742651
 Jessica Alba: Euclidean Distance: 129.36288452148438, Cosine Similarity: 0.6114727556705475, Manhattan Distance: 3548.0859375
 Kashyap: Euclidean Distance: 136.81378173828125, Cosine Similarity: 0.661618173122406, Manhattan Distance: 3790.645263671875
 Lisa Kudrow: Euclidean Distance: 136.8206024169922, Cosine Similarity: 0.762876495718956, Manhattan Distance: 3783.434814453125
-Match with Euclidean distance found for Camila Cabello in invited names.
-Match with Cosine similarity found for Camila Cabello in invited names.
-Match with Manhattan distance found for Camila Cabello in invited names.
+Anne Hathaway: Euclidean Distance: 113.95144653320312, Cosine Similarity: 0.552543044090271, Manhattan Distance: 3055.9892578125
+Arnold Schwarzenegger: Euclidean Distance: 130.10223388671875, Cosine Similarity: 0.7107618451118469, Manhattan Distance: 3677.202880859375
+Ben Afflek: Euclidean Distance: 137.9828338623047, Cosine Similarity: 0.7477262020111084, Manhattan Distance: 3997.77294921875
+Keanu Reeves: Euclidean Distance: 133.8798065185547, Cosine Similarity: 0.7757635414600372, Manhattan Distance: 3773.849609375
+Jerry Seinfeld: Euclidean Distance: 122.29459381103516, Cosine Similarity: 0.7018927335739136, Manhattan Distance: 3461.83837890625
+Kate Beckinsale: Euclidean Distance: 122.47655487060547, Cosine Similarity: 0.6760834157466888, Manhattan Distance: 3419.6181640625
+Lauren Cohan: Euclidean Distance: 112.44947052001953, Cosine Similarity: 0.5840359330177307, Manhattan Distance: 3075.3330078125
+Simon Pegg: Euclidean Distance: 123.32691192626953, Cosine Similarity: 0.669142335653305, Manhattan Distance: 3452.328125
+Will Smith: Euclidean Distance: 129.12319946289062, Cosine Similarity: 0.7603882253170013, Manhattan Distance: 3604.6650390625
+Match with Euclidean distance found for Camila Cabello with:  in invited names.
 
 Comparison Results for Charlize Theron:
 Akshay Kumar: Euclidean Distance: 152.71701049804688, Cosine Similarity: 0.7282373607158661, Manhattan Distance: 4078.38818359375
@@ -244,6 +316,7 @@ Billie Eilish: Euclidean Distance: 140.45028686523438, Cosine Similarity: 0.7150
 Brad Pitt: Euclidean Distance: 147.44845581054688, Cosine Similarity: 0.7231093943119049, Manhattan Distance: 4103.75341796875
 Camila Cabello: Euclidean Distance: 147.92930603027344, Cosine Similarity: 0.7388039231300354, Manhattan Distance: 3965.93017578125
 Charlize Theron: Euclidean Distance: 112.10186767578125, Cosine Similarity: 0.41267281770706177, Manhattan Distance: 2879.299072265625
+TP: Charlize Theron is registered and matches w/ registered faces Charlize Theron
 Claire Holt: Euclidean Distance: 128.89572143554688, Cosine Similarity: 0.5338873863220215, Manhattan Distance: 3399.10009765625
 Courtney Cox: Euclidean Distance: 115.29630279541016, Cosine Similarity: 0.47071754932403564, Manhattan Distance: 3002.591064453125
 Dwayne Johnson: Euclidean Distance: 145.50509643554688, Cosine Similarity: 0.7387546002864838, Manhattan Distance: 3929.2734375
@@ -255,9 +328,16 @@ Hugh Jackman: Euclidean Distance: 137.74249267578125, Cosine Similarity: 0.67787
 Jessica Alba: Euclidean Distance: 142.08155822753906, Cosine Similarity: 0.6445441842079163, Manhattan Distance: 3828.7822265625
 Kashyap: Euclidean Distance: 152.6188201904297, Cosine Similarity: 0.7225420773029327, Manhattan Distance: 4214.37451171875
 Lisa Kudrow: Euclidean Distance: 132.20816040039062, Cosine Similarity: 0.6068322062492371, Manhattan Distance: 3494.367431640625
-Match with Euclidean distance found for Charlize Theron in invited names.
-Match with Cosine similarity found for Charlize Theron in invited names.
-Match with Manhattan distance found for Charlize Theron in invited names.
+Anne Hathaway: Euclidean Distance: 143.17832946777344, Cosine Similarity: 0.7381571531295776, Manhattan Distance: 3886.896728515625
+Arnold Schwarzenegger: Euclidean Distance: 145.03089904785156, Cosine Similarity: 0.7486039996147156, Manhattan Distance: 4044.013916015625
+Ben Afflek: Euclidean Distance: 141.7606658935547, Cosine Similarity: 0.6773841381072998, Manhattan Distance: 3876.37255859375
+Keanu Reeves: Euclidean Distance: 142.42599487304688, Cosine Similarity: 0.7392753064632416, Manhattan Distance: 3836.0712890625
+Jerry Seinfeld: Euclidean Distance: 136.88490295410156, Cosine Similarity: 0.7274144887924194, Manhattan Distance: 3741.3955078125
+Kate Beckinsale: Euclidean Distance: 134.35589599609375, Cosine Similarity: 0.6785897016525269, Manhattan Distance: 3621.66015625
+Lauren Cohan: Euclidean Distance: 133.85267639160156, Cosine Similarity: 0.6863333880901337, Manhattan Distance: 3643.808349609375
+Simon Pegg: Euclidean Distance: 128.1396484375, Cosine Similarity: 0.6052331626415253, Manhattan Distance: 3343.352294921875
+Will Smith: Euclidean Distance: 140.90756225585938, Cosine Similarity: 0.754307210445404, Manhattan Distance: 3819.30029296875
+Match with Euclidean distance found for Charlize Theron with:  in invited names.
 
 Comparison Results for Claire Holt:
 Akshay Kumar: Euclidean Distance: 151.5340576171875, Cosine Similarity: 0.7621077746152878, Manhattan Distance: 4199.5791015625
@@ -271,6 +351,7 @@ Brad Pitt: Euclidean Distance: 141.32028198242188, Cosine Similarity: 0.70968249
 Camila Cabello: Euclidean Distance: 130.08401489257812, Cosine Similarity: 0.6110698580741882, Manhattan Distance: 3458.30224609375
 Charlize Theron: Euclidean Distance: 130.8125762939453, Cosine Similarity: 0.5991440415382385, Manhattan Distance: 3523.857421875
 Claire Holt: Euclidean Distance: 96.9131088256836, Cosine Similarity: 0.31856411695480347, Manhattan Distance: 2580.49609375
+TP: Claire Holt is registered and matches w/ registered faces Claire Holt
 Courtney Cox: Euclidean Distance: 121.6252670288086, Cosine Similarity: 0.5642464756965637, Manhattan Distance: 3273.31494140625
 Dwayne Johnson: Euclidean Distance: 136.6465606689453, Cosine Similarity: 0.699440985918045, Manhattan Distance: 3786.5263671875
 Elizabeth Olsen: Euclidean Distance: 119.94126892089844, Cosine Similarity: 0.4929925203323364, Manhattan Distance: 3223.640869140625
@@ -281,9 +362,16 @@ Hugh Jackman: Euclidean Distance: 134.48728942871094, Cosine Similarity: 0.69568
 Jessica Alba: Euclidean Distance: 128.5413360595703, Cosine Similarity: 0.5602638423442841, Manhattan Distance: 3536.2548828125
 Kashyap: Euclidean Distance: 146.57650756835938, Cosine Similarity: 0.7073785364627838, Manhattan Distance: 4112.4169921875
 Lisa Kudrow: Euclidean Distance: 137.48837280273438, Cosine Similarity: 0.7043807208538055, Manhattan Distance: 3787.16064453125
-Match with Euclidean distance found for Claire Holt in invited names.
-Match with Cosine similarity found for Claire Holt in invited names.
-Match with Manhattan distance found for Claire Holt in invited names.
+Anne Hathaway: Euclidean Distance: 130.19825744628906, Cosine Similarity: 0.6573939025402069, Manhattan Distance: 3487.932861328125
+Arnold Schwarzenegger: Euclidean Distance: 134.12840270996094, Cosine Similarity: 0.6887270510196686, Manhattan Distance: 3750.51123046875
+Ben Afflek: Euclidean Distance: 141.95262145996094, Cosine Similarity: 0.7266750931739807, Manhattan Distance: 4053.35498046875
+Keanu Reeves: Euclidean Distance: 133.5698699951172, Cosine Similarity: 0.7011575698852539, Manhattan Distance: 3640.364501953125
+Jerry Seinfeld: Euclidean Distance: 125.05657958984375, Cosine Similarity: 0.6590830087661743, Manhattan Distance: 3491.26025390625
+Kate Beckinsale: Euclidean Distance: 121.7978744506836, Cosine Similarity: 0.603791743516922, Manhattan Distance: 3308.5009765625
+Lauren Cohan: Euclidean Distance: 120.0751724243164, Cosine Similarity: 0.5990704596042633, Manhattan Distance: 3291.330078125
+Simon Pegg: Euclidean Distance: 124.55842590332031, Cosine Similarity: 0.6186200976371765, Manhattan Distance: 3383.31787109375
+Will Smith: Euclidean Distance: 137.0718536376953, Cosine Similarity: 0.7732234299182892, Manhattan Distance: 3810.593017578125
+Match with Euclidean distance found for Claire Holt with:  in invited names.
 
 Comparison Results for Courtney Cox:
 Akshay Kumar: Euclidean Distance: 153.56590270996094, Cosine Similarity: 0.7125619649887085, Manhattan Distance: 4297.4912109375
@@ -298,6 +386,7 @@ Camila Cabello: Euclidean Distance: 141.06631469726562, Cosine Similarity: 0.647
 Charlize Theron: Euclidean Distance: 130.88499450683594, Cosine Similarity: 0.5431125164031982, Manhattan Distance: 3601.398193359375
 Claire Holt: Euclidean Distance: 133.88729858398438, Cosine Similarity: 0.5568630695343018, Manhattan Distance: 3725.6396484375
 Courtney Cox: Euclidean Distance: 114.07688903808594, Cosine Similarity: 0.4419238567352295, Manhattan Distance: 3136.489990234375
+TP: Courtney Cox is registered and matches w/ registered faces Courtney Cox
 Dwayne Johnson: Euclidean Distance: 135.29470825195312, Cosine Similarity: 0.6142646968364716, Manhattan Distance: 3815.1728515625
 Elizabeth Olsen: Euclidean Distance: 140.4675750732422, Cosine Similarity: 0.6151938736438751, Manhattan Distance: 3960.40087890625
 Ellen Degeneres: Euclidean Distance: 143.94400024414062, Cosine Similarity: 0.7200675308704376, Manhattan Distance: 4139.2880859375
@@ -307,9 +396,16 @@ Hugh Jackman: Euclidean Distance: 134.2054443359375, Cosine Similarity: 0.617944
 Jessica Alba: Euclidean Distance: 149.53781127929688, Cosine Similarity: 0.6903103291988373, Manhattan Distance: 4280.63720703125
 Kashyap: Euclidean Distance: 151.19810485839844, Cosine Similarity: 0.6864289343357086, Manhattan Distance: 4272.47265625
 Lisa Kudrow: Euclidean Distance: 133.36318969726562, Cosine Similarity: 0.5941228866577148, Manhattan Distance: 3647.3037109375
-Match with Euclidean distance found for Courtney Cox in invited names.
-Match with Cosine similarity found for Courtney Cox in invited names.
-Match with Manhattan distance found for Courtney Cox in invited names.
+Anne Hathaway: Euclidean Distance: 130.82241821289062, Cosine Similarity: 0.5908859670162201, Manhattan Distance: 3587.99267578125
+Arnold Schwarzenegger: Euclidean Distance: 137.33383178710938, Cosine Similarity: 0.6448014080524445, Manhattan Distance: 3941.57861328125
+Ben Afflek: Euclidean Distance: 135.96510314941406, Cosine Similarity: 0.6006685495376587, Manhattan Distance: 3788.929931640625
+Keanu Reeves: Euclidean Distance: 136.87802124023438, Cosine Similarity: 0.6548359990119934, Manhattan Distance: 3798.327880859375
+Jerry Seinfeld: Euclidean Distance: 131.38198852539062, Cosine Similarity: 0.6386443376541138, Manhattan Distance: 3653.6142578125
+Kate Beckinsale: Euclidean Distance: 130.6987762451172, Cosine Similarity: 0.6139596402645111, Manhattan Distance: 3627.30517578125
+Lauren Cohan: Euclidean Distance: 132.0479278564453, Cosine Similarity: 0.6380612254142761, Manhattan Distance: 3692.432861328125
+Simon Pegg: Euclidean Distance: 141.69142150878906, Cosine Similarity: 0.7112091779708862, Manhattan Distance: 4073.6650390625
+Will Smith: Euclidean Distance: 134.29896545410156, Cosine Similarity: 0.6546105444431305, Manhattan Distance: 3744.684326171875
+Match with Euclidean distance found for Courtney Cox with:  in invited names.
 
 Comparison Results for Dwayne Johnson:
 Akshay Kumar: Euclidean Distance: 141.29417419433594, Cosine Similarity: 0.661513090133667, Manhattan Distance: 3712.65478515625
@@ -325,6 +421,7 @@ Charlize Theron: Euclidean Distance: 148.0878448486328, Cosine Similarity: 0.768
 Claire Holt: Euclidean Distance: 142.08355712890625, Cosine Similarity: 0.6909279227256775, Manhattan Distance: 3839.619140625
 Courtney Cox: Euclidean Distance: 139.17811584472656, Cosine Similarity: 0.7389177680015564, Manhattan Distance: 3760.80859375
 Dwayne Johnson: Euclidean Distance: 66.81293487548828, Cosine Similarity: 0.16706591844558716, Manhattan Distance: 1706.751220703125
+TP: Dwayne Johnson is registered and matches w/ registered faces Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 144.86434936523438, Cosine Similarity: 0.7214918732643127, Manhattan Distance: 3966.397705078125
 Ellen Degeneres: Euclidean Distance: 136.3402862548828, Cosine Similarity: 0.7247118055820465, Manhattan Distance: 3770.50732421875
 Henry Cavill: Euclidean Distance: 130.59303283691406, Cosine Similarity: 0.6254735291004181, Manhattan Distance: 3676.60791015625
@@ -333,9 +430,16 @@ Hugh Jackman: Euclidean Distance: 129.5013427734375, Cosine Similarity: 0.645107
 Jessica Alba: Euclidean Distance: 151.100341796875, Cosine Similarity: 0.7765220999717712, Manhattan Distance: 4212.2568359375
 Kashyap: Euclidean Distance: 139.94544982910156, Cosine Similarity: 0.6440345942974091, Manhattan Distance: 3672.73388671875
 Lisa Kudrow: Euclidean Distance: 137.540771484375, Cosine Similarity: 0.7049687802791595, Manhattan Distance: 3616.2529296875
-Match with Euclidean distance found for Dwayne Johnson in invited names.
-Match with Cosine similarity found for Dwayne Johnson in invited names.
-Match with Manhattan distance found for Dwayne Johnson in invited names.
+Anne Hathaway: Euclidean Distance: 135.35804748535156, Cosine Similarity: 0.7105939388275146, Manhattan Distance: 3652.5908203125
+Arnold Schwarzenegger: Euclidean Distance: 137.2344970703125, Cosine Similarity: 0.721048891544342, Manhattan Distance: 3788.127685546875
+Ben Afflek: Euclidean Distance: 138.35116577148438, Cosine Similarity: 0.6902375519275665, Manhattan Distance: 3766.97119140625
+Keanu Reeves: Euclidean Distance: 128.99435424804688, Cosine Similarity: 0.6539680361747742, Manhattan Distance: 3431.8603515625
+Jerry Seinfeld: Euclidean Distance: 118.60543060302734, Cosine Similarity: 0.5923315286636353, Manhattan Distance: 3172.692626953125
+Kate Beckinsale: Euclidean Distance: 130.01583862304688, Cosine Similarity: 0.6883772909641266, Manhattan Distance: 3553.12548828125
+Lauren Cohan: Euclidean Distance: 128.26025390625, Cosine Similarity: 0.6841504871845245, Manhattan Distance: 3503.788818359375
+Simon Pegg: Euclidean Distance: 125.99665069580078, Cosine Similarity: 0.6330606937408447, Manhattan Distance: 3335.27783203125
+Will Smith: Euclidean Distance: 124.13555908203125, Cosine Similarity: 0.6336812674999237, Manhattan Distance: 3217.93603515625
+Match with Euclidean distance found for Dwayne Johnson with:  in invited names.
 
 Comparison Results for Elizabeth Olsen:
 Akshay Kumar: Euclidean Distance: 151.0275421142578, Cosine Similarity: 0.7437706291675568, Manhattan Distance: 4048.21875
@@ -352,6 +456,7 @@ Claire Holt: Euclidean Distance: 122.78306579589844, Cosine Similarity: 0.505851
 Courtney Cox: Euclidean Distance: 131.04641723632812, Cosine Similarity: 0.6414600908756256, Manhattan Distance: 3477.7001953125
 Dwayne Johnson: Euclidean Distance: 143.46844482421875, Cosine Similarity: 0.7554439157247543, Manhattan Distance: 3971.814453125
 Elizabeth Olsen: Euclidean Distance: 86.6147689819336, Cosine Similarity: 0.2512394189834595, Manhattan Distance: 2273.001953125
+TP: Elizabeth Olsen is registered and matches w/ registered faces Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 137.45606994628906, Cosine Similarity: 0.7208513021469116, Manhattan Distance: 3820.39697265625
 Henry Cavill: Euclidean Distance: 133.9030303955078, Cosine Similarity: 0.6447106599807739, Manhattan Distance: 3769.473388671875
 Hrithik Roshan: Euclidean Distance: 135.1108856201172, Cosine Similarity: 0.6225465536117554, Manhattan Distance: 3611.35205078125
@@ -359,9 +464,16 @@ Hugh Jackman: Euclidean Distance: 133.16006469726562, Cosine Similarity: 0.66771
 Jessica Alba: Euclidean Distance: 135.72311401367188, Cosine Similarity: 0.6144294142723083, Manhattan Distance: 3685.5224609375
 Kashyap: Euclidean Distance: 154.18255615234375, Cosine Similarity: 0.77006034553051, Manhattan Distance: 4328.04296875
 Lisa Kudrow: Euclidean Distance: 137.8782196044922, Cosine Similarity: 0.6941710114479065, Manhattan Distance: 3729.71875
-Match with Euclidean distance found for Elizabeth Olsen in invited names.
-Match with Cosine similarity found for Elizabeth Olsen in invited names.
-Match with Manhattan distance found for Elizabeth Olsen in invited names.
+Anne Hathaway: Euclidean Distance: 134.11476135253906, Cosine Similarity: 0.6827396154403687, Manhattan Distance: 3611.36279296875
+Arnold Schwarzenegger: Euclidean Distance: 136.43186950683594, Cosine Similarity: 0.6977449357509613, Manhattan Distance: 3814.184814453125
+Ben Afflek: Euclidean Distance: 139.35240173339844, Cosine Similarity: 0.6868106126785278, Manhattan Distance: 3861.753662109375
+Keanu Reeves: Euclidean Distance: 141.8158721923828, Cosine Similarity: 0.7734515368938446, Manhattan Distance: 3899.94140625
+Jerry Seinfeld: Euclidean Distance: 134.72084045410156, Cosine Similarity: 0.7475643157958984, Manhattan Distance: 3738.71337890625
+Kate Beckinsale: Euclidean Distance: 130.908447265625, Cosine Similarity: 0.6819069683551788, Manhattan Distance: 3522.39794921875
+Lauren Cohan: Euclidean Distance: 125.79194641113281, Cosine Similarity: 0.6422235667705536, Manhattan Distance: 3354.038818359375
+Simon Pegg: Euclidean Distance: 131.06163024902344, Cosine Similarity: 0.6698334217071533, Manhattan Distance: 3523.41015625
+Will Smith: Euclidean Distance: 135.31504821777344, Cosine Similarity: 0.7361352443695068, Manhattan Distance: 3705.075439453125
+Match with Euclidean distance found for Elizabeth Olsen with:  in invited names.
 
 Comparison Results for Ellen Degeneres:
 Akshay Kumar: Euclidean Distance: 155.48574829101562, Cosine Similarity: 0.7962458282709122, Manhattan Distance: 4135.7900390625
@@ -379,15 +491,23 @@ Courtney Cox: Euclidean Distance: 124.59751892089844, Cosine Similarity: 0.58644
 Dwayne Johnson: Euclidean Distance: 143.66363525390625, Cosine Similarity: 0.7658611834049225, Manhattan Distance: 3828.6904296875
 Elizabeth Olsen: Euclidean Distance: 142.12095642089844, Cosine Similarity: 0.6883898675441742, Manhattan Distance: 3801.95556640625
 Ellen Degeneres: Euclidean Distance: 75.749267578125, Cosine Similarity: 0.22117304801940918, Manhattan Distance: 1907.2064208984375
+TP: Ellen Degeneres is registered and matches w/ registered faces Ellen Degeneres
 Henry Cavill: Euclidean Distance: 137.77166748046875, Cosine Similarity: 0.6898193359375, Manhattan Distance: 3878.4482421875
 Hrithik Roshan: Euclidean Distance: 148.1029052734375, Cosine Similarity: 0.7560313045978546, Manhattan Distance: 3977.110107421875
 Hugh Jackman: Euclidean Distance: 136.4129180908203, Cosine Similarity: 0.708771288394928, Manhattan Distance: 3651.908447265625
 Jessica Alba: Euclidean Distance: 144.0102081298828, Cosine Similarity: 0.6989430785179138, Manhattan Distance: 3880.491943359375
 Kashyap: Euclidean Distance: 145.09085083007812, Cosine Similarity: 0.6874499917030334, Manhattan Distance: 3951.47314453125
 Lisa Kudrow: Euclidean Distance: 132.29669189453125, Cosine Similarity: 0.6460937559604645, Manhattan Distance: 3457.302734375
-Match with Euclidean distance found for Ellen Degeneres in invited names.
-Match with Cosine similarity found for Ellen Degeneres in invited names.
-Match with Manhattan distance found for Ellen Degeneres in invited names.
+Anne Hathaway: Euclidean Distance: 138.7469482421875, Cosine Similarity: 0.7392100989818573, Manhattan Distance: 3629.214599609375
+Arnold Schwarzenegger: Euclidean Distance: 142.13282775878906, Cosine Similarity: 0.7658931016921997, Manhattan Distance: 3899.17724609375
+Ben Afflek: Euclidean Distance: 139.78173828125, Cosine Similarity: 0.6982829570770264, Manhattan Distance: 3823.233154296875
+Keanu Reeves: Euclidean Distance: 137.82095336914062, Cosine Similarity: 0.7390296459197998, Manhattan Distance: 3659.27490234375
+Jerry Seinfeld: Euclidean Distance: 134.1566162109375, Cosine Similarity: 0.7509123682975769, Manhattan Distance: 3611.35888671875
+Kate Beckinsale: Euclidean Distance: 135.9045867919922, Cosine Similarity: 0.7443506121635437, Manhattan Distance: 3702.765625
+Lauren Cohan: Euclidean Distance: 131.7675323486328, Cosine Similarity: 0.7143459916114807, Manhattan Distance: 3570.9150390625
+Simon Pegg: Euclidean Distance: 133.46783447265625, Cosine Similarity: 0.7031193673610687, Manhattan Distance: 3547.605712890625
+Will Smith: Euclidean Distance: 134.39382934570312, Cosine Similarity: 0.7352257072925568, Manhattan Distance: 3586.477783203125
+Match with Euclidean distance found for Ellen Degeneres with:  in invited names.
 
 Comparison Results for Henry Cavill:
 Akshay Kumar: Euclidean Distance: 153.1014862060547, Cosine Similarity: 0.7569408565759659, Manhattan Distance: 4228.927734375
@@ -406,14 +526,22 @@ Dwayne Johnson: Euclidean Distance: 138.27854919433594, Cosine Similarity: 0.693
 Elizabeth Olsen: Euclidean Distance: 138.38575744628906, Cosine Similarity: 0.6396483480930328, Manhattan Distance: 3872.69580078125
 Ellen Degeneres: Euclidean Distance: 132.0596923828125, Cosine Similarity: 0.6572060286998749, Manhattan Distance: 3705.719482421875
 Henry Cavill: Euclidean Distance: 102.52552795410156, Cosine Similarity: 0.3737451434135437, Manhattan Distance: 2806.89013671875
+TP: Henry Cavill is registered and matches w/ registered faces Henry Cavill
 Hrithik Roshan: Euclidean Distance: 138.85240173339844, Cosine Similarity: 0.6508643329143524, Manhattan Distance: 3779.137939453125
 Hugh Jackman: Euclidean Distance: 120.56773376464844, Cosine Similarity: 0.5407420694828033, Manhattan Distance: 3224.36865234375
 Jessica Alba: Euclidean Distance: 142.84915161132812, Cosine Similarity: 0.6742372512817383, Manhattan Distance: 4000.377685546875
 Kashyap: Euclidean Distance: 148.92864990234375, Cosine Similarity: 0.7110476791858673, Manhattan Distance: 4211.7958984375
 Lisa Kudrow: Euclidean Distance: 133.79051208496094, Cosine Similarity: 0.6461810171604156, Manhattan Distance: 3693.3291015625
-Match with Euclidean distance found for Henry Cavill in invited names.
-Match with Cosine similarity found for Henry Cavill in invited names.
-Match with Manhattan distance found for Henry Cavill in invited names.
+Anne Hathaway: Euclidean Distance: 139.19093322753906, Cosine Similarity: 0.726618230342865, Manhattan Distance: 3877.867919921875
+Arnold Schwarzenegger: Euclidean Distance: 127.07257843017578, Cosine Similarity: 0.5980707108974457, Manhattan Distance: 3494.9619140625
+Ben Afflek: Euclidean Distance: 121.66248321533203, Cosine Similarity: 0.5177416801452637, Manhattan Distance: 3290.82080078125
+Keanu Reeves: Euclidean Distance: 136.33602905273438, Cosine Similarity: 0.7059870660305023, Manhattan Distance: 3756.947265625
+Jerry Seinfeld: Euclidean Distance: 125.24419403076172, Cosine Similarity: 0.6360766291618347, Manhattan Distance: 3472.6044921875
+Kate Beckinsale: Euclidean Distance: 132.8336181640625, Cosine Similarity: 0.6931419670581818, Manhattan Distance: 3780.619873046875
+Lauren Cohan: Euclidean Distance: 133.57089233398438, Cosine Similarity: 0.7152480185031891, Manhattan Distance: 3781.032958984375
+Simon Pegg: Euclidean Distance: 130.2477569580078, Cosine Similarity: 0.6531764268875122, Manhattan Distance: 3502.56787109375
+Will Smith: Euclidean Distance: 135.18370056152344, Cosine Similarity: 0.7251065969467163, Manhattan Distance: 3780.36669921875
+Match with Euclidean distance found for Henry Cavill with:  in invited names.
 
 Comparison Results for Hrithik Roshan:
 Akshay Kumar: Euclidean Distance: 136.94195556640625, Cosine Similarity: 0.6235869824886322, Manhattan Distance: 3576.697265625
@@ -433,13 +561,21 @@ Elizabeth Olsen: Euclidean Distance: 139.55078125, Cosine Similarity: 0.67230862
 Ellen Degeneres: Euclidean Distance: 129.81646728515625, Cosine Similarity: 0.6606917381286621, Manhattan Distance: 3507.885498046875
 Henry Cavill: Euclidean Distance: 127.68209075927734, Cosine Similarity: 0.6009070873260498, Manhattan Distance: 3550.679443359375
 Hrithik Roshan: Euclidean Distance: 95.20614624023438, Cosine Similarity: 0.31398916244506836, Manhattan Distance: 2485.484619140625
+TP: Hrithik Roshan is registered and matches w/ registered faces Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 124.06291198730469, Cosine Similarity: 0.595321923494339, Manhattan Distance: 3277.91552734375
 Jessica Alba: Euclidean Distance: 135.11936950683594, Cosine Similarity: 0.6225574612617493, Manhattan Distance: 3695.7099609375
 Kashyap: Euclidean Distance: 136.06634521484375, Cosine Similarity: 0.6109340786933899, Manhattan Distance: 3627.24560546875
 Lisa Kudrow: Euclidean Distance: 137.97454833984375, Cosine Similarity: 0.7131590247154236, Manhattan Distance: 3691.58154296875
-Match with Euclidean distance found for Hrithik Roshan in invited names.
-Match with Cosine similarity found for Hrithik Roshan in invited names.
-Match with Manhattan distance found for Hrithik Roshan in invited names.
+Anne Hathaway: Euclidean Distance: 136.2311553955078, Cosine Similarity: 0.7237985730171204, Manhattan Distance: 3660.861083984375
+Arnold Schwarzenegger: Euclidean Distance: 136.0331573486328, Cosine Similarity: 0.7123528122901917, Manhattan Distance: 3804.86279296875
+Ben Afflek: Euclidean Distance: 142.3407440185547, Cosine Similarity: 0.7344020307064056, Manhattan Distance: 3891.65087890625
+Keanu Reeves: Euclidean Distance: 134.2929229736328, Cosine Similarity: 0.7128514349460602, Manhattan Distance: 3612.62353515625
+Jerry Seinfeld: Euclidean Distance: 133.33897399902344, Cosine Similarity: 0.754803866147995, Manhattan Distance: 3739.563720703125
+Kate Beckinsale: Euclidean Distance: 128.50152587890625, Cosine Similarity: 0.6764266192913055, Manhattan Distance: 3556.550537109375
+Lauren Cohan: Euclidean Distance: 136.09478759765625, Cosine Similarity: 0.7755079567432404, Manhattan Distance: 3853.62939453125
+Simon Pegg: Euclidean Distance: 124.99140167236328, Cosine Similarity: 0.6266243755817413, Manhattan Distance: 3299.625
+Will Smith: Euclidean Distance: 131.79986572265625, Cosine Similarity: 0.7190631628036499, Manhattan Distance: 3527.41015625
+Match with Euclidean distance found for Hrithik Roshan with:  in invited names.
 
 Comparison Results for Hugh Jackman:
 Akshay Kumar: Euclidean Distance: 162.00743103027344, Cosine Similarity: 0.823383018374443, Manhattan Distance: 4528.548828125
@@ -460,12 +596,20 @@ Ellen Degeneres: Euclidean Distance: 139.49525451660156, Cosine Similarity: 0.70
 Henry Cavill: Euclidean Distance: 127.3562240600586, Cosine Similarity: 0.5579035580158234, Manhattan Distance: 3642.452392578125
 Hrithik Roshan: Euclidean Distance: 137.50738525390625, Cosine Similarity: 0.6190469861030579, Manhattan Distance: 3735.3095703125
 Hugh Jackman: Euclidean Distance: 102.48846435546875, Cosine Similarity: 0.3761657476425171, Manhattan Distance: 2762.79248046875
+TP: Hugh Jackman is registered and matches w/ registered faces Hugh Jackman
 Jessica Alba: Euclidean Distance: 150.4064178466797, Cosine Similarity: 0.7256284356117249, Manhattan Distance: 4252.1015625
 Kashyap: Euclidean Distance: 149.34788513183594, Cosine Similarity: 0.6947841048240662, Manhattan Distance: 4181.28173828125
 Lisa Kudrow: Euclidean Distance: 143.88009643554688, Cosine Similarity: 0.7225167155265808, Manhattan Distance: 3976.57373046875
-Match with Euclidean distance found for Hugh Jackman in invited names.
-Match with Cosine similarity found for Hugh Jackman in invited names.
-Match with Manhattan distance found for Hugh Jackman in invited names.
+Anne Hathaway: Euclidean Distance: 143.14801025390625, Cosine Similarity: 0.7417623102664948, Manhattan Distance: 3983.22998046875
+Arnold Schwarzenegger: Euclidean Distance: 124.0000991821289, Cosine Similarity: 0.5495071411132812, Manhattan Distance: 3423.5419921875
+Ben Afflek: Euclidean Distance: 140.60153198242188, Cosine Similarity: 0.6695766150951385, Manhattan Distance: 3918.357421875
+Keanu Reeves: Euclidean Distance: 131.36651611328125, Cosine Similarity: 0.6316826641559601, Manhattan Distance: 3570.6953125
+Jerry Seinfeld: Euclidean Distance: 127.1989517211914, Cosine Similarity: 0.6298973560333252, Manhattan Distance: 3512.930908203125
+Kate Beckinsale: Euclidean Distance: 136.73960876464844, Cosine Similarity: 0.7072396278381348, Manhattan Distance: 3879.975341796875
+Lauren Cohan: Euclidean Distance: 132.99119567871094, Cosine Similarity: 0.6814008355140686, Manhattan Distance: 3739.411376953125
+Simon Pegg: Euclidean Distance: 125.3319320678711, Cosine Similarity: 0.5820387601852417, Manhattan Distance: 3384.9345703125
+Will Smith: Euclidean Distance: 132.447265625, Cosine Similarity: 0.6691006720066071, Manhattan Distance: 3611.4072265625
+Match with Euclidean distance found for Hugh Jackman with:  in invited names.
 
 Comparison Results for Jessica Alba:
 Akshay Kumar: Euclidean Distance: 145.6862335205078, Cosine Similarity: 0.7512759864330292, Manhattan Distance: 3894.960205078125
@@ -487,11 +631,19 @@ Henry Cavill: Euclidean Distance: 134.91990661621094, Cosine Similarity: 0.71886
 Hrithik Roshan: Euclidean Distance: 139.54861450195312, Cosine Similarity: 0.7247418463230133, Manhattan Distance: 3733.17822265625
 Hugh Jackman: Euclidean Distance: 128.07102966308594, Cosine Similarity: 0.6827541887760162, Manhattan Distance: 3486.096923828125
 Jessica Alba: Euclidean Distance: 96.70731353759766, Cosine Similarity: 0.3297078013420105, Manhattan Distance: 2474.14501953125
+TP: Jessica Alba is registered and matches w/ registered faces Jessica Alba
 Kashyap: Euclidean Distance: 142.7379913330078, Cosine Similarity: 0.7144839763641357, Manhattan Distance: 3865.2919921875
 Lisa Kudrow: Euclidean Distance: 137.17977905273438, Cosine Similarity: 0.7566177546977997, Manhattan Distance: 3693.55419921875
-Match with Euclidean distance found for Jessica Alba in invited names.
-Match with Cosine similarity found for Jessica Alba in invited names.
-Match with Manhattan distance found for Jessica Alba in invited names.
+Anne Hathaway: Euclidean Distance: 129.82009887695312, Cosine Similarity: 0.7081219553947449, Manhattan Distance: 3440.465087890625
+Arnold Schwarzenegger: Euclidean Distance: 128.3015899658203, Cosine Similarity: 0.6815956830978394, Manhattan Distance: 3478.01318359375
+Ben Afflek: Euclidean Distance: 136.34796142578125, Cosine Similarity: 0.7205246686935425, Manhattan Distance: 3773.3984375
+Keanu Reeves: Euclidean Distance: 134.95059204101562, Cosine Similarity: 0.7768530398607254, Manhattan Distance: 3690.1484375
+Jerry Seinfeld: Euclidean Distance: 125.13187408447266, Cosine Similarity: 0.7230776846408844, Manhattan Distance: 3450.22998046875
+Kate Beckinsale: Euclidean Distance: 125.82150268554688, Cosine Similarity: 0.7027387022972107, Manhattan Distance: 3416.06201171875
+Lauren Cohan: Euclidean Distance: 116.65927124023438, Cosine Similarity: 0.6187450289726257, Manhattan Distance: 3133.65966796875
+Simon Pegg: Euclidean Distance: 128.1520538330078, Cosine Similarity: 0.712042897939682, Manhattan Distance: 3429.8759765625
+Will Smith: Euclidean Distance: 131.74038696289062, Cosine Similarity: 0.7793276757001877, Manhattan Distance: 3561.47900390625
+Match with Euclidean distance found for Jessica Alba with:  in invited names.
 
 Comparison Results for Kashyap:
 Akshay Kumar: Euclidean Distance: 146.8121337890625, Cosine Similarity: 0.7239972352981567, Manhattan Distance: 4000.134765625
@@ -514,10 +666,18 @@ Hrithik Roshan: Euclidean Distance: 142.98019409179688, Cosine Similarity: 0.720
 Hugh Jackman: Euclidean Distance: 135.60794067382812, Cosine Similarity: 0.7183746695518494, Manhattan Distance: 3764.004638671875
 Jessica Alba: Euclidean Distance: 123.55645751953125, Cosine Similarity: 0.5235579013824463, Manhattan Distance: 3326.572509765625
 Kashyap: Euclidean Distance: 92.26951599121094, Cosine Similarity: 0.276857852935791, Manhattan Distance: 2385.976318359375
+TP: Kashyap is registered and matches w/ registered faces Kashyap
 Lisa Kudrow: Euclidean Distance: 134.3741912841797, Cosine Similarity: 0.6828410625457764, Manhattan Distance: 3712.0576171875
-Match with Euclidean distance found for Kashyap in invited names.
-Match with Cosine similarity found for Kashyap in invited names.
-Match with Manhattan distance found for Kashyap in invited names.
+Anne Hathaway: Euclidean Distance: 139.48504638671875, Cosine Similarity: 0.7664487808942795, Manhattan Distance: 3863.46142578125
+Arnold Schwarzenegger: Euclidean Distance: 136.86383056640625, Cosine Similarity: 0.7282291948795319, Manhattan Distance: 3866.88037109375
+Ben Afflek: Euclidean Distance: 143.470458984375, Cosine Similarity: 0.7529815435409546, Manhattan Distance: 4084.64599609375
+Keanu Reeves: Euclidean Distance: 132.97039794921875, Cosine Similarity: 0.7060721814632416, Manhattan Distance: 3617.00341796875
+Jerry Seinfeld: Euclidean Distance: 131.53152465820312, Cosine Similarity: 0.7427240610122681, Manhattan Distance: 3715.14501953125
+Kate Beckinsale: Euclidean Distance: 126.8666000366211, Cosine Similarity: 0.6664735078811646, Manhattan Distance: 3520.5205078125
+Lauren Cohan: Euclidean Distance: 130.3732452392578, Cosine Similarity: 0.719356119632721, Manhattan Distance: 3667.202392578125
+Simon Pegg: Euclidean Distance: 131.15940856933594, Cosine Similarity: 0.6973338425159454, Manhattan Distance: 3588.609375
+Will Smith: Euclidean Distance: 134.53355407714844, Cosine Similarity: 0.7575294971466064, Manhattan Distance: 3697.05322265625
+Match with Euclidean distance found for Kashyap with:  in invited names.
 
 Comparison Results for Lisa Kudrow:
 Akshay Kumar: Euclidean Distance: 148.82789611816406, Cosine Similarity: 0.6945551633834839, Manhattan Distance: 4006.1162109375
@@ -541,266 +701,950 @@ Hugh Jackman: Euclidean Distance: 125.50096130371094, Cosine Similarity: 0.56532
 Jessica Alba: Euclidean Distance: 152.51268005371094, Cosine Similarity: 0.7461530864238739, Manhattan Distance: 4279.3935546875
 Kashyap: Euclidean Distance: 153.1370391845703, Cosine Similarity: 0.7306484282016754, Manhattan Distance: 4290.51025390625
 Lisa Kudrow: Euclidean Distance: 98.66203308105469, Cosine Similarity: 0.3393480181694031, Manhattan Distance: 2507.29052734375
-Match with Euclidean distance found for Lisa Kudrow in invited names.
-Match with Cosine similarity found for Lisa Kudrow in invited names.
-Match with Manhattan distance found for Lisa Kudrow in invited names.
+TP: Lisa Kudrow is registered and matches w/ registered faces Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 132.34022521972656, Cosine Similarity: 0.6335623860359192, Manhattan Distance: 3499.61279296875
+Arnold Schwarzenegger: Euclidean Distance: 133.71096801757812, Cosine Similarity: 0.6393285691738129, Manhattan Distance: 3643.48388671875
+Ben Afflek: Euclidean Distance: 145.77491760253906, Cosine Similarity: 0.7197915315628052, Manhattan Distance: 4067.493408203125
+Keanu Reeves: Euclidean Distance: 140.89353942871094, Cosine Similarity: 0.7273085117340088, Manhattan Distance: 3844.41162109375
+Jerry Seinfeld: Euclidean Distance: 136.244140625, Cosine Similarity: 0.7248480916023254, Manhattan Distance: 3788.03857421875
+Kate Beckinsale: Euclidean Distance: 126.47413635253906, Cosine Similarity: 0.6038337647914886, Manhattan Distance: 3341.66064453125
+Lauren Cohan: Euclidean Distance: 130.76416015625, Cosine Similarity: 0.6584104895591736, Manhattan Distance: 3567.044189453125
+Simon Pegg: Euclidean Distance: 129.3504638671875, Cosine Similarity: 0.6203737556934357, Manhattan Distance: 3457.84033203125
+Will Smith: Euclidean Distance: 145.6489715576172, Cosine Similarity: 0.81128890812397, Manhattan Distance: 4050.94580078125
+Match with Euclidean distance found for Lisa Kudrow with:  in invited names.
+
+Comparison Results for Anne Hathaway:
+Akshay Kumar: Euclidean Distance: 147.85691833496094, Cosine Similarity: 0.7094978094100952, Manhattan Distance: 3940.087646484375
+Alexandra Daddario: Euclidean Distance: 131.97181701660156, Cosine Similarity: 0.6187784671783447, Manhattan Distance: 3530.96142578125
+Alia Bhatt: Euclidean Distance: 136.46615600585938, Cosine Similarity: 0.7096923291683197, Manhattan Distance: 3674.7607421875
+Amitabh Bachchan: Euclidean Distance: 140.96817016601562, Cosine Similarity: 0.8040812164545059, Manhattan Distance: 3846.5712890625
+Andy Samberg: Euclidean Distance: 150.46981811523438, Cosine Similarity: 0.7179724872112274, Manhattan Distance: 4128.490234375
+Anushka Sharma: Euclidean Distance: 141.84544372558594, Cosine Similarity: 0.6944001019001007, Manhattan Distance: 3812.6240234375
+Billie Eilish: Euclidean Distance: 135.8920135498047, Cosine Similarity: 0.7022696733474731, Manhattan Distance: 3552.695068359375
+Brad Pitt: Euclidean Distance: 151.4260711669922, Cosine Similarity: 0.7958000749349594, Manhattan Distance: 4193.869140625
+Camila Cabello: Euclidean Distance: 141.76657104492188, Cosine Similarity: 0.7085724174976349, Manhattan Distance: 3776.5166015625
+Charlize Theron: Euclidean Distance: 146.9856719970703, Cosine Similarity: 0.7397519052028656, Manhattan Distance: 4056.53564453125
+Claire Holt: Euclidean Distance: 143.97271728515625, Cosine Similarity: 0.6936318576335907, Manhattan Distance: 3877.0927734375
+Courtney Cox: Euclidean Distance: 136.93466186523438, Cosine Similarity: 0.6967303156852722, Manhattan Distance: 3759.779541015625
+Dwayne Johnson: Euclidean Distance: 142.5294189453125, Cosine Similarity: 0.7417642176151276, Manhattan Distance: 3899.76220703125
+Elizabeth Olsen: Euclidean Distance: 143.4186248779297, Cosine Similarity: 0.6911069750785828, Manhattan Distance: 3881.18896484375
+Ellen Degeneres: Euclidean Distance: 142.917236328125, Cosine Similarity: 0.7751295268535614, Manhattan Distance: 3990.08349609375
+Henry Cavill: Euclidean Distance: 139.31590270996094, Cosine Similarity: 0.694426953792572, Manhattan Distance: 3913.78466796875
+Hrithik Roshan: Euclidean Distance: 147.1022186279297, Cosine Similarity: 0.7349588572978973, Manhattan Distance: 4016.3671875
+Hugh Jackman: Euclidean Distance: 142.10247802734375, Cosine Similarity: 0.7564162462949753, Manhattan Distance: 3894.2822265625
+Jessica Alba: Euclidean Distance: 143.89938354492188, Cosine Similarity: 0.6880722343921661, Manhattan Distance: 3897.127197265625
+Kashyap: Euclidean Distance: 153.6110382080078, Cosine Similarity: 0.7609553933143616, Manhattan Distance: 4254.6123046875
+Lisa Kudrow: Euclidean Distance: 143.68740844726562, Cosine Similarity: 0.7500593960285187, Manhattan Distance: 3886.70361328125
+Anne Hathaway: Euclidean Distance: 82.78208923339844, Cosine Similarity: 0.25822579860687256, Manhattan Distance: 2073.37158203125
+TP: Anne Hathaway is registered and matches w/ registered faces Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 138.23553466796875, Cosine Similarity: 0.7125371098518372, Manhattan Distance: 3811.77392578125
+Ben Afflek: Euclidean Distance: 144.23095703125, Cosine Similarity: 0.7321956753730774, Manhattan Distance: 3985.962158203125
+Keanu Reeves: Euclidean Distance: 142.56961059570312, Cosine Similarity: 0.7774466723203659, Manhattan Distance: 3865.33837890625
+Jerry Seinfeld: Euclidean Distance: 134.83700561523438, Cosine Similarity: 0.74434033036232, Manhattan Distance: 3721.393310546875
+Kate Beckinsale: Euclidean Distance: 126.60392761230469, Cosine Similarity: 0.6338242888450623, Manhattan Distance: 3398.41552734375
+Lauren Cohan: Euclidean Distance: 117.19469451904297, Cosine Similarity: 0.5531811416149139, Manhattan Distance: 3093.088134765625
+Simon Pegg: Euclidean Distance: 137.55380249023438, Cosine Similarity: 0.733923465013504, Manhattan Distance: 3701.797607421875
+Will Smith: Euclidean Distance: 139.81741333007812, Cosine Similarity: 0.7817051261663437, Manhattan Distance: 3831.956298828125
+Match with Euclidean distance found for Anne Hathaway with:  in invited names.
+
+Comparison Results for Arnold Schwarzenegger:
+Akshay Kumar: Euclidean Distance: 150.05393981933594, Cosine Similarity: 0.753269299864769, Manhattan Distance: 4103.9150390625
+Alexandra Daddario: Euclidean Distance: 140.87411499023438, Cosine Similarity: 0.7293227910995483, Manhattan Distance: 3976.859130859375
+Alia Bhatt: Euclidean Distance: 140.58453369140625, Cosine Similarity: 0.7818020284175873, Manhattan Distance: 3891.458984375
+Amitabh Bachchan: Euclidean Distance: 133.97662353515625, Cosine Similarity: 0.7557766884565353, Manhattan Distance: 3653.154052734375
+Andy Samberg: Euclidean Distance: 149.6663818359375, Cosine Similarity: 0.7312185764312744, Manhattan Distance: 4158.29443359375
+Anushka Sharma: Euclidean Distance: 143.51852416992188, Cosine Similarity: 0.7343806624412537, Manhattan Distance: 3982.74658203125
+Billie Eilish: Euclidean Distance: 138.67306518554688, Cosine Similarity: 0.7590282410383224, Manhattan Distance: 3730.3271484375
+Brad Pitt: Euclidean Distance: 130.07177734375, Cosine Similarity: 0.6060620248317719, Manhattan Distance: 3506.5966796875
+Camila Cabello: Euclidean Distance: 146.5133056640625, Cosine Similarity: 0.7826807349920273, Manhattan Distance: 4029.3740234375
+Charlize Theron: Euclidean Distance: 136.16990661621094, Cosine Similarity: 0.6551112830638885, Manhattan Distance: 3790.02978515625
+Claire Holt: Euclidean Distance: 141.3528594970703, Cosine Similarity: 0.6894949376583099, Manhattan Distance: 3816.27392578125
+Courtney Cox: Euclidean Distance: 134.33526611328125, Cosine Similarity: 0.6950795948505402, Manhattan Distance: 3718.7998046875
+Dwayne Johnson: Euclidean Distance: 132.96807861328125, Cosine Similarity: 0.6685890257358551, Manhattan Distance: 3601.3359375
+Elizabeth Olsen: Euclidean Distance: 142.6099853515625, Cosine Similarity: 0.7049498856067657, Manhattan Distance: 3946.927001953125
+Ellen Degeneres: Euclidean Distance: 135.98431396484375, Cosine Similarity: 0.7281588017940521, Manhattan Distance: 3758.0439453125
+Henry Cavill: Euclidean Distance: 119.1385269165039, Cosine Similarity: 0.5250994265079498, Manhattan Distance: 3309.003173828125
+Hrithik Roshan: Euclidean Distance: 140.09176635742188, Cosine Similarity: 0.6877360641956329, Manhattan Distance: 3820.388427734375
+Hugh Jackman: Euclidean Distance: 105.1568603515625, Cosine Similarity: 0.42954421043395996, Manhattan Distance: 2742.1337890625
+Jessica Alba: Euclidean Distance: 147.0533905029297, Cosine Similarity: 0.741325169801712, Manhattan Distance: 4151.1923828125
+Kashyap: Euclidean Distance: 150.1280517578125, Cosine Similarity: 0.748577743768692, Manhattan Distance: 4218.6044921875
+Lisa Kudrow: Euclidean Distance: 141.74195861816406, Cosine Similarity: 0.7557756751775742, Manhattan Distance: 3876.54052734375
+Anne Hathaway: Euclidean Distance: 133.4552459716797, Cosine Similarity: 0.6976308524608612, Manhattan Distance: 3608.68896484375
+Arnold Schwarzenegger: Euclidean Distance: 79.40811920166016, Cosine Similarity: 0.24375015497207642, Manhattan Distance: 2075.5595703125
+TP: Arnold Schwarzenegger is registered and matches w/ registered faces Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 131.53457641601562, Cosine Similarity: 0.6292853057384491, Manhattan Distance: 3561.687744140625
+Keanu Reeves: Euclidean Distance: 134.9321746826172, Cosine Similarity: 0.7228549718856812, Manhattan Distance: 3678.28759765625
+Jerry Seinfeld: Euclidean Distance: 126.44715881347656, Cosine Similarity: 0.6816673278808594, Manhattan Distance: 3456.121826171875
+Kate Beckinsale: Euclidean Distance: 122.89454650878906, Cosine Similarity: 0.6214622855186462, Manhattan Distance: 3377.6904296875
+Lauren Cohan: Euclidean Distance: 128.5270233154297, Cosine Similarity: 0.6946347951889038, Manhattan Distance: 3549.596435546875
+Simon Pegg: Euclidean Distance: 134.7447052001953, Cosine Similarity: 0.731652706861496, Manhattan Distance: 3643.262451171875
+Will Smith: Euclidean Distance: 127.40689849853516, Cosine Similarity: 0.6749753355979919, Manhattan Distance: 3485.21923828125
+Match with Euclidean distance found for Arnold Schwarzenegger with:  in invited names.
+
+Comparison Results for Ben Afflek:
+Akshay Kumar: Euclidean Distance: 138.68150329589844, Cosine Similarity: 0.6746898591518402, Manhattan Distance: 3579.82666015625
+Alexandra Daddario: Euclidean Distance: 139.6701202392578, Cosine Similarity: 0.7596049457788467, Manhattan Distance: 3905.65576171875
+Alia Bhatt: Euclidean Distance: 132.91127014160156, Cosine Similarity: 0.7448605298995972, Manhattan Distance: 3593.65771484375
+Amitabh Bachchan: Euclidean Distance: 132.0423583984375, Cosine Similarity: 0.7870646268129349, Manhattan Distance: 3581.16943359375
+Andy Samberg: Euclidean Distance: 136.85711669921875, Cosine Similarity: 0.6386657953262329, Manhattan Distance: 3654.580078125
+Anushka Sharma: Euclidean Distance: 137.44741821289062, Cosine Similarity: 0.7113487720489502, Manhattan Distance: 3686.084228515625
+Billie Eilish: Euclidean Distance: 136.34042358398438, Cosine Similarity: 0.7820052206516266, Manhattan Distance: 3592.651611328125
+Brad Pitt: Euclidean Distance: 140.44117736816406, Cosine Similarity: 0.7477534413337708, Manhattan Distance: 3791.85498046875
+Camila Cabello: Euclidean Distance: 144.0032958984375, Cosine Similarity: 0.8009344041347504, Manhattan Distance: 3937.84765625
+Charlize Theron: Euclidean Distance: 131.43994140625, Cosine Similarity: 0.6434575319290161, Manhattan Distance: 3588.5751953125
+Claire Holt: Euclidean Distance: 137.10386657714844, Cosine Similarity: 0.6830002069473267, Manhattan Distance: 3724.85546875
+Courtney Cox: Euclidean Distance: 127.01187133789062, Cosine Similarity: 0.6604458093643188, Manhattan Distance: 3437.8916015625
+Dwayne Johnson: Euclidean Distance: 130.55516052246094, Cosine Similarity: 0.6840471625328064, Manhattan Distance: 3460.62841796875
+Elizabeth Olsen: Euclidean Distance: 136.6812286376953, Cosine Similarity: 0.6819122433662415, Manhattan Distance: 3682.059326171875
+Ellen Degeneres: Euclidean Distance: 127.5448226928711, Cosine Similarity: 0.6824139058589935, Manhattan Distance: 3511.16748046875
+Henry Cavill: Euclidean Distance: 118.1460952758789, Cosine Similarity: 0.5459406077861786, Manhattan Distance: 3241.693359375
+Hrithik Roshan: Euclidean Distance: 133.24668884277344, Cosine Similarity: 0.6553944945335388, Manhattan Distance: 3525.369140625
+Hugh Jackman: Euclidean Distance: 112.19169616699219, Cosine Similarity: 0.5196162164211273, Manhattan Distance: 2875.9921875
+Jessica Alba: Euclidean Distance: 136.1483612060547, Cosine Similarity: 0.6678428649902344, Manhattan Distance: 3720.325927734375
+Kashyap: Euclidean Distance: 144.6925048828125, Cosine Similarity: 0.7305229604244232, Manhattan Distance: 3920.7490234375
+Lisa Kudrow: Euclidean Distance: 131.8756561279297, Cosine Similarity: 0.6939861178398132, Manhattan Distance: 3476.6455078125
+Anne Hathaway: Euclidean Distance: 133.25367736816406, Cosine Similarity: 0.7407306432723999, Manhattan Distance: 3571.6396484375
+Arnold Schwarzenegger: Euclidean Distance: 132.32740783691406, Cosine Similarity: 0.7200489938259125, Manhattan Distance: 3633.5771484375
+Ben Afflek: Euclidean Distance: 97.10401916503906, Cosine Similarity: 0.35874056816101074, Manhattan Distance: 2645.457763671875
+TP: Ben Afflek is registered and matches w/ registered faces Ben Afflek
+Keanu Reeves: Euclidean Distance: 105.86615753173828, Cosine Similarity: 0.4740639328956604, Manhattan Distance: 2742.3369140625
+Jerry Seinfeld: Euclidean Distance: 124.1179428100586, Cosine Similarity: 0.7054899632930756, Manhattan Distance: 3362.65234375
+Kate Beckinsale: Euclidean Distance: 131.04013061523438, Cosine Similarity: 0.7562538832426071, Manhattan Distance: 3634.028564453125
+Lauren Cohan: Euclidean Distance: 122.5765380859375, Cosine Similarity: 0.6775510013103485, Manhattan Distance: 3300.49169921875
+Simon Pegg: Euclidean Distance: 128.1439971923828, Cosine Similarity: 0.7065322697162628, Manhattan Distance: 3424.16455078125
+Will Smith: Euclidean Distance: 124.24117279052734, Cosine Similarity: 0.6875885426998138, Manhattan Distance: 3308.24755859375
+Match with Euclidean distance found for Ben Afflek with:  in invited names.
+
+Comparison Results for Keanu Reeves:
+Akshay Kumar: Euclidean Distance: 155.1300506591797, Cosine Similarity: 0.7004770338535309, Manhattan Distance: 4169.4033203125
+Alexandra Daddario: Euclidean Distance: 154.075439453125, Cosine Similarity: 0.7464819252490997, Manhattan Distance: 4269.71484375
+Alia Bhatt: Euclidean Distance: 151.8767547607422, Cosine Similarity: 0.7699079066514969, Manhattan Distance: 4169.12890625
+Amitabh Bachchan: Euclidean Distance: 146.2721405029297, Cosine Similarity: 0.7498184740543365, Manhattan Distance: 3916.5146484375
+Andy Samberg: Euclidean Distance: 152.91085815429688, Cosine Similarity: 0.667088657617569, Manhattan Distance: 4211.2705078125
+Anushka Sharma: Euclidean Distance: 147.22702026367188, Cosine Similarity: 0.6647599339485168, Manhattan Distance: 3989.4521484375
+Billie Eilish: Euclidean Distance: 154.15872192382812, Cosine Similarity: 0.7922165989875793, Manhattan Distance: 4164.580078125
+Brad Pitt: Euclidean Distance: 144.4605255126953, Cosine Similarity: 0.6428333222866058, Manhattan Distance: 3934.8818359375
+Camila Cabello: Euclidean Distance: 156.1102294921875, Cosine Similarity: 0.7613969594240189, Manhattan Distance: 4244.396484375
+Charlize Theron: Euclidean Distance: 149.7066192626953, Cosine Similarity: 0.6827408373355865, Manhattan Distance: 4084.74755859375
+Claire Holt: Euclidean Distance: 148.53436279296875, Cosine Similarity: 0.6592187583446503, Manhattan Distance: 4013.98828125
+Courtney Cox: Euclidean Distance: 142.7757568359375, Cosine Similarity: 0.6646677851676941, Manhattan Distance: 3893.48486328125
+Dwayne Johnson: Euclidean Distance: 141.67584228515625, Cosine Similarity: 0.644922137260437, Manhattan Distance: 3834.920654296875
+Elizabeth Olsen: Euclidean Distance: 158.80702209472656, Cosine Similarity: 0.7562941014766693, Manhattan Distance: 4444.8349609375
+Ellen Degeneres: Euclidean Distance: 146.39535522460938, Cosine Similarity: 0.7117656767368317, Manhattan Distance: 4049.802734375
+Henry Cavill: Euclidean Distance: 142.02801513671875, Cosine Similarity: 0.6373226642608643, Manhattan Distance: 3918.23486328125
+Hrithik Roshan: Euclidean Distance: 146.38848876953125, Cosine Similarity: 0.6482873558998108, Manhattan Distance: 3921.08203125
+Hugh Jackman: Euclidean Distance: 140.27511596679688, Cosine Similarity: 0.6455175578594208, Manhattan Distance: 3782.00732421875
+Jessica Alba: Euclidean Distance: 147.11012268066406, Cosine Similarity: 0.6428057849407196, Manhattan Distance: 4049.160888671875
+Kashyap: Euclidean Distance: 152.3217010498047, Cosine Similarity: 0.6713452339172363, Manhattan Distance: 4184.6064453125
+Lisa Kudrow: Euclidean Distance: 147.01356506347656, Cosine Similarity: 0.6920503675937653, Manhattan Distance: 3957.9404296875
+Anne Hathaway: Euclidean Distance: 149.54881286621094, Cosine Similarity: 0.7401588261127472, Manhattan Distance: 4049.068115234375
+Arnold Schwarzenegger: Euclidean Distance: 152.88392639160156, Cosine Similarity: 0.7658489793539047, Manhattan Distance: 4277.48193359375
+Ben Afflek: Euclidean Distance: 132.64382934570312, Cosine Similarity: 0.5478787422180176, Manhattan Distance: 3638.1396484375
+Keanu Reeves: Euclidean Distance: 66.16498565673828, Cosine Similarity: 0.13482177257537842, Manhattan Distance: 1677.605224609375
+TP: Keanu Reeves is registered and matches w/ registered faces Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 140.67236328125, Cosine Similarity: 0.6986137926578522, Manhattan Distance: 3819.05322265625
+Kate Beckinsale: Euclidean Distance: 142.5017547607422, Cosine Similarity: 0.697731077671051, Manhattan Distance: 3936.3076171875
+Lauren Cohan: Euclidean Distance: 143.4307861328125, Cosine Similarity: 0.7193847894668579, Manhattan Distance: 3969.398681640625
+Simon Pegg: Euclidean Distance: 127.54304504394531, Cosine Similarity: 0.5461955964565277, Manhattan Distance: 3284.501953125
+Will Smith: Euclidean Distance: 139.2166290283203, Cosine Similarity: 0.6703179180622101, Manhattan Distance: 3742.9462890625
+Match with Euclidean distance found for Keanu Reeves with:  in invited names.
+
+Comparison Results for Jerry Seinfeld:
+Akshay Kumar: Euclidean Distance: 139.214111328125, Cosine Similarity: 0.7078985571861267, Manhattan Distance: 3670.912841796875
+Alexandra Daddario: Euclidean Distance: 129.14376831054688, Cosine Similarity: 0.6783599853515625, Manhattan Distance: 3546.9521484375
+Alia Bhatt: Euclidean Distance: 129.23143005371094, Cosine Similarity: 0.7412106096744537, Manhattan Distance: 3466.969482421875
+Amitabh Bachchan: Euclidean Distance: 122.91091918945312, Cosine Similarity: 0.7214999496936798, Manhattan Distance: 3282.462646484375
+Andy Samberg: Euclidean Distance: 147.06419372558594, Cosine Similarity: 0.7720090746879578, Manhattan Distance: 4008.413330078125
+Anushka Sharma: Euclidean Distance: 140.96095275878906, Cosine Similarity: 0.7833548486232758, Manhattan Distance: 3861.88916015625
+Billie Eilish: Euclidean Distance: 128.15867614746094, Cosine Similarity: 0.7269865572452545, Manhattan Distance: 3327.931640625
+Brad Pitt: Euclidean Distance: 122.86433410644531, Cosine Similarity: 0.5940685570240021, Manhattan Distance: 3217.68603515625
+Camila Cabello: Euclidean Distance: 133.53652954101562, Cosine Similarity: 0.7195174396038055, Manhattan Distance: 3514.146484375
+Charlize Theron: Euclidean Distance: 127.9915542602539, Cosine Similarity: 0.6354728043079376, Manhattan Distance: 3450.4365234375
+Claire Holt: Euclidean Distance: 138.470947265625, Cosine Similarity: 0.7271566390991211, Manhattan Distance: 3737.2607421875
+Courtney Cox: Euclidean Distance: 124.8194580078125, Cosine Similarity: 0.6694747507572174, Manhattan Distance: 3383.015380859375
+Dwayne Johnson: Euclidean Distance: 116.29756164550781, Cosine Similarity: 0.5669796466827393, Manhattan Distance: 3107.09716796875
+Elizabeth Olsen: Euclidean Distance: 143.4359130859375, Cosine Similarity: 0.7861396074295044, Manhattan Distance: 4008.09619140625
+Ellen Degeneres: Euclidean Distance: 126.05282592773438, Cosine Similarity: 0.7011272311210632, Manhattan Distance: 3421.7607421875
+Henry Cavill: Euclidean Distance: 120.98576354980469, Cosine Similarity: 0.5987445414066315, Manhattan Distance: 3384.07275390625
+Hrithik Roshan: Euclidean Distance: 136.89859008789062, Cosine Similarity: 0.7231034636497498, Manhattan Distance: 3677.4384765625
+Hugh Jackman: Euclidean Distance: 117.37024688720703, Cosine Similarity: 0.5970372557640076, Manhattan Distance: 3098.129150390625
+Jessica Alba: Euclidean Distance: 143.80995178222656, Cosine Similarity: 0.7799167931079865, Manhattan Distance: 3998.26025390625
+Kashyap: Euclidean Distance: 143.71670532226562, Cosine Similarity: 0.7503572702407837, Manhattan Distance: 3916.185546875
+Lisa Kudrow: Euclidean Distance: 133.37281799316406, Cosine Similarity: 0.7447515726089478, Manhattan Distance: 3550.17431640625
+Anne Hathaway: Euclidean Distance: 126.41990661621094, Cosine Similarity: 0.700849324464798, Manhattan Distance: 3339.430419921875
+Arnold Schwarzenegger: Euclidean Distance: 119.46900939941406, Cosine Similarity: 0.6152962446212769, Manhattan Distance: 3221.17822265625
+Ben Afflek: Euclidean Distance: 124.29895782470703, Cosine Similarity: 0.61970654129982, Manhattan Distance: 3298.9443359375
+Keanu Reeves: Euclidean Distance: 129.29217529296875, Cosine Similarity: 0.7451454699039459, Manhattan Distance: 3469.7060546875
+Jerry Seinfeld: Euclidean Distance: 68.69402313232422, Cosine Similarity: 0.2286502718925476, Manhattan Distance: 1747.8521728515625
+TP: Jerry Seinfeld is registered and matches w/ registered faces Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 118.98729705810547, Cosine Similarity: 0.6581898927688599, Manhattan Distance: 3243.73046875
+Lauren Cohan: Euclidean Distance: 114.39936828613281, Cosine Similarity: 0.6242114901542664, Manhattan Distance: 3113.967529296875
+Simon Pegg: Euclidean Distance: 127.85741424560547, Cosine Similarity: 0.7414834499359131, Manhattan Distance: 3481.93701171875
+Will Smith: Euclidean Distance: 127.63227844238281, Cosine Similarity: 0.7669833600521088, Manhattan Distance: 3414.111328125
+Match with Euclidean distance found for Jerry Seinfeld with:  in invited names.
+
+Comparison Results for Kate Beckinsale:
+Akshay Kumar: Euclidean Distance: 143.7712860107422, Cosine Similarity: 0.6882215142250061, Manhattan Distance: 3853.886962890625
+Alexandra Daddario: Euclidean Distance: 126.84720611572266, Cosine Similarity: 0.5886309444904327, Manhattan Distance: 3442.10888671875
+Alia Bhatt: Euclidean Distance: 135.9469757080078, Cosine Similarity: 0.7277655005455017, Manhattan Distance: 3787.494384765625
+Amitabh Bachchan: Euclidean Distance: 136.6741180419922, Cosine Similarity: 0.7827935367822647, Manhattan Distance: 3779.06396484375
+Andy Samberg: Euclidean Distance: 140.75390625, Cosine Similarity: 0.6430290043354034, Manhattan Distance: 3879.637451171875
+Anushka Sharma: Euclidean Distance: 144.1336669921875, Cosine Similarity: 0.737800270318985, Manhattan Distance: 4006.19189453125
+Billie Eilish: Euclidean Distance: 138.00723266601562, Cosine Similarity: 0.7483735084533691, Manhattan Distance: 3703.186767578125
+Brad Pitt: Euclidean Distance: 145.97592163085938, Cosine Similarity: 0.761116623878479, Manhattan Distance: 4033.707275390625
+Camila Cabello: Euclidean Distance: 146.71778869628906, Cosine Similarity: 0.7816747575998306, Manhattan Distance: 3989.44482421875
+Charlize Theron: Euclidean Distance: 143.8736114501953, Cosine Similarity: 0.7289800345897675, Manhattan Distance: 3972.2744140625
+Claire Holt: Euclidean Distance: 135.25103759765625, Cosine Similarity: 0.6283887922763824, Manhattan Distance: 3604.06640625
+Courtney Cox: Euclidean Distance: 138.96881103515625, Cosine Similarity: 0.7406222224235535, Manhattan Distance: 3828.25537109375
+Dwayne Johnson: Euclidean Distance: 123.30030822753906, Cosine Similarity: 0.5724199712276459, Manhattan Distance: 3291.32177734375
+Elizabeth Olsen: Euclidean Distance: 131.93263244628906, Cosine Similarity: 0.6002634465694427, Manhattan Distance: 3542.50146484375
+Ellen Degeneres: Euclidean Distance: 137.23802185058594, Cosine Similarity: 0.7383207976818085, Manhattan Distance: 3890.859375
+Henry Cavill: Euclidean Distance: 131.8622283935547, Cosine Similarity: 0.6409011781215668, Manhattan Distance: 3728.344970703125
+Hrithik Roshan: Euclidean Distance: 143.00689697265625, Cosine Similarity: 0.7141113877296448, Manhattan Distance: 3947.55419921875
+Hugh Jackman: Euclidean Distance: 128.03695678710938, Cosine Similarity: 0.6340009272098541, Manhattan Distance: 3470.9501953125
+Jessica Alba: Euclidean Distance: 147.0628662109375, Cosine Similarity: 0.7386361658573151, Manhattan Distance: 4124.083984375
+Kashyap: Euclidean Distance: 144.6637420654297, Cosine Similarity: 0.6918351650238037, Manhattan Distance: 3980.88037109375
+Lisa Kudrow: Euclidean Distance: 131.73182678222656, Cosine Similarity: 0.6499723196029663, Manhattan Distance: 3562.481201171875
+Anne Hathaway: Euclidean Distance: 124.53959655761719, Cosine Similarity: 0.6048198044300079, Manhattan Distance: 3289.2333984375
+Arnold Schwarzenegger: Euclidean Distance: 130.84707641601562, Cosine Similarity: 0.6589988172054291, Manhattan Distance: 3587.25048828125
+Ben Afflek: Euclidean Distance: 130.5474853515625, Cosine Similarity: 0.6173802614212036, Manhattan Distance: 3584.21142578125
+Keanu Reeves: Euclidean Distance: 137.083740234375, Cosine Similarity: 0.742711991071701, Manhattan Distance: 3768.87060546875
+Jerry Seinfeld: Euclidean Distance: 118.76773071289062, Cosine Similarity: 0.5977376103401184, Manhattan Distance: 3250.12158203125
+Kate Beckinsale: Euclidean Distance: 88.98098754882812, Cosine Similarity: 0.32335007190704346, Manhattan Distance: 2355.18359375
+TP: Kate Beckinsale is registered and matches w/ registered faces Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 106.76070404052734, Cosine Similarity: 0.4758076071739197, Manhattan Distance: 2836.39794921875
+Simon Pegg: Euclidean Distance: 124.08021545410156, Cosine Similarity: 0.6174377501010895, Manhattan Distance: 3344.27880859375
+Will Smith: Euclidean Distance: 134.3153076171875, Cosine Similarity: 0.746778815984726, Manhattan Distance: 3712.4365234375
+Match with Euclidean distance found for Kate Beckinsale with:  in invited names.
+
+Comparison Results for Lauren Cohan:
+Akshay Kumar: Euclidean Distance: 151.35630798339844, Cosine Similarity: 0.7648208141326904, Manhattan Distance: 4108.27099609375
+Alexandra Daddario: Euclidean Distance: 111.6178207397461, Cosine Similarity: 0.4561294913291931, Manhattan Distance: 2955.641357421875
+Alia Bhatt: Euclidean Distance: 140.88015747070312, Cosine Similarity: 0.7828889042139053, Manhattan Distance: 3887.48974609375
+Amitabh Bachchan: Euclidean Distance: 130.7240447998047, Cosine Similarity: 0.7171528041362762, Manhattan Distance: 3497.510986328125
+Andy Samberg: Euclidean Distance: 135.4470977783203, Cosine Similarity: 0.5953015685081482, Manhattan Distance: 3674.43798828125
+Anushka Sharma: Euclidean Distance: 140.80908203125, Cosine Similarity: 0.705053448677063, Manhattan Distance: 3793.6767578125
+Billie Eilish: Euclidean Distance: 132.40243530273438, Cosine Similarity: 0.6899870336055756, Manhattan Distance: 3406.92431640625
+Brad Pitt: Euclidean Distance: 148.51327514648438, Cosine Similarity: 0.7890988141298294, Manhattan Distance: 4130.71875
+Camila Cabello: Euclidean Distance: 141.24771118164062, Cosine Similarity: 0.7254516780376434, Manhattan Distance: 3777.7841796875
+Charlize Theron: Euclidean Distance: 140.72390747070312, Cosine Similarity: 0.6982655823230743, Manhattan Distance: 3806.708984375
+Claire Holt: Euclidean Distance: 137.04920959472656, Cosine Similarity: 0.6462715268135071, Manhattan Distance: 3691.17919921875
+Courtney Cox: Euclidean Distance: 132.9703826904297, Cosine Similarity: 0.6791802644729614, Manhattan Distance: 3564.27783203125
+Dwayne Johnson: Euclidean Distance: 137.3314208984375, Cosine Similarity: 0.7113335728645325, Manhattan Distance: 3768.35693359375
+Elizabeth Olsen: Euclidean Distance: 130.29966735839844, Cosine Similarity: 0.5861693024635315, Manhattan Distance: 3506.587890625
+Ellen Degeneres: Euclidean Distance: 136.33724975585938, Cosine Similarity: 0.7298977673053741, Manhattan Distance: 3781.306640625
+Henry Cavill: Euclidean Distance: 133.35394287109375, Cosine Similarity: 0.6565258502960205, Manhattan Distance: 3795.1484375
+Hrithik Roshan: Euclidean Distance: 142.91065979003906, Cosine Similarity: 0.7141816318035126, Manhattan Distance: 3897.299072265625
+Hugh Jackman: Euclidean Distance: 135.3780975341797, Cosine Similarity: 0.7099698185920715, Manhattan Distance: 3721.666748046875
+Jessica Alba: Euclidean Distance: 143.66265869140625, Cosine Similarity: 0.7055659294128418, Manhattan Distance: 3956.616455078125
+Kashyap: Euclidean Distance: 147.8475341796875, Cosine Similarity: 0.7240572869777679, Manhattan Distance: 4067.781494140625
+Lisa Kudrow: Euclidean Distance: 140.08433532714844, Cosine Similarity: 0.7362467050552368, Manhattan Distance: 3832.417236328125
+Anne Hathaway: Euclidean Distance: 127.98470306396484, Cosine Similarity: 0.6398262083530426, Manhattan Distance: 3350.13427734375
+Arnold Schwarzenegger: Euclidean Distance: 140.29603576660156, Cosine Similarity: 0.7588705718517303, Manhattan Distance: 3928.362548828125
+Ben Afflek: Euclidean Distance: 130.63607788085938, Cosine Similarity: 0.6191515922546387, Manhattan Distance: 3593.7265625
+Keanu Reeves: Euclidean Distance: 136.6287841796875, Cosine Similarity: 0.7390568554401398, Manhattan Distance: 3777.82568359375
+Jerry Seinfeld: Euclidean Distance: 130.21041870117188, Cosine Similarity: 0.7208503484725952, Manhattan Distance: 3610.12158203125
+Kate Beckinsale: Euclidean Distance: 107.7213363647461, Cosine Similarity: 0.4756385087966919, Manhattan Distance: 2854.10595703125
+Lauren Cohan: Euclidean Distance: 84.31761169433594, Cosine Similarity: 0.29609423875808716, Manhattan Distance: 2179.87548828125
+TP: Lauren Cohan is registered and matches w/ registered faces Lauren Cohan
+Simon Pegg: Euclidean Distance: 135.7146759033203, Cosine Similarity: 0.7400911152362823, Manhattan Distance: 3717.04443359375
+Will Smith: Euclidean Distance: 136.0985107421875, Cosine Similarity: 0.7682108134031296, Manhattan Distance: 3740.0224609375
+Match with Euclidean distance found for Lauren Cohan with:  in invited names.
+
+Comparison Results for Simon Pegg:
+Akshay Kumar: Euclidean Distance: 154.65272521972656, Cosine Similarity: 0.7130252718925476, Manhattan Distance: 4057.13232421875
+Alexandra Daddario: Euclidean Distance: 148.23489379882812, Cosine Similarity: 0.709444135427475, Manhattan Distance: 3949.682861328125
+Alia Bhatt: Euclidean Distance: 151.30543518066406, Cosine Similarity: 0.7865669429302216, Manhattan Distance: 3992.41455078125
+Amitabh Bachchan: Euclidean Distance: 153.12237548828125, Cosine Similarity: 0.8502558767795563, Manhattan Distance: 4055.32763671875
+Andy Samberg: Euclidean Distance: 154.46661376953125, Cosine Similarity: 0.6967304944992065, Manhattan Distance: 4153.2568359375
+Anushka Sharma: Euclidean Distance: 149.92898559570312, Cosine Similarity: 0.7075400054454803, Manhattan Distance: 3977.558837890625
+Billie Eilish: Euclidean Distance: 145.2843780517578, Cosine Similarity: 0.7231070399284363, Manhattan Distance: 3692.784912109375
+Brad Pitt: Euclidean Distance: 158.63392639160156, Cosine Similarity: 0.7959893643856049, Manhattan Distance: 4285.49072265625
+Camila Cabello: Euclidean Distance: 156.57415771484375, Cosine Similarity: 0.7863982170820236, Manhattan Distance: 4156.2158203125
+Charlize Theron: Euclidean Distance: 149.871337890625, Cosine Similarity: 0.7020031213760376, Manhattan Distance: 3978.485107421875
+Claire Holt: Euclidean Distance: 145.37203979492188, Cosine Similarity: 0.6473689377307892, Manhattan Distance: 3805.63916015625
+Courtney Cox: Euclidean Distance: 147.0576629638672, Cosine Similarity: 0.7261169254779816, Manhattan Distance: 3882.83056640625
+Dwayne Johnson: Euclidean Distance: 151.0615692138672, Cosine Similarity: 0.7548122704029083, Manhattan Distance: 3984.10302734375
+Elizabeth Olsen: Euclidean Distance: 156.00135803222656, Cosine Similarity: 0.7482019662857056, Manhattan Distance: 4176.1953125
+Ellen Degeneres: Euclidean Distance: 143.54307556152344, Cosine Similarity: 0.7042670845985413, Manhattan Distance: 3814.9365234375
+Henry Cavill: Euclidean Distance: 144.8885498046875, Cosine Similarity: 0.6818031370639801, Manhattan Distance: 3995.91162109375
+Hrithik Roshan: Euclidean Distance: 151.98788452148438, Cosine Similarity: 0.7168586254119873, Manhattan Distance: 4046.109619140625
+Hugh Jackman: Euclidean Distance: 140.78578186035156, Cosine Similarity: 0.6695850491523743, Manhattan Distance: 3754.197265625
+Jessica Alba: Euclidean Distance: 158.04360961914062, Cosine Similarity: 0.7604627013206482, Manhattan Distance: 4295.63916015625
+Kashyap: Euclidean Distance: 155.97732543945312, Cosine Similarity: 0.7208523750305176, Manhattan Distance: 4168.1591796875
+Lisa Kudrow: Euclidean Distance: 151.79249572753906, Cosine Similarity: 0.7587785124778748, Manhattan Distance: 3981.01171875
+Anne Hathaway: Euclidean Distance: 147.8350067138672, Cosine Similarity: 0.7442846298217773, Manhattan Distance: 3847.003662109375
+Arnold Schwarzenegger: Euclidean Distance: 146.3230438232422, Cosine Similarity: 0.7210321128368378, Manhattan Distance: 3933.45556640625
+Ben Afflek: Euclidean Distance: 146.05587768554688, Cosine Similarity: 0.6830169558525085, Manhattan Distance: 3969.8310546875
+Keanu Reeves: Euclidean Distance: 145.78671264648438, Cosine Similarity: 0.7317588627338409, Manhattan Distance: 3859.711181640625
+Jerry Seinfeld: Euclidean Distance: 143.8855743408203, Cosine Similarity: 0.7564936727285385, Manhattan Distance: 3837.85498046875
+Kate Beckinsale: Euclidean Distance: 118.02108001708984, Cosine Similarity: 0.48844337463378906, Manhattan Distance: 2985.22607421875
+Lauren Cohan: Euclidean Distance: 134.16543579101562, Cosine Similarity: 0.6471890211105347, Manhattan Distance: 3523.0537109375
+Simon Pegg: Euclidean Distance: 143.44290161132812, Cosine Similarity: 0.7168628871440887, Manhattan Distance: 3774.43994140625
+FN: Simon Pegg is registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 145.9132080078125, Cosine Similarity: 0.7622109949588776, Manhattan Distance: 3870.85986328125
+Match with Euclidean distance found for Simon Pegg with:  in invited names.
+
+Comparison Results for Will Smith:
+Akshay Kumar: Euclidean Distance: 147.96127319335938, Cosine Similarity: 0.7609795033931732, Manhattan Distance: 4013.299072265625
+Alexandra Daddario: Euclidean Distance: 141.94383239746094, Cosine Similarity: 0.7733841836452484, Manhattan Distance: 3913.7880859375
+Alia Bhatt: Euclidean Distance: 131.07664489746094, Cosine Similarity: 0.7129053771495819, Manhattan Distance: 3513.0888671875
+Amitabh Bachchan: Euclidean Distance: 130.6764373779297, Cosine Similarity: 0.7574708312749863, Manhattan Distance: 3500.76123046875
+Andy Samberg: Euclidean Distance: 152.20216369628906, Cosine Similarity: 0.7858767211437225, Manhattan Distance: 4242.921875
+Anushka Sharma: Euclidean Distance: 143.74485778808594, Cosine Similarity: 0.7681931853294373, Manhattan Distance: 3882.685546875
+Billie Eilish: Euclidean Distance: 136.77915954589844, Cosine Similarity: 0.774538055062294, Manhattan Distance: 3596.639404296875
+Brad Pitt: Euclidean Distance: 133.93011474609375, Cosine Similarity: 0.6697823107242584, Manhattan Distance: 3556.572998046875
+Camila Cabello: Euclidean Distance: 142.324462890625, Cosine Similarity: 0.7709254622459412, Manhattan Distance: 3770.6328125
+Charlize Theron: Euclidean Distance: 145.54180908203125, Cosine Similarity: 0.7807607501745224, Manhattan Distance: 3946.476806640625
+Claire Holt: Euclidean Distance: 148.19088745117188, Cosine Similarity: 0.789774626493454, Manhattan Distance: 4019.13525390625
+Courtney Cox: Euclidean Distance: 137.11245727539062, Cosine Similarity: 0.758325606584549, Manhattan Distance: 3697.89111328125
+Dwayne Johnson: Euclidean Distance: 137.54286193847656, Cosine Similarity: 0.7483458518981934, Manhattan Distance: 3703.978271484375
+Elizabeth Olsen: Euclidean Distance: 143.7776641845703, Cosine Similarity: 0.746042013168335, Manhattan Distance: 3920.796142578125
+Ellen Degeneres: Euclidean Distance: 132.42909240722656, Cosine Similarity: 0.724186897277832, Manhattan Distance: 3588.37353515625
+Henry Cavill: Euclidean Distance: 134.0037384033203, Cosine Similarity: 0.6941121518611908, Manhattan Distance: 3755.96533203125
+Hrithik Roshan: Euclidean Distance: 145.08836364746094, Cosine Similarity: 0.7689193785190582, Manhattan Distance: 3957.8359375
+Hugh Jackman: Euclidean Distance: 132.7233123779297, Cosine Similarity: 0.7169035077095032, Manhattan Distance: 3559.60595703125
+Jessica Alba: Euclidean Distance: 148.39385986328125, Cosine Similarity: 0.7859126776456833, Manhattan Distance: 4084.673828125
+Kashyap: Euclidean Distance: 142.52349853515625, Cosine Similarity: 0.6992863118648529, Manhattan Distance: 3759.294189453125
+Lisa Kudrow: Euclidean Distance: 141.27479553222656, Cosine Similarity: 0.7852449715137482, Manhattan Distance: 3750.1005859375
+Anne Hathaway: Euclidean Distance: 138.16648864746094, Cosine Similarity: 0.7839449197053909, Manhattan Distance: 3703.18798828125
+Arnold Schwarzenegger: Euclidean Distance: 129.97373962402344, Cosine Similarity: 0.68393674492836, Manhattan Distance: 3490.01953125
+Ben Afflek: Euclidean Distance: 134.86770629882812, Cosine Similarity: 0.6902842819690704, Manhattan Distance: 3643.2724609375
+Keanu Reeves: Euclidean Distance: 131.25521850585938, Cosine Similarity: 0.7176790535449982, Manhattan Distance: 3437.691162109375
+Jerry Seinfeld: Euclidean Distance: 129.3531494140625, Cosine Similarity: 0.7527248561382294, Manhattan Distance: 3513.6015625
+Kate Beckinsale: Euclidean Distance: 130.83465576171875, Cosine Similarity: 0.741200178861618, Manhattan Distance: 3547.880126953125
+Lauren Cohan: Euclidean Distance: 132.18649291992188, Cosine Similarity: 0.7743093222379684, Manhattan Distance: 3606.796875
+Simon Pegg: Euclidean Distance: 132.74244689941406, Cosine Similarity: 0.7458084225654602, Manhattan Distance: 3567.1552734375
+Will Smith: Euclidean Distance: 83.6031265258789, Cosine Similarity: 0.3059249520301819, Manhattan Distance: 2037.8685302734375
+TP: Will Smith is registered and matches w/ registered faces Will Smith
+Match with Euclidean distance found for Will Smith with: Akshay Kumar, Alexandra Daddario, Alia Bhatt, Amitabh Bachchan, Andy Samberg, Anushka Sharma, Billie Eilish, Brad Pitt, Camila Cabello, Charlize Theron, Claire Holt, Courtney Cox, Dwayne Johnson, Elizabeth Olsen, Ellen Degeneres, Henry Cavill, Hrithik Roshan, Hugh Jackman, Jessica Alba, Kashyap, Lisa Kudrow, Anne Hathaway, Arnold Schwarzenegger, Ben Afflek, Keanu Reeves, Jerry Seinfeld, Kate Beckinsale, Lauren Cohan, Simon Pegg, Will Smith in invited names.
 
 Comparison Results for Margot Robbie:
 Akshay Kumar: Euclidean Distance: 148.03631591796875, Cosine Similarity: 0.6925031244754791, Manhattan Distance: 4083.63623046875
+TN: Margot Robbie is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 125.06694030761719, Cosine Similarity: 0.5392504632472992, Manhattan Distance: 3408.883056640625
+TN: Margot Robbie is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 141.63812255859375, Cosine Similarity: 0.7396942973136902, Manhattan Distance: 3969.292236328125
+TN: Margot Robbie is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 137.7700958251953, Cosine Similarity: 0.7405064105987549, Manhattan Distance: 3751.997314453125
+TN: Margot Robbie is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 157.70416259765625, Cosine Similarity: 0.7689104676246643, Manhattan Distance: 4506.900390625
+TN: Margot Robbie is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 145.68746948242188, Cosine Similarity: 0.7116597592830658, Manhattan Distance: 4028.44921875
+TN: Margot Robbie is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 135.28904724121094, Cosine Similarity: 0.673257976770401, Manhattan Distance: 3578.10546875
+TN: Margot Robbie is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 142.58078002929688, Cosine Similarity: 0.685166597366333, Manhattan Distance: 3939.4912109375
+TN: Margot Robbie is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 143.08645629882812, Cosine Similarity: 0.700634777545929, Manhattan Distance: 3831.994140625
+TN: Margot Robbie is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 128.5684814453125, Cosine Similarity: 0.5498884618282318, Manhattan Distance: 3442.0419921875
+TN: Margot Robbie is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 132.68991088867188, Cosine Similarity: 0.5729030072689056, Manhattan Distance: 3571.336181640625
+TN: Margot Robbie is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 121.01063537597656, Cosine Similarity: 0.5265860259532928, Manhattan Distance: 3262.530029296875
+TN: Margot Robbie is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 141.5006103515625, Cosine Similarity: 0.7085804343223572, Manhattan Distance: 3915.2412109375
+TN: Margot Robbie is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 139.054443359375, Cosine Similarity: 0.6317799687385559, Manhattan Distance: 3795.22607421875
+TN: Margot Robbie is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 133.07728576660156, Cosine Similarity: 0.6499463319778442, Manhattan Distance: 3656.128173828125
+TN: Margot Robbie is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 137.7916717529297, Cosine Similarity: 0.6589602828025818, Manhattan Distance: 3972.65478515625
+TN: Margot Robbie is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 144.27044677734375, Cosine Similarity: 0.6871225535869598, Manhattan Distance: 3991.9248046875
+TN: Margot Robbie is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 136.4357147216797, Cosine Similarity: 0.674939751625061, Manhattan Distance: 3801.85400390625
+TN: Margot Robbie is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 144.0011444091797, Cosine Similarity: 0.6704037487506866, Manhattan Distance: 3992.2607421875
+TN: Margot Robbie is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 153.51254272460938, Cosine Similarity: 0.7399460077285767, Manhattan Distance: 4335.44921875
+TN: Margot Robbie is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 147.17958068847656, Cosine Similarity: 0.7629298269748688, Manhattan Distance: 4050.14404296875
-No match with Euclidean distance found for Margot Robbie in invited names.
-No match with Cosine similarity found for Margot Robbie in invited names.
-No match with Manhattan distance found for Margot Robbie in invited names.
+TN: Margot Robbie is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 118.95415496826172, Cosine Similarity: 0.5163536965847015, Manhattan Distance: 3112.27734375
+FP: Margot Robbie is not registered and matches w/ registered faces: Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 138.68685913085938, Cosine Similarity: 0.6944388747215271, Manhattan Distance: 3855.21630859375
+TN: Margot Robbie is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 134.69241333007812, Cosine Similarity: 0.6198339760303497, Manhattan Distance: 3735.984375
+TN: Margot Robbie is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 136.5626678466797, Cosine Similarity: 0.6897068023681641, Manhattan Distance: 3740.1162109375
+TN: Margot Robbie is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 137.23023986816406, Cosine Similarity: 0.7434869706630707, Manhattan Distance: 3843.85107421875
+TN: Margot Robbie is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 131.8811798095703, Cosine Similarity: 0.6641407012939453, Manhattan Distance: 3602.0078125
+TN: Margot Robbie is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 127.5174560546875, Cosine Similarity: 0.6323241293430328, Manhattan Distance: 3466.71728515625
+TN: Margot Robbie is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 138.2030029296875, Cosine Similarity: 0.7160739898681641, Manhattan Distance: 3825.73974609375
+TN: Margot Robbie is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 122.40556335449219, Cosine Similarity: 0.5762341320514679, Manhattan Distance: 3297.761474609375
+TN: Margot Robbie is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Margot Robbie with:  in invited names.
 
 Comparison Results for Marmik:
 Akshay Kumar: Euclidean Distance: 152.94631958007812, Cosine Similarity: 0.7474789321422577, Manhattan Distance: 4133.76513671875
+TN: Marmik is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 145.45614624023438, Cosine Similarity: 0.73836550116539, Manhattan Distance: 4061.609375
+TN: Marmik is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 133.12890625, Cosine Similarity: 0.6620324552059174, Manhattan Distance: 3657.09912109375
+TN: Marmik is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 107.10211181640625, Cosine Similarity: 0.45051419734954834, Manhattan Distance: 2833.656005859375
+FP: Marmik is not registered and matches w/ registered faces: Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 134.7705535888672, Cosine Similarity: 0.5660112202167511, Manhattan Distance: 3716.69091796875
+TN: Marmik is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 140.9722137451172, Cosine Similarity: 0.674168199300766, Manhattan Distance: 3904.759765625
+TN: Marmik is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 141.4925537109375, Cosine Similarity: 0.7466149032115936, Manhattan Distance: 3784.04296875
+TN: Marmik is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 140.9715118408203, Cosine Similarity: 0.6777287721633911, Manhattan Distance: 3825.86962890625
+TN: Marmik is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 142.85934448242188, Cosine Similarity: 0.7068879902362823, Manhattan Distance: 3882.83837890625
+TN: Marmik is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 140.71914672851562, Cosine Similarity: 0.6664657294750214, Manhattan Distance: 3863.6748046875
+TN: Marmik is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 147.65853881835938, Cosine Similarity: 0.717754989862442, Manhattan Distance: 4049.51025390625
+TN: Marmik is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 143.8951873779297, Cosine Similarity: 0.754879429936409, Manhattan Distance: 4043.2734375
+TN: Marmik is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 143.08453369140625, Cosine Similarity: 0.7337684035301208, Manhattan Distance: 3960.09814453125
+TN: Marmik is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 146.1152801513672, Cosine Similarity: 0.7056020200252533, Manhattan Distance: 4019.84619140625
+TN: Marmik is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 135.72088623046875, Cosine Similarity: 0.685281902551651, Manhattan Distance: 3747.141357421875
+TN: Marmik is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 134.71592712402344, Cosine Similarity: 0.6376779079437256, Manhattan Distance: 3802.98388671875
+TN: Marmik is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 142.1037139892578, Cosine Similarity: 0.6742888391017914, Manhattan Distance: 3868.376220703125
+TN: Marmik is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 139.02630615234375, Cosine Similarity: 0.7101540863513947, Manhattan Distance: 3869.87158203125
+TN: Marmik is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 140.26271057128906, Cosine Similarity: 0.6430386304855347, Manhattan Distance: 3857.8583984375
+TN: Marmik is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 135.6433563232422, Cosine Similarity: 0.5830372869968414, Manhattan Distance: 3655.6650390625
+TN: Marmik is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 139.4102020263672, Cosine Similarity: 0.6931275427341461, Manhattan Distance: 3757.327392578125
-Match with Euclidean distance found for Marmik in invited names.
-Match with Cosine similarity found for Marmik in invited names.
-Match with Manhattan distance found for Marmik in invited names.
+TN: Marmik is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 144.28836059570312, Cosine Similarity: 0.7709861397743225, Manhattan Distance: 3984.30517578125
+TN: Marmik is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 137.44883728027344, Cosine Similarity: 0.6910425126552582, Manhattan Distance: 3839.900390625
+TN: Marmik is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 147.17263793945312, Cosine Similarity: 0.7489839494228363, Manhattan Distance: 4142.89111328125
+TN: Marmik is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 143.8506622314453, Cosine Similarity: 0.7760194092988968, Manhattan Distance: 4015.534423828125
+TN: Marmik is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 129.8329315185547, Cosine Similarity: 0.6742912828922272, Manhattan Distance: 3587.79541015625
+TN: Marmik is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 130.80984497070312, Cosine Similarity: 0.6627587080001831, Manhattan Distance: 3593.169677734375
+TN: Marmik is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 137.28639221191406, Cosine Similarity: 0.745419442653656, Manhattan Distance: 3830.09716796875
+TN: Marmik is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 140.39988708496094, Cosine Similarity: 0.7494065165519714, Manhattan Distance: 3839.74658203125
+TN: Marmik is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 142.15780639648438, Cosine Similarity: 0.7915081828832626, Manhattan Distance: 3969.14404296875
+TN: Marmik is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Marmik with:  in invited names.
 
 Comparison Results for Natalie Portman:
 Akshay Kumar: Euclidean Distance: 153.0716552734375, Cosine Similarity: 0.7029852271080017, Manhattan Distance: 4101.861328125
+TN: Natalie Portman is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 133.52633666992188, Cosine Similarity: 0.579384446144104, Manhattan Distance: 3537.697021484375
+TN: Natalie Portman is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 137.8423614501953, Cosine Similarity: 0.6563249826431274, Manhattan Distance: 3730.673095703125
+TN: Natalie Portman is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 144.2258758544922, Cosine Similarity: 0.7582622915506363, Manhattan Distance: 3894.625
+TN: Natalie Portman is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 144.70542907714844, Cosine Similarity: 0.6151604056358337, Manhattan Distance: 3923.51513671875
+TN: Natalie Portman is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 133.7459259033203, Cosine Similarity: 0.5667979717254639, Manhattan Distance: 3541.71142578125
+TN: Natalie Portman is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 147.160400390625, Cosine Similarity: 0.747969001531601, Manhattan Distance: 3916.59130859375
+TN: Natalie Portman is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 146.50010681152344, Cosine Similarity: 0.6834439635276794, Manhattan Distance: 3931.54638671875
+TN: Natalie Portman is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 139.7777099609375, Cosine Similarity: 0.6308186948299408, Manhattan Distance: 3659.58837890625
+TN: Natalie Portman is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 138.83787536621094, Cosine Similarity: 0.6065092086791992, Manhattan Distance: 3726.8125
+TN: Natalie Portman is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 132.80194091796875, Cosine Similarity: 0.5438455939292908, Manhattan Distance: 3447.185302734375
+TN: Natalie Portman is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 132.4347381591797, Cosine Similarity: 0.5922451913356781, Manhattan Distance: 3459.6728515625
+TN: Natalie Portman is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 145.15155029296875, Cosine Similarity: 0.7017414569854736, Manhattan Distance: 3858.66357421875
+TN: Natalie Portman is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 114.6395492553711, Cosine Similarity: 0.4067089557647705, Manhattan Distance: 2960.461181640625
+FP: Natalie Portman is not registered and matches w/ registered faces: Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 133.6905059814453, Cosine Similarity: 0.6145732998847961, Manhattan Distance: 3573.14697265625
+TN: Natalie Portman is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 142.88540649414062, Cosine Similarity: 0.6678379774093628, Manhattan Distance: 3998.43798828125
+TN: Natalie Portman is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 151.9761199951172, Cosine Similarity: 0.7215993702411652, Manhattan Distance: 4118.9853515625
+TN: Natalie Portman is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 132.45716857910156, Cosine Similarity: 0.5965299606323242, Manhattan Distance: 3447.97021484375
+TN: Natalie Portman is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 125.42129516601562, Cosine Similarity: 0.48207682371139526, Manhattan Distance: 3381.78076171875
+TN: Natalie Portman is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 152.22457885742188, Cosine Similarity: 0.6909243166446686, Manhattan Distance: 4235.791015625
+TN: Natalie Portman is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 138.3814239501953, Cosine Similarity: 0.6346264779567719, Manhattan Distance: 3661.828369140625
-Match with Euclidean distance found for Natalie Portman in invited names.
-Match with Cosine similarity found for Natalie Portman in invited names.
-Match with Manhattan distance found for Natalie Portman in invited names.
+TN: Natalie Portman is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 126.37142181396484, Cosine Similarity: 0.5459319949150085, Manhattan Distance: 3281.7568359375
+TN: Natalie Portman is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 142.67568969726562, Cosine Similarity: 0.6904676854610443, Manhattan Distance: 3896.14599609375
+TN: Natalie Portman is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 144.63922119140625, Cosine Similarity: 0.6745679080486298, Manhattan Distance: 3962.309326171875
+TN: Natalie Portman is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 139.82101440429688, Cosine Similarity: 0.677638053894043, Manhattan Distance: 3748.054931640625
+TN: Natalie Portman is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 139.4761199951172, Cosine Similarity: 0.7155711650848389, Manhattan Distance: 3754.835693359375
+TN: Natalie Portman is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 135.91189575195312, Cosine Similarity: 0.658868134021759, Manhattan Distance: 3615.20751953125
+TN: Natalie Portman is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 130.80743408203125, Cosine Similarity: 0.6196254789829254, Manhattan Distance: 3503.50146484375
+TN: Natalie Portman is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 139.40460205078125, Cosine Similarity: 0.6818853318691254, Manhattan Distance: 3724.240966796875
+TN: Natalie Portman is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 144.4439239501953, Cosine Similarity: 0.7528207749128342, Manhattan Distance: 3892.75048828125
+TN: Natalie Portman is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Natalie Portman with:  in invited names.
 
 Comparison Results for Priyanka Chopra:
 Akshay Kumar: Euclidean Distance: 138.98431396484375, Cosine Similarity: 0.6303670108318329, Manhattan Distance: 3745.225830078125
+TN: Priyanka Chopra is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 133.00209045410156, Cosine Similarity: 0.6332148015499115, Manhattan Distance: 3620.05029296875
+TN: Priyanka Chopra is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 129.31039428710938, Cosine Similarity: 0.6424578130245209, Manhattan Distance: 3447.9404296875
+TN: Priyanka Chopra is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 133.52267456054688, Cosine Similarity: 0.7272781133651733, Manhattan Distance: 3571.912109375
+TN: Priyanka Chopra is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 148.7952880859375, Cosine Similarity: 0.7064679563045502, Manhattan Distance: 4105.7734375
+TN: Priyanka Chopra is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 115.40788269042969, Cosine Similarity: 0.46246039867401123, Manhattan Distance: 2966.9287109375
+FP: Priyanka Chopra is not registered and matches w/ registered faces: Anushka Sharma
 Billie Eilish: Euclidean Distance: 136.36529541015625, Cosine Similarity: 0.7130772769451141, Manhattan Distance: 3584.49169921875
+TN: Priyanka Chopra is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 145.125732421875, Cosine Similarity: 0.7362431287765503, Manhattan Distance: 3971.658203125
+TN: Priyanka Chopra is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 133.49732971191406, Cosine Similarity: 0.6329482197761536, Manhattan Distance: 3468.57177734375
+TN: Priyanka Chopra is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 133.26763916015625, Cosine Similarity: 0.6121349632740021, Manhattan Distance: 3511.8974609375
+TN: Priyanka Chopra is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 141.51695251464844, Cosine Similarity: 0.6747129559516907, Manhattan Distance: 3829.066162109375
+TN: Priyanka Chopra is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 132.17510986328125, Cosine Similarity: 0.6543663144111633, Manhattan Distance: 3570.224365234375
+TN: Priyanka Chopra is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 141.51661682128906, Cosine Similarity: 0.7370090186595917, Manhattan Distance: 3851.939697265625
+TN: Priyanka Chopra is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 141.72462463378906, Cosine Similarity: 0.679520845413208, Manhattan Distance: 3819.36083984375
+TN: Priyanka Chopra is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 135.2735595703125, Cosine Similarity: 0.7001067698001862, Manhattan Distance: 3675.406005859375
+TN: Priyanka Chopra is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 142.08604431152344, Cosine Similarity: 0.7278439700603485, Manhattan Distance: 4069.0390625
+TN: Priyanka Chopra is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 138.21466064453125, Cosine Similarity: 0.6531632542610168, Manhattan Distance: 3729.570556640625
+TN: Priyanka Chopra is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 135.44210815429688, Cosine Similarity: 0.692737489938736, Manhattan Distance: 3684.1982421875
+TN: Priyanka Chopra is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 127.82869720458984, Cosine Similarity: 0.5458199679851532, Manhattan Distance: 3329.28466796875
+TN: Priyanka Chopra is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 146.48440551757812, Cosine Similarity: 0.6960031390190125, Manhattan Distance: 3995.95263671875
+TN: Priyanka Chopra is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 137.25680541992188, Cosine Similarity: 0.6897673308849335, Manhattan Distance: 3670.41455078125
-Match with Euclidean distance found for Priyanka Chopra in invited names.
-Match with Cosine similarity found for Priyanka Chopra in invited names.
-Match with Manhattan distance found for Priyanka Chopra in invited names.
+TN: Priyanka Chopra is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 121.06739807128906, Cosine Similarity: 0.5578414499759674, Manhattan Distance: 3175.900390625
+TN: Priyanka Chopra is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 137.45892333984375, Cosine Similarity: 0.7102598547935486, Manhattan Distance: 3766.8994140625
+TN: Priyanka Chopra is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 145.7952423095703, Cosine Similarity: 0.7537779808044434, Manhattan Distance: 4045.189208984375
+TN: Priyanka Chopra is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 138.25155639648438, Cosine Similarity: 0.7371161580085754, Manhattan Distance: 3741.844482421875
+TN: Priyanka Chopra is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 136.0378875732422, Cosine Similarity: 0.7648248374462128, Manhattan Distance: 3747.26513671875
+TN: Priyanka Chopra is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 124.24754333496094, Cosine Similarity: 0.615803599357605, Manhattan Distance: 3293.33203125
+TN: Priyanka Chopra is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 128.67288208007812, Cosine Similarity: 0.6743833720684052, Manhattan Distance: 3413.078369140625
+TN: Priyanka Chopra is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 129.9243927001953, Cosine Similarity: 0.6601743400096893, Manhattan Distance: 3528.283203125
+TN: Priyanka Chopra is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 137.46961975097656, Cosine Similarity: 0.7622416168451309, Manhattan Distance: 3758.4365234375
+TN: Priyanka Chopra is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Priyanka Chopra with:  in invited names.
 
 Comparison Results for Robert Downey Jr:
 Akshay Kumar: Euclidean Distance: 138.55020141601562, Cosine Similarity: 0.61109659075737, Manhattan Distance: 3743.8642578125
+TN: Robert Downey Jr is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 129.39170837402344, Cosine Similarity: 0.5825031399726868, Manhattan Distance: 3515.19873046875
+TN: Robert Downey Jr is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 138.2625732421875, Cosine Similarity: 0.7118614614009857, Manhattan Distance: 3775.83447265625
+TN: Robert Downey Jr is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 131.3084259033203, Cosine Similarity: 0.6792168319225311, Manhattan Distance: 3580.460693359375
+TN: Robert Downey Jr is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 137.3443603515625, Cosine Similarity: 0.5865684151649475, Manhattan Distance: 3768.964111328125
+TN: Robert Downey Jr is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 137.21017456054688, Cosine Similarity: 0.6367834508419037, Manhattan Distance: 3794.323486328125
+TN: Robert Downey Jr is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 144.41673278808594, Cosine Similarity: 0.7753018438816071, Manhattan Distance: 3924.455078125
+TN: Robert Downey Jr is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 133.2245635986328, Cosine Similarity: 0.6034809947013855, Manhattan Distance: 3646.9453125
+TN: Robert Downey Jr is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 143.27059936523438, Cosine Similarity: 0.7088263630867004, Manhattan Distance: 3886.030517578125
+TN: Robert Downey Jr is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 138.9324951171875, Cosine Similarity: 0.6477620005607605, Manhattan Distance: 3847.581298828125
+TN: Robert Downey Jr is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 146.8277130126953, Cosine Similarity: 0.7076897025108337, Manhattan Distance: 4037.388671875
+TN: Robert Downey Jr is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 133.29385375976562, Cosine Similarity: 0.6455183029174805, Manhattan Distance: 3653.4580078125
+TN: Robert Downey Jr is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 125.91043853759766, Cosine Similarity: 0.5663233399391174, Manhattan Distance: 3370.947021484375
+TN: Robert Downey Jr is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 146.17478942871094, Cosine Similarity: 0.7041870951652527, Manhattan Distance: 4033.10986328125
+TN: Robert Downey Jr is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 142.2604217529297, Cosine Similarity: 0.7506114095449448, Manhattan Distance: 4009.943359375
+TN: Robert Downey Jr is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 127.60313415527344, Cosine Similarity: 0.5703598856925964, Manhattan Distance: 3604.82177734375
+TN: Robert Downey Jr is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 142.3623046875, Cosine Similarity: 0.674819678068161, Manhattan Distance: 3913.7646484375
+TN: Robert Downey Jr is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 122.3050537109375, Cosine Similarity: 0.5474866032600403, Manhattan Distance: 3271.04833984375
+TN: Robert Downey Jr is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 150.07936096191406, Cosine Similarity: 0.7344547510147095, Manhattan Distance: 4221.8076171875
+TN: Robert Downey Jr is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 150.66091918945312, Cosine Similarity: 0.7183572947978973, Manhattan Distance: 4191.1181640625
+TN: Robert Downey Jr is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 138.76002502441406, Cosine Similarity: 0.6845219731330872, Manhattan Distance: 3794.560302734375
-No match with Euclidean distance found for Robert Downey Jr in invited names.
-No match with Cosine similarity found for Robert Downey Jr in invited names.
-No match with Manhattan distance found for Robert Downey Jr in invited names.
+TN: Robert Downey Jr is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 133.6241912841797, Cosine Similarity: 0.6587908267974854, Manhattan Distance: 3622.31005859375
+TN: Robert Downey Jr is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 131.84634399414062, Cosine Similarity: 0.6336925625801086, Manhattan Distance: 3659.6767578125
+TN: Robert Downey Jr is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 136.47618103027344, Cosine Similarity: 0.6421286165714264, Manhattan Distance: 3786.59423828125
+TN: Robert Downey Jr is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 131.64671325683594, Cosine Similarity: 0.647303432226181, Manhattan Distance: 3591.10498046875
+TN: Robert Downey Jr is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 114.552734375, Cosine Similarity: 0.5203452408313751, Manhattan Distance: 3069.31884765625
+FP: Robert Downey Jr is not registered and matches w/ registered faces: Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 127.51078033447266, Cosine Similarity: 0.627172440290451, Manhattan Distance: 3493.37939453125
+TN: Robert Downey Jr is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 130.64581298828125, Cosine Similarity: 0.671712189912796, Manhattan Distance: 3639.4775390625
+TN: Robert Downey Jr is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 132.07476806640625, Cosine Similarity: 0.6604278981685638, Manhattan Distance: 3615.70361328125
+TN: Robert Downey Jr is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 132.40802001953125, Cosine Similarity: 0.6832002103328705, Manhattan Distance: 3624.506591796875
+TN: Robert Downey Jr is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Robert Downey Jr with:  in invited names.
 
 Comparison Results for Roger Federer:
 Akshay Kumar: Euclidean Distance: 152.50811767578125, Cosine Similarity: 0.7157524526119232, Manhattan Distance: 4137.6533203125
+TN: Roger Federer is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 141.54246520996094, Cosine Similarity: 0.6702375710010529, Manhattan Distance: 3954.98779296875
+TN: Roger Federer is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 142.19137573242188, Cosine Similarity: 0.7213113605976105, Manhattan Distance: 3884.91015625
+TN: Roger Federer is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 143.32594299316406, Cosine Similarity: 0.774329885840416, Manhattan Distance: 3939.825439453125
+TN: Roger Federer is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 153.4382781982422, Cosine Similarity: 0.7089973092079163, Manhattan Distance: 4282.75
+TN: Roger Federer is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 129.77703857421875, Cosine Similarity: 0.5486222207546234, Manhattan Distance: 3466.3994140625
+TN: Roger Federer is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 140.86695861816406, Cosine Similarity: 0.7064855396747589, Manhattan Distance: 3811.326171875
+TN: Roger Federer is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 155.41705322265625, Cosine Similarity: 0.7907699942588806, Manhattan Distance: 4348.24609375
+TN: Roger Federer is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 145.1708221435547, Cosine Similarity: 0.7000840604305267, Manhattan Distance: 3971.79931640625
+TN: Roger Federer is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 134.0204620361328, Cosine Similarity: 0.5807667374610901, Manhattan Distance: 3684.3125
+TN: Roger Federer is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 146.9025115966797, Cosine Similarity: 0.6832571923732758, Manhattan Distance: 4101.34912109375
+TN: Roger Federer is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 129.74588012695312, Cosine Similarity: 0.5862058997154236, Manhattan Distance: 3581.51953125
+TN: Roger Federer is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 142.22560119628906, Cosine Similarity: 0.6938870251178741, Manhattan Distance: 3903.464599609375
+TN: Roger Federer is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 147.19125366210938, Cosine Similarity: 0.688535213470459, Manhattan Distance: 4089.609375
+TN: Roger Federer is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 136.8770751953125, Cosine Similarity: 0.6653586328029633, Manhattan Distance: 3836.6396484375
+TN: Roger Federer is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 135.8450927734375, Cosine Similarity: 0.6212518215179443, Manhattan Distance: 3887.24755859375
+TN: Roger Federer is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 146.09869384765625, Cosine Similarity: 0.6850281953811646, Manhattan Distance: 4077.654296875
+TN: Roger Federer is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 138.45254516601562, Cosine Similarity: 0.6729143857955933, Manhattan Distance: 3847.896240234375
+TN: Roger Federer is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 135.58670043945312, Cosine Similarity: 0.5782578587532043, Manhattan Distance: 3716.635498046875
+TN: Roger Federer is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 146.26165771484375, Cosine Similarity: 0.6539953052997589, Manhattan Distance: 4078.13916015625
+TN: Roger Federer is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 141.66534423828125, Cosine Similarity: 0.6852310001850128, Manhattan Distance: 3952.6953125
+TN: Roger Federer is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 148.5788116455078, Cosine Similarity: 0.7813040316104889, Manhattan Distance: 4143.8330078125
+TN: Roger Federer is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 141.24554443359375, Cosine Similarity: 0.6975985169410706, Manhattan Distance: 3955.943115234375
+TN: Roger Federer is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 148.97421264648438, Cosine Similarity: 0.7361223697662354, Manhattan Distance: 4221.314453125
+TN: Roger Federer is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 139.01329040527344, Cosine Similarity: 0.6913722455501556, Manhattan Distance: 3807.63525390625
+TN: Roger Federer is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 128.2628173828125, Cosine Similarity: 0.6237650513648987, Manhattan Distance: 3517.3359375
+TN: Roger Federer is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 136.9515838623047, Cosine Similarity: 0.6920548379421234, Manhattan Distance: 3845.853515625
+TN: Roger Federer is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 139.58140563964844, Cosine Similarity: 0.7329972088336945, Manhattan Distance: 3947.93896484375
+TN: Roger Federer is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 142.2311248779297, Cosine Similarity: 0.7335303723812103, Manhattan Distance: 3959.99755859375
+TN: Roger Federer is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 140.35797119140625, Cosine Similarity: 0.7341123819351196, Manhattan Distance: 3854.5576171875
+TN: Roger Federer is not registered and DOES not match w/ Will Smith
 No match with Euclidean distance found for Roger Federer in invited names.
-No match with Cosine similarity found for Roger Federer in invited names.
-No match with Manhattan distance found for Roger Federer in invited names.
 
 Comparison Results for Tom Cruise:
 Akshay Kumar: Euclidean Distance: 149.35250854492188, Cosine Similarity: 0.7284907698631287, Manhattan Distance: 4027.6318359375
+TN: Tom Cruise is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 139.76296997070312, Cosine Similarity: 0.6988226771354675, Manhattan Distance: 3917.5185546875
+TN: Tom Cruise is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 140.4925994873047, Cosine Similarity: 0.7579971104860306, Manhattan Distance: 3885.979248046875
+TN: Tom Cruise is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 139.5330047607422, Cosine Similarity: 0.7941594123840332, Manhattan Distance: 3820.10302734375
+TN: Tom Cruise is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 139.39344787597656, Cosine Similarity: 0.6185985803604126, Manhattan Distance: 3765.484130859375
+TN: Tom Cruise is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 143.232421875, Cosine Similarity: 0.7127784192562103, Manhattan Distance: 3922.8369140625
+TN: Tom Cruise is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 145.2759552001953, Cosine Similarity: 0.8088488429784775, Manhattan Distance: 4011.831298828125
+TN: Tom Cruise is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 145.20208740234375, Cosine Similarity: 0.7365587055683136, Manhattan Distance: 3992.731201171875
+TN: Tom Cruise is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 146.41238403320312, Cosine Similarity: 0.7609915733337402, Manhattan Distance: 4025.12060546875
+TN: Tom Cruise is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 135.55462646484375, Cosine Similarity: 0.633013904094696, Manhattan Distance: 3717.31884765625
+TN: Tom Cruise is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 142.33499145507812, Cosine Similarity: 0.6821748316287994, Manhattan Distance: 3914.58349609375
+TN: Tom Cruise is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 130.96263122558594, Cosine Similarity: 0.6419720649719238, Manhattan Distance: 3571.901123046875
+TN: Tom Cruise is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 141.4861602783203, Cosine Similarity: 0.7361988723278046, Manhattan Distance: 3909.28564453125
+TN: Tom Cruise is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 133.5522003173828, Cosine Similarity: 0.6026859283447266, Manhattan Distance: 3700.95556640625
+TN: Tom Cruise is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 129.9068145751953, Cosine Similarity: 0.6451443135738373, Manhattan Distance: 3584.15771484375
+TN: Tom Cruise is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 119.39140319824219, Cosine Similarity: 0.5134978890419006, Manhattan Distance: 3297.655517578125
+FP: Tom Cruise is not registered and matches w/ registered faces: Henry Cavill
 Hrithik Roshan: Euclidean Distance: 144.3375701904297, Cosine Similarity: 0.7121188938617706, Manhattan Distance: 3952.525634765625
+TN: Tom Cruise is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 129.79530334472656, Cosine Similarity: 0.6357126832008362, Manhattan Distance: 3482.578125
+TN: Tom Cruise is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 144.46139526367188, Cosine Similarity: 0.6978574395179749, Manhattan Distance: 4014.152099609375
+TN: Tom Cruise is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 144.0601806640625, Cosine Similarity: 0.6725489795207977, Manhattan Distance: 4004.83740234375
+TN: Tom Cruise is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 142.7694854736328, Cosine Similarity: 0.7457930147647858, Manhattan Distance: 3940.0078125
-Match with Euclidean distance found for Tom Cruise in invited names.
-No match with Cosine similarity found for Tom Cruise in invited names.
-No match with Manhattan distance found for Tom Cruise in invited names.
+TN: Tom Cruise is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 139.6796112060547, Cosine Similarity: 0.7421939373016357, Manhattan Distance: 3834.41455078125
+TN: Tom Cruise is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 135.88394165039062, Cosine Similarity: 0.6935940384864807, Manhattan Distance: 3736.39404296875
+TN: Tom Cruise is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 116.31974029541016, Cosine Similarity: 0.4792366027832031, Manhattan Distance: 3099.571533203125
+FP: Tom Cruise is not registered and matches w/ registered faces: Ben Afflek
+Keanu Reeves: Euclidean Distance: 137.2281951904297, Cosine Similarity: 0.7257096171379089, Manhattan Distance: 3814.0146484375
+TN: Tom Cruise is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 126.56843566894531, Cosine Similarity: 0.6604960262775421, Manhattan Distance: 3436.04248046875
+TN: Tom Cruise is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 125.11239624023438, Cosine Similarity: 0.6239775121212006, Manhattan Distance: 3444.9931640625
+TN: Tom Cruise is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 130.24256896972656, Cosine Similarity: 0.6905392408370972, Manhattan Distance: 3643.1298828125
+TN: Tom Cruise is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 138.82420349121094, Cosine Similarity: 0.753432422876358, Manhattan Distance: 3828.421630859375
+TN: Tom Cruise is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 126.01629638671875, Cosine Similarity: 0.6393003165721893, Manhattan Distance: 3417.5048828125
+TN: Tom Cruise is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Tom Cruise with:  in invited names.
 
 Comparison Results for Vijay Deverakonda:
 Akshay Kumar: Euclidean Distance: 152.29710388183594, Cosine Similarity: 0.7416136562824249, Manhattan Distance: 4084.7197265625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 145.42958068847656, Cosine Similarity: 0.7386525273323059, Manhattan Distance: 4044.3076171875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 120.0885009765625, Cosine Similarity: 0.5387178659439087, Manhattan Distance: 3165.7568359375
+FP: Vijay Deverakonda is not registered and matches w/ registered faces: Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 126.66230010986328, Cosine Similarity: 0.6343059241771698, Manhattan Distance: 3367.6484375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 150.83233642578125, Cosine Similarity: 0.7108628749847412, Manhattan Distance: 4201.17236328125
+TN: Vijay Deverakonda is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 139.3345184326172, Cosine Similarity: 0.6590602099895477, Manhattan Distance: 3772.65185546875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 141.9386444091797, Cosine Similarity: 0.7519647777080536, Manhattan Distance: 3779.814208984375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 151.22613525390625, Cosine Similarity: 0.7805369198322296, Manhattan Distance: 4187.4658203125
+TN: Vijay Deverakonda is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 137.34226989746094, Cosine Similarity: 0.6538262665271759, Manhattan Distance: 3635.35888671875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 145.0581512451172, Cosine Similarity: 0.7087542712688446, Manhattan Distance: 3981.373779296875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 136.71876525878906, Cosine Similarity: 0.615511417388916, Manhattan Distance: 3639.42431640625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 142.01902770996094, Cosine Similarity: 0.7358900308609009, Manhattan Distance: 3902.73974609375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 138.19869995117188, Cosine Similarity: 0.6850308179855347, Manhattan Distance: 3721.560546875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 142.58241271972656, Cosine Similarity: 0.6722876131534576, Manhattan Distance: 3874.64501953125
+TN: Vijay Deverakonda is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 137.4397735595703, Cosine Similarity: 0.7033834159374237, Manhattan Distance: 3794.838134765625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 124.34664916992188, Cosine Similarity: 0.5437032878398895, Manhattan Distance: 3387.3388671875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 124.51105499267578, Cosine Similarity: 0.5177796483039856, Manhattan Distance: 3273.626708984375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 129.81956481933594, Cosine Similarity: 0.619560569524765, Manhattan Distance: 3480.552734375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 125.49143981933594, Cosine Similarity: 0.5146435499191284, Manhattan Distance: 3373.371337890625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 123.7607650756836, Cosine Similarity: 0.4849429130554199, Manhattan Distance: 3151.793701171875
+TN: Vijay Deverakonda is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 142.9003143310547, Cosine Similarity: 0.7288414537906647, Manhattan Distance: 3890.17626953125
-Match with Euclidean distance found for Vijay Deverakonda in invited names.
-Match with Cosine similarity found for Vijay Deverakonda in invited names.
-Match with Manhattan distance found for Vijay Deverakonda in invited names.
+TN: Vijay Deverakonda is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 139.9834442138672, Cosine Similarity: 0.726162850856781, Manhattan Distance: 3810.173828125
+TN: Vijay Deverakonda is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 135.25462341308594, Cosine Similarity: 0.66966512799263, Manhattan Distance: 3742.265380859375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 143.34385681152344, Cosine Similarity: 0.7110454440116882, Manhattan Distance: 3924.48291015625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 131.24899291992188, Cosine Similarity: 0.6461256444454193, Manhattan Distance: 3566.06103515625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 136.96102905273438, Cosine Similarity: 0.7523191869258881, Manhattan Distance: 3746.408203125
+TN: Vijay Deverakonda is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 137.45176696777344, Cosine Similarity: 0.7330434024333954, Manhattan Distance: 3780.27880859375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 136.53436279296875, Cosine Similarity: 0.7378445863723755, Manhattan Distance: 3771.84228515625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 130.94815063476562, Cosine Similarity: 0.6519697308540344, Manhattan Distance: 3483.15380859375
+TN: Vijay Deverakonda is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 134.2537078857422, Cosine Similarity: 0.705775111913681, Manhattan Distance: 3624.23681640625
+TN: Vijay Deverakonda is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Vijay Deverakonda with:  in invited names.
 
 Comparison Results for Virat Kohli:
 Akshay Kumar: Euclidean Distance: 149.010009765625, Cosine Similarity: 0.7156527042388916, Manhattan Distance: 4043.18701171875
+TN: Virat Kohli is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 136.21678161621094, Cosine Similarity: 0.6540634334087372, Manhattan Distance: 3767.658935546875
+TN: Virat Kohli is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 134.7252655029297, Cosine Similarity: 0.6856431066989899, Manhattan Distance: 3693.365234375
+TN: Virat Kohli is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 131.78903198242188, Cosine Similarity: 0.6952250003814697, Manhattan Distance: 3552.248046875
+TN: Virat Kohli is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 142.84072875976562, Cosine Similarity: 0.6419460475444794, Manhattan Distance: 3909.74609375
+TN: Virat Kohli is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 135.41033935546875, Cosine Similarity: 0.627968430519104, Manhattan Distance: 3621.24365234375
+TN: Virat Kohli is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 141.6894073486328, Cosine Similarity: 0.7569790333509445, Manhattan Distance: 3822.212646484375
+TN: Virat Kohli is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 148.6992950439453, Cosine Similarity: 0.7614900022745132, Manhattan Distance: 4088.321044921875
+TN: Virat Kohli is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 142.44183349609375, Cosine Similarity: 0.7097714841365814, Manhattan Distance: 3817.0888671875
+TN: Virat Kohli is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 142.66897583007812, Cosine Similarity: 0.6916390955448151, Manhattan Distance: 3895.44580078125
+TN: Virat Kohli is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 146.29745483398438, Cosine Similarity: 0.7111043930053711, Manhattan Distance: 4057.8857421875
+TN: Virat Kohli is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 138.5706024169922, Cosine Similarity: 0.7075054049491882, Manhattan Distance: 3802.6123046875
+TN: Virat Kohli is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 146.22181701660156, Cosine Similarity: 0.7743210792541504, Manhattan Distance: 4075.439697265625
+TN: Virat Kohli is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 136.9126739501953, Cosine Similarity: 0.6250501275062561, Manhattan Distance: 3720.419921875
+TN: Virat Kohli is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 136.09722900390625, Cosine Similarity: 0.6967440545558929, Manhattan Distance: 3733.008056640625
+TN: Virat Kohli is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 134.7119903564453, Cosine Similarity: 0.6441299915313721, Manhattan Distance: 3765.656494140625
+TN: Virat Kohli is not registered and DOES not match w/ Henry Cavill
 Hrithik Roshan: Euclidean Distance: 139.00213623046875, Cosine Similarity: 0.6512050628662109, Manhattan Distance: 3721.59033203125
+TN: Virat Kohli is not registered and DOES not match w/ Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 133.45852661132812, Cosine Similarity: 0.6614583134651184, Manhattan Distance: 3611.53466796875
+TN: Virat Kohli is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 135.642578125, Cosine Similarity: 0.606673389673233, Manhattan Distance: 3693.3310546875
+TN: Virat Kohli is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 135.3865966796875, Cosine Similarity: 0.5857932865619659, Manhattan Distance: 3578.088134765625
+TN: Virat Kohli is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 143.65379333496094, Cosine Similarity: 0.7436254918575287, Manhattan Distance: 3919.0029296875
+TN: Virat Kohli is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 142.41506958007812, Cosine Similarity: 0.759272962808609, Manhattan Distance: 3898.4423828125
+TN: Virat Kohli is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 142.861083984375, Cosine Similarity: 0.7546520680189133, Manhattan Distance: 3994.3564453125
+TN: Virat Kohli is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 145.9056854248047, Cosine Similarity: 0.7434768378734589, Manhattan Distance: 4071.05859375
+TN: Virat Kohli is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 139.9289093017578, Cosine Similarity: 0.742340624332428, Manhattan Distance: 3807.438720703125
+TN: Virat Kohli is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 135.44459533691406, Cosine Similarity: 0.7439128756523132, Manhattan Distance: 3761.18505859375
+TN: Virat Kohli is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 133.58384704589844, Cosine Similarity: 0.6996082067489624, Manhattan Distance: 3706.6357421875
+TN: Virat Kohli is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 134.31906127929688, Cosine Similarity: 0.721839189529419, Manhattan Distance: 3733.907958984375
+TN: Virat Kohli is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 137.4193115234375, Cosine Similarity: 0.7259638011455536, Manhattan Distance: 3748.71142578125
+TN: Virat Kohli is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 136.56045532226562, Cosine Similarity: 0.7385414838790894, Manhattan Distance: 3715.8671875
+TN: Virat Kohli is not registered and DOES not match w/ Will Smith
 No match with Euclidean distance found for Virat Kohli in invited names.
-No match with Cosine similarity found for Virat Kohli in invited names.
-No match with Manhattan distance found for Virat Kohli in invited names.
 
 Comparison Results for Zac Efron:
 Akshay Kumar: Euclidean Distance: 150.8236083984375, Cosine Similarity: 0.7032730579376221, Manhattan Distance: 4058.3037109375
+TN: Zac Efron is not registered and DOES not match w/ Akshay Kumar
 Alexandra Daddario: Euclidean Distance: 145.04481506347656, Cosine Similarity: 0.7075527906417847, Manhattan Distance: 4032.55078125
+TN: Zac Efron is not registered and DOES not match w/ Alexandra Daddario
 Alia Bhatt: Euclidean Distance: 135.40640258789062, Cosine Similarity: 0.6573916673660278, Manhattan Distance: 3708.35107421875
+TN: Zac Efron is not registered and DOES not match w/ Alia Bhatt
 Amitabh Bachchan: Euclidean Distance: 138.46844482421875, Cosine Similarity: 0.7262567579746246, Manhattan Distance: 3734.156982421875
+TN: Zac Efron is not registered and DOES not match w/ Amitabh Bachchan
 Andy Samberg: Euclidean Distance: 152.81105041503906, Cosine Similarity: 0.7063838243484497, Manhattan Distance: 4246.7880859375
+TN: Zac Efron is not registered and DOES not match w/ Andy Samberg
 Anushka Sharma: Euclidean Distance: 140.63577270507812, Cosine Similarity: 0.6475420296192169, Manhattan Distance: 3821.34033203125
+TN: Zac Efron is not registered and DOES not match w/ Anushka Sharma
 Billie Eilish: Euclidean Distance: 140.68260192871094, Cosine Similarity: 0.7086979746818542, Manhattan Distance: 3754.24169921875
+TN: Zac Efron is not registered and DOES not match w/ Billie Eilish
 Brad Pitt: Euclidean Distance: 139.99850463867188, Cosine Similarity: 0.6449035406112671, Manhattan Distance: 3788.85693359375
+TN: Zac Efron is not registered and DOES not match w/ Brad Pitt
 Camila Cabello: Euclidean Distance: 141.34336853027344, Cosine Similarity: 0.6670914888381958, Manhattan Distance: 3839.573974609375
+TN: Zac Efron is not registered and DOES not match w/ Camila Cabello
 Charlize Theron: Euclidean Distance: 140.24717712402344, Cosine Similarity: 0.6391684114933014, Manhattan Distance: 3829.96630859375
+TN: Zac Efron is not registered and DOES not match w/ Charlize Theron
 Claire Holt: Euclidean Distance: 140.8134765625, Cosine Similarity: 0.6308141946792603, Manhattan Distance: 3796.343994140625
+TN: Zac Efron is not registered and DOES not match w/ Claire Holt
 Courtney Cox: Euclidean Distance: 126.79446411132812, Cosine Similarity: 0.5629027187824249, Manhattan Distance: 3461.49951171875
+TN: Zac Efron is not registered and DOES not match w/ Courtney Cox
 Dwayne Johnson: Euclidean Distance: 152.92190551757812, Cosine Similarity: 0.8068443238735199, Manhattan Distance: 4268.04736328125
+TN: Zac Efron is not registered and DOES not match w/ Dwayne Johnson
 Elizabeth Olsen: Euclidean Distance: 147.98280334472656, Cosine Similarity: 0.6993586122989655, Manhattan Distance: 4085.15185546875
+TN: Zac Efron is not registered and DOES not match w/ Elizabeth Olsen
 Ellen Degeneres: Euclidean Distance: 135.7421112060547, Cosine Similarity: 0.6580901443958282, Manhattan Distance: 3734.32763671875
+TN: Zac Efron is not registered and DOES not match w/ Ellen Degeneres
 Henry Cavill: Euclidean Distance: 119.06732177734375, Cosine Similarity: 0.4796414375305176, Manhattan Distance: 3265.37939453125
+FP: Zac Efron is not registered and matches w/ registered faces: Henry Cavill
 Hrithik Roshan: Euclidean Distance: 117.33389282226562, Cosine Similarity: 0.44400715827941895, Manhattan Distance: 3130.580078125
+FP: Zac Efron is not registered and matches w/ registered faces: Hrithik Roshan
 Hugh Jackman: Euclidean Distance: 136.244873046875, Cosine Similarity: 0.6552160680294037, Manhattan Distance: 3723.609375
+TN: Zac Efron is not registered and DOES not match w/ Hugh Jackman
 Jessica Alba: Euclidean Distance: 145.9285430908203, Cosine Similarity: 0.6731000244617462, Manhattan Distance: 4010.1279296875
+TN: Zac Efron is not registered and DOES not match w/ Jessica Alba
 Kashyap: Euclidean Distance: 147.37864685058594, Cosine Similarity: 0.6671015620231628, Manhattan Distance: 4060.98876953125
+TN: Zac Efron is not registered and DOES not match w/ Kashyap
 Lisa Kudrow: Euclidean Distance: 144.95838928222656, Cosine Similarity: 0.7214251756668091, Manhattan Distance: 3931.28955078125
-Match with Euclidean distance found for Zac Efron in invited names.
-Match with Cosine similarity found for Zac Efron in invited names.
-Match with Manhattan distance found for Zac Efron in invited names.
+TN: Zac Efron is not registered and DOES not match w/ Lisa Kudrow
+Anne Hathaway: Euclidean Distance: 144.1438751220703, Cosine Similarity: 0.739252507686615, Manhattan Distance: 3963.2451171875
+TN: Zac Efron is not registered and DOES not match w/ Anne Hathaway
+Arnold Schwarzenegger: Euclidean Distance: 145.63894653320312, Cosine Similarity: 0.7460533976554871, Manhattan Distance: 4092.398193359375
+TN: Zac Efron is not registered and DOES not match w/ Arnold Schwarzenegger
+Ben Afflek: Euclidean Distance: 147.2545928955078, Cosine Similarity: 0.7229467928409576, Manhattan Distance: 4054.52587890625
+TN: Zac Efron is not registered and DOES not match w/ Ben Afflek
+Keanu Reeves: Euclidean Distance: 142.60801696777344, Cosine Similarity: 0.7321511209011078, Manhattan Distance: 3871.2578125
+TN: Zac Efron is not registered and DOES not match w/ Keanu Reeves
+Jerry Seinfeld: Euclidean Distance: 136.02291870117188, Cosine Similarity: 0.7083560526371002, Manhattan Distance: 3772.623779296875
+TN: Zac Efron is not registered and DOES not match w/ Jerry Seinfeld
+Kate Beckinsale: Euclidean Distance: 138.89511108398438, Cosine Similarity: 0.7165265679359436, Manhattan Distance: 3816.97705078125
+TN: Zac Efron is not registered and DOES not match w/ Kate Beckinsale
+Lauren Cohan: Euclidean Distance: 144.77685546875, Cosine Similarity: 0.7946316450834274, Manhattan Distance: 4070.031494140625
+TN: Zac Efron is not registered and DOES not match w/ Lauren Cohan
+Simon Pegg: Euclidean Distance: 131.31214904785156, Cosine Similarity: 0.6278010606765747, Manhattan Distance: 3509.635498046875
+TN: Zac Efron is not registered and DOES not match w/ Simon Pegg
+Will Smith: Euclidean Distance: 142.310302734375, Cosine Similarity: 0.7596907168626785, Manhattan Distance: 3918.222412109375
+TN: Zac Efron is not registered and DOES not match w/ Will Smith
+Match with Euclidean distance found for Zac Efron with:  in invited names.
