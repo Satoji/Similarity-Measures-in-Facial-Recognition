@@ -49,7 +49,7 @@ def cosine_similarity(known_embedding, candidate_embedding, thresh=0.5):
     return similarity_score
 
 # determine if a candidate face is a match for a known face
-def euclidean_distance(known_embedding, candidate_embedding, thresh=121):  # Adjust threshold as needed
+def euclidean_distance(known_embedding, candidate_embedding, thresh=105):  # Adjust threshold as needed
     # calculate Euclidean distance between embeddings
     squared_diff = np.square(known_embedding - candidate_embedding)
     sum_squared_diff = np.sum(squared_diff)
@@ -63,7 +63,7 @@ def euclidean_distance(known_embedding, candidate_embedding, thresh=121):  # Adj
     return distance
 
 # determine if a candidate face is a match for a known face
-def manhattan_distance(known_embedding, candidate_embedding, thresh=3200):  # Adjust threshold as needed
+def manhattan_distance(known_embedding, candidate_embedding, thresh=3000):  # Adjust threshold as needed
     # calculate Manhattan distance between embeddings
     distance = np.sum(np.abs(known_embedding - candidate_embedding))
     #distance = manhattan_distance(known_embedding, candidate_embedding)
@@ -73,22 +73,13 @@ def manhattan_distance(known_embedding, candidate_embedding, thresh=3200):  # Ad
         print('> Face is NOT a Match (Manhattan Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
     return distance
 
-def chebyshev_distance(known_embedding, candidate_embedding, thresh=17):  # Adjust threshold as needed
+def chebyshev_distance(known_embedding, candidate_embedding, thresh=14.5):  # Adjust threshold as needed
     # calculate Chebyshev distance between embeddings
     distance = np.max(np.abs(known_embedding - candidate_embedding))
     if distance <= thresh:
         print('> Face is a Match (Chebyshev Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
     else:
         print('> Face is NOT a Match (Chebyshev Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
-    return distance
-
-def minkowski_distance(known_embedding, candidate_embedding, p=2, thresh=115):  # Adjust threshold and p-value as needed
-    # calculate Minkowski distance between embeddings
-    distance = np.linalg.norm(known_embedding - candidate_embedding, ord=p)
-    if distance <= thresh:
-        print('> Face is a Match (Minkowski Distance with p=%d: %.3f <= Threshold: %.3f)' % (p, distance, thresh))
-    else:
-        print('> Face is NOT a Match (Minkowski Distance with p=%d: %.3f > Threshold: %.3f)' % (p, distance, thresh))
     return distance
 
 
@@ -104,11 +95,10 @@ def similarity_metrics(known_embedding, candidate_embedding):
     # Manhattan distance between embeddings
     manhattan_dist = manhattan_distance(known_embedding, candidate_embedding)
     
-    #chebyshev_dist = chebyshev_distance(known_embedding, candidate_embedding)
+    chebyshev_dist = chebyshev_distance(known_embedding, candidate_embedding)
 
-    minkowski_dist = minkowski_distance(known_embedding, candidate_embedding)
 
-    return euclidean_dist, cosine_sim, manhattan_dist, minkowski_dist
+    return euclidean_dist, cosine_sim, manhattan_dist, chebyshev_dist
 
 
 
@@ -163,10 +153,10 @@ def write_to_file(output_file, results):
 
 
 results = []
-true_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'minkowski_dist': 0}
-true_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'minkowski_dist': 0}
-false_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'minkowski_dist': 0}
-false_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'minkowski_dist': 0}
+true_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'chebyshev_dist': 0}
+true_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'chebyshev_dist': 0}
+false_positives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'chebyshev_dist': 0}
+false_negatives = {'cosine_similarity': 0, 'euclidean_distance': 0, 'manhattan_distance': 0, 'chebyshev_dist': 0}
 
 outCount = 0
 inCount = 0
@@ -188,28 +178,30 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
         combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
         invited_embedding_values = invited_embedding[0]
         #euclidean_dist, cosine_sim, manhattan_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
-        euclidean_dist, cosine_sim, manhattan_dist, minkowski_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
+        
+        euclidean_dist, cosine_sim, manhattan_dist, chebyshev_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
         result_str = f"{invited_name}: "
-        result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}, minkowski_dist: {minkowski_dist}"
+        result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}, chebyshev_dist: {chebyshev_dist}"
         results.append(result_str)
 
-        if minkowski_dist <= 115:
-            minkMatch = True
+        chebyshev_dist = chebyshev_distance(combined_embedding_values, invited_embedding_values)
+        if chebyshev_dist <= 14.5:
+            chebMatch = True
             if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
-                true_positives['minkowski_dist'] += 1
-                results.append(f"MKTP: {combined_name} is registered and matches w/ registered faces {invited_name}")
+                true_positives['chebyshev_dist'] += 1
+                results.append(f"CHTP: {combined_name} is registered and matches w/ registered faces {invited_name}")
             if combined_name in notinvited and combined_name != invited_name: #if person entering is not registered and matches
-                false_positives['minkowski_dist'] += 1
-                results.append(f"MKFP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
-        elif minkowski_dist > 115:
+                false_positives['chebyshev_dist'] += 1
+                results.append(f"CHFP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
+        elif chebyshev_dist > 14.5:
             if combined_name in notinvited and combined_name != invited_name: #if person entering is nonregistered and DOES NOT match
-                true_negatives['minkowski_dist'] += 1
-                results.append(f"MKTN: {combined_name} is not registered and DOES not match w/ {invited_name}")
+                true_negatives['chebyshev_dist'] += 1
+                results.append(f"CHTN: {combined_name} is not registered and DOES not match w/ {invited_name}")
             if combined_name in names and combined_name == invited_name: #if person entering is registered and DOES NOT match
-                false_negatives['minkowski_dist'] += 1
-                results.append(f"MKFN: {combined_name} is registered and DOES not match w/ {invited_name}")
-        
-        if euclidean_dist <= 121:
+                false_negatives['chebyshev_dist'] += 1
+                results.append(f"CHFN: {combined_name} is registered and DOES not match w/ {invited_name}")
+
+        if euclidean_dist <= 105:
             eucMatch = True
             if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
                 true_positives['euclidean_distance'] += 1
@@ -217,7 +209,7 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
             if combined_name in notinvited and combined_name != invited_name: #if person entering is not registered and matches
                 false_positives['euclidean_distance'] += 1
                 results.append(f"EFP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
-        elif euclidean_dist > 121:
+        elif euclidean_dist > 105:
             if combined_name in notinvited and combined_name != invited_name: #if person entering is nonregistered and DOES NOT match
                 true_negatives['euclidean_distance'] += 1
                 results.append(f"ETN: {combined_name} is not registered and DOES not match w/ {invited_name}")
@@ -253,7 +245,7 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
             results.append(f"Cosine: {combined_name} who is entering the event did not match with {invited_name}")
             #print(f"We inside here")
 
-        if manhattan_dist <= 3200:
+        if manhattan_dist <= 3000:
             manMatch = True
             if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
                 true_positives['manhattan_distance'] += 1
@@ -261,7 +253,7 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
             if combined_name in notinvited and combined_name != invited_name: #if person entering is not registered and matches
                 false_positives['manhattan_distance'] += 1
                 results.append(f"MFP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
-        elif manhattan_dist > 3200:
+        elif manhattan_dist > 3000:
             if combined_name in notinvited and combined_name != invited_name: #if person entering is nonregistered and DOES NOT match
                 true_negatives['manhattan_distance'] += 1
                 results.append(f"MTN: {combined_name} is not registered and DOES not match w/ {invited_name}")
@@ -367,11 +359,11 @@ print("FP:", false_positives['manhattan_distance'])
 print("FN:", false_negatives['manhattan_distance'])
 
 
-print("\nminkowski_dist:")
-print("TP:", true_positives['minkowski_dist'])
-print("TN:", true_negatives['minkowski_dist'])
-print("FP:", false_positives['minkowski_dist'])
-print("FN:", false_negatives['minkowski_dist'])
+print("\chebyshev_dist:")
+print("TP:", true_positives['chebyshev_dist'])
+print("TN:", true_negatives['chebyshev_dist'])
+print("FP:", false_positives['chebyshev_dist'])
+print("FN:", false_negatives['chebyshev_dist'])
 
 print(f"{inCount=}")
 print(f"{outCount=}")

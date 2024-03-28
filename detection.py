@@ -10,7 +10,7 @@ from mtcnn.mtcnn import MTCNN
 # extract a single face from a given photograph
 def extract_face(filename, required_size=(224, 224)):
     # load image from file
-	pixels = pyplot.imread('sharon_stone1.jpg')
+	pixels = pyplot.imread('Faces/Will Smith/Will Smith_0.jpg')
 	# create the detector, using default weights
 	detector = MTCNN()
 	# detect faces in the image
@@ -27,7 +27,7 @@ def extract_face(filename, required_size=(224, 224)):
 	return face_array
 
 # load the photo and extract the face
-pixels = extract_face('sharon_stone1.jpg')
+pixels = extract_face('Faces/Will Smith/Will Smith_0.jpg')
 # plot the extracted face
 pyplot.imshow(pixels)
 # show the plot
