@@ -73,7 +73,7 @@ def manhattan_distance(known_embedding, candidate_embedding, thresh=3000):  # Ad
         print('> Face is NOT a Match (Manhattan Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
     return distance
 
-def chebyshev_distance(known_embedding, candidate_embedding, thresh=14.5):  # Adjust threshold as needed
+def chebyshev_distance(known_embedding, candidate_embedding, thresh=13):  # Adjust threshold as needed
     # calculate Chebyshev distance between embeddings
     distance = np.max(np.abs(known_embedding - candidate_embedding))
     if distance <= thresh:
@@ -184,8 +184,8 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
         result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}, chebyshev_dist: {chebyshev_dist}"
         results.append(result_str)
 
-        chebyshev_dist = chebyshev_distance(combined_embedding_values, invited_embedding_values)
-        if chebyshev_dist <= 14.5:
+        #chebyshev_dist = chebyshev_distance(combined_embedding_values, invited_embedding_values)
+        if chebyshev_dist <= 13:
             chebMatch = True
             if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
                 true_positives['chebyshev_dist'] += 1
@@ -193,7 +193,7 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
             if combined_name in notinvited and combined_name != invited_name: #if person entering is not registered and matches
                 false_positives['chebyshev_dist'] += 1
                 results.append(f"CHFP: {combined_name} is not registered and matches w/ registered faces: {invited_name}")
-        elif chebyshev_dist > 14.5:
+        elif chebyshev_dist > 13:
             if combined_name in notinvited and combined_name != invited_name: #if person entering is nonregistered and DOES NOT match
                 true_negatives['chebyshev_dist'] += 1
                 results.append(f"CHTN: {combined_name} is not registered and DOES not match w/ {invited_name}")
@@ -288,13 +288,13 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):
         '''
         inCount += 1
             
+    '''
     # Check for matches and update results
     if eucMatch:
         matched_invited_names = [name for name, dist in zip(names, [euclidean_dist <= 121 for invited_embedding in invited_embeddings]) if dist]
         results.append(f"Match with Euclidean distance found for {combined_name} with: {', '.join(matched_invited_names)} in invited names.")
     else:
         results.append(f"No match with Euclidean distance found for {combined_name} in invited names.")
-    '''
     if cosMatch:
         matched_invited_names = [name for name, dist in zip(names, [cosine_sim <= 0.5 for invited_embedding in invited_embeddings]) if dist]
         results.append(f"Match with Cosine similarity found for {combined_name} with: {', '.join(matched_invited_names)} in invited names.")
