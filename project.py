@@ -48,25 +48,24 @@ def create_feature_extraction_model(input_shape=(224, 224, 3)):
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(512, activation='relu'),
         tf.keras.layers.Dense(128, activation='relu'),
-        tf.keras.layers.Dense(128)  # Output layer for feature vector
+        tf.keras.layers.Dense(128) 
     ])
     return model
 
-# Define function to preprocess an image
 def preprocessFace(img_path):
     img = tf.keras.preprocessing.image.load_img(img_path, target_size=(224, 224))
     img_array = tf.keras.preprocessing.image.img_to_array(img)
-    img_array = np.expand_dims(img_array, axis=0)  # Expand dimensions to create batch dimension
+    img_array = np.expand_dims(img_array, axis=0) 
     return preprocess_input(img_array)
 
-# Define function to extract features from an image
-def featureExtraction(img_paths, model):
+def featureExtraction1(img_paths, model):
     preprocessed_imgs = np.concatenate([preprocessFace(img_path) for img_path in img_paths], axis=0)
     return model.predict(preprocessed_imgs)
 
-# Example usage
+def featureExtraction2(img_path, model):
+    preprocessed_img = preprocessFace(img_path)
+    return model.predict(preprocessed_img)
 
-# Create feature extraction model
 feature_extraction_model = create_feature_extraction_model()
 
 # Define function to get image paths
@@ -91,7 +90,7 @@ for name in names:
         img_path = get_image_paths(name, idx)
         try:
             # Extract features from the image
-            features = featureExtraction(img_path, feature_extraction_model)
+            features = featureExtraction2(img_path, feature_extraction_model)
             # Append features to X_train
             X_train.append(features)
             # Append label to y_train (you may need to encode the label)
@@ -115,6 +114,35 @@ print("Shape of y_train:", y_train.shape)
 # Print the feature vector
 #print("Feature vector:", feature_vector)
 
+'''
+eucThresh0 = 31.503
+eucThresh25 = 47.217
+eucThresh50 = 62.931
+eucThresh75 = 78.645
+eucThresh100 = 94.359
+
+cosThresh0 = 0.069
+cosThresh25 = 0.157
+cosThresh50 = 0.244
+cosThresh75 = 0.332
+cosThresh100 = 0.420
+
+manThresh0 = 280.820
+manThresh25 = 425.669
+manThresh50 = 570.518
+manThresh75 = 715.367
+manThresh100 = 860.216
+
+cheThresh0 = 6.953
+cheThresh25 = 11.867
+cheThresh50 = 16.781
+cheThresh75 = 21.695
+cheThresh100 = 26.609
+
+euclidean_threshold = eucThresh50
+cosine_threshold = cosThresh50
+manhattan_threshold = manThresh50
+chebyshev_threshold = cheThresh50
 
 
 cosine_threshold = 0.468
@@ -141,10 +169,10 @@ cheThresh0 = 7.563
 cheThresh100 = 26.288
 cheThresh25 = cheThresh0 + 0.25 * (cheThresh100 - cheThresh0)
 cheThresh75 = cheThresh0 + 0.75 * (cheThresh100 - cheThresh0)
-
+'''
 
 # determine if a candidate face is a match for a known face
-def cosine_similarity(known_embedding, candidate_embedding, thresh=cosine_threshold):
+def cosine_similarity(known_embedding, candidate_embedding):
     # cosine similarity between embeddings
     dot_product = np.dot(known_embedding, candidate_embedding)
     norm_vector1 = np.linalg.norm(known_embedding)
@@ -152,44 +180,44 @@ def cosine_similarity(known_embedding, candidate_embedding, thresh=cosine_thresh
     similarity_score = dot_product / (norm_vector1 * norm_vector2)
 
     #similarity_score = cosine_similarity(known_embedding, candidate_embedding)
-    if similarity_score <= thresh:
-        print('> Face is a Match (Cosine Distance: %.3f <= %.3f)' % (similarity_score, thresh))
-    else:
-        print('> Face is NOT a Match (Cosine Distance: %.3f > %.3f)' % (similarity_score, thresh))
+    #if similarity_score <= thresh:
+    #    print('> Face is a Match (Cosine Distance: %.3f <= %.3f)' % (similarity_score, thresh))
+    #else:
+    #    print('> Face is NOT a Match (Cosine Distance: %.3f > %.3f)' % (similarity_score, thresh))
     return similarity_score
 
 # determine if a candidate face is a match for a known face
-def euclidean_distance(known_embedding, candidate_embedding, thresh=euclidean_threshold):  # Adjust threshold as needed
+def euclidean_distance(known_embedding, candidate_embedding):  # Adjust threshold as needed
     # calculate Euclidean distance between embeddings
     squared_diff = np.square(known_embedding - candidate_embedding)
     sum_squared_diff = np.sum(squared_diff)
     distance = np.sqrt(sum_squared_diff)
     
 	#distance = euclidean_distance(known_embedding, candidate_embedding)
-    if distance <= thresh:
-        print('> Face is a Match (Euclidean Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
-    else:
-        print('> Face is NOT a Match (Euclidean Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
+    #if distance <= thresh:
+    #    print('> Face is a Match (Euclidean Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
+    #else:
+    #    print('> Face is NOT a Match (Euclidean Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
     return distance
 
 # determine if a candidate face is a match for a known face
-def manhattan_distance(known_embedding, candidate_embedding, thresh=manhattan_threshold):  # Adjust threshold as needed
+def manhattan_distance(known_embedding, candidate_embedding):  # Adjust threshold as needed
     # calculate Manhattan distance between embeddings
     distance = np.sum(np.abs(known_embedding - candidate_embedding))
     #distance = manhattan_distance(known_embedding, candidate_embedding)
-    if distance <= thresh:
-        print('> Face is a Match (Manhattan Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
-    else:
-        print('> Face is NOT a Match (Manhattan Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
+    #if distance <= thresh:
+    #    print('> Face is a Match (Manhattan Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
+    #else:
+    #    print('> Face is NOT a Match (Manhattan Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
     return distance
 
-def chebyshev_distance(known_embedding, candidate_embedding, thresh=chebyshev_threshold):  # Adjust threshold as needed
+def chebyshev_distance(known_embedding, candidate_embedding):  # Adjust threshold as needed
     # calculate Chebyshev distance between embeddings
     distance = np.max(np.abs(known_embedding - candidate_embedding))
-    if distance <= thresh:
-        print('> Face is a Match (Chebyshev Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
-    else:
-        print('> Face is NOT a Match (Chebyshev Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
+    #if distance <= thresh:
+    #    print('> Face is a Match (Chebyshev Distance: %.3f <= Threshold: %.3f)' % (distance, thresh))
+    #else:
+    #    print('> Face is NOT a Match (Chebyshev Distance: %.3f > Threshold: %.3f)' % (distance, thresh))
     return distance
 
 
@@ -217,11 +245,11 @@ def get_image_paths(name, idx):
     return f'Faces/{name}/{name}_{idx}.jpg'
 
 
-invited_embeddings = [featureExtraction([get_image_paths(name, 0)], feature_extraction_model) for name in names]              #registered
+invited_embeddings = [featureExtraction1([get_image_paths(name, 0)], feature_extraction_model) for name in names]              #registered
 # Generate embeddings for both arrays
 #names_embeddings = [featureExtraction([get_image_paths(name, 1), get_image_paths(name, 2)]) for name in names]
-names_embeddings = [featureExtraction([get_image_paths(name, 1)], feature_extraction_model) for name in names]                #different images of registered
-notinvited_embeddings = [featureExtraction([get_image_paths(name, 0)], feature_extraction_model) for name in notinvited]      #unregistered
+names_embeddings = [featureExtraction1([get_image_paths(name, 1)], feature_extraction_model) for name in names]                #different images of registered
+notinvited_embeddings = [featureExtraction1([get_image_paths(name, 0)], feature_extraction_model) for name in notinvited]      #unregistered
 
 # Combine embeddings
 combined_embeddings = names_embeddings + notinvited_embeddings                                      #diff images of registered and unregistered
@@ -265,6 +293,65 @@ eucDis = []
 manDis = []
 cheDis = []
 
+
+for combined_embedding, combined_name in zip(combined_embeddings, all):     #diff images of registered and unregistered
+    for invited_embedding, invited_name in zip(invited_embeddings, names):  #registered
+        combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
+        invited_embedding_values = invited_embedding[0]
+        euclidean_dist, time_taken = measure_time(euclidean_distance, combined_embedding_values, invited_embedding_values)
+        total_time_euclidean += time_taken
+        cosine_sim, time_taken = measure_time(cosine_similarity, combined_embedding_values, invited_embedding_values)
+        cosine_sim = 1 - cosine_sim
+        total_time_cosine += time_taken
+        manhattan_dist, time_taken = measure_time(manhattan_distance, combined_embedding_values, invited_embedding_values)
+        total_time_manhattan += time_taken
+        chebyshev_dist, time_taken = measure_time(chebyshev_distance, combined_embedding_values, invited_embedding_values)
+        total_time_chebyshev += time_taken
+        eucDis.append(euclidean_dist)
+        cosDis.append(cosine_sim)
+        manDis.append(manhattan_dist)
+        cheDis.append(chebyshev_dist)
+
+eucMin = min(eucDis)
+eucMax = max(eucDis)
+cosMin = min(cosDis)
+cosMax = max(cosDis)
+manMin = min(manDis)
+manMax = max(manDis)
+cheMin = min(cheDis)
+cheMax = max(cheDis)
+
+eucThresh0 = eucMin
+eucThresh100 = eucMax
+eucThresh25 = eucThresh0 + 0.25 * (eucThresh100 - eucThresh0)
+eucThresh50 = eucThresh0 + 0.50 * (eucThresh100 - eucThresh0)
+eucThresh75 = eucThresh0 + 0.75 * (eucThresh100 - eucThresh0)
+
+cosThresh0 = cosMin
+cosThresh100 = cosMax
+cosThresh25 = cosThresh0 + 0.25 * (cosThresh100 - cosThresh0)
+cosThresh50 = cosThresh0 + 0.50 * (cosThresh100 - cosThresh0)
+cosThresh75 = cosThresh0 + 0.75 * (cosThresh100 - cosThresh0)
+
+manThresh0 = manMin
+manThresh100 = manMax
+manThresh25 = manThresh0 + 0.25 * (manThresh100 - manThresh0)
+manThresh50 = manThresh0 + 0.50 * (manThresh100 - manThresh0)
+manThresh75 = manThresh0 + 0.75 * (manThresh100 - manThresh0)
+
+cheThresh0 = cheMin
+cheThresh100 = cheMax
+cheThresh25 = cheThresh0 + 0.25 * (cheThresh100 - cheThresh0)
+cheThresh50 = cheThresh0 + 0.50 * (cheThresh100 - cheThresh0)
+cheThresh75 = cheThresh0 + 0.75 * (cheThresh100 - cheThresh0)
+
+
+euclidean_threshold = eucThresh100
+cosine_threshold = cosThresh100
+manhattan_threshold = manThresh100
+chebyshev_threshold = cheThresh100
+
+
 for combined_embedding, combined_name in zip(combined_embeddings, all):     #diff images of registered and unregistered
     print(f"1{combined_name=}")
     results.append(f"\nComparison Results for {combined_name}:")
@@ -294,10 +381,7 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):     #dif
         chebyshev_dist, time_taken = measure_time(chebyshev_distance, combined_embedding_values, invited_embedding_values)
         total_time_chebyshev += time_taken
 
-        eucDis.append(euclidean_dist)
-        cosDis.append(cosine_sim)
-        manDis.append(manhattan_dist)
-        cheDis.append(chebyshev_dist)
+        
 
         
         result_str = f"{invited_name}: "
@@ -423,14 +507,7 @@ print("Total time for Cosine similarity:", total_time_cosine*1000, "ms")
 print("Total time for Manhattan distance:", total_time_manhattan*1000, "ms")
 print("Total time for Chebyshev distance:", total_time_chebyshev*1000, "ms")
 
-eucMin = min(eucDis)
-eucMax = max(eucDis)
-cosMin = min(cosDis)
-cosMax = max(cosDis)
-manMin = min(manDis)
-manMax = max(manDis)
-cheMin = min(cheDis)
-cheMax = max(cheDis)
+
 
 print(f"eucMin: {eucMin}")
 print(f"eucMax: {eucMax}")
@@ -477,3 +554,19 @@ print("manThresh25:",manThresh25)
 print("manThresh75:",manThresh75)
 print("cheThresh25:",cheThresh25)
 print("cheThresh75:",cheThresh75)
+
+
+dj0 = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
+dj1 = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
+
+# Extract features from the image file
+fV0 = featureExtraction2(dj0[0], feature_extraction_model)
+fV1 = featureExtraction2(dj1[1], feature_extraction_model)
+
+# Print the feature vector
+print("Feature vector:", fV0)
+print("Feature vector:", fV1)
+print("cos dis:", 1-cosine_similarity(fV0,fV1))
+print("euc dis:", euclidean_distance(fV0,fV1))
+print("man dis:", manhattan_distance(fV0,fV1))
+print("che dis:", chebyshev_distance(fV0,fV1))

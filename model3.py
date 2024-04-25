@@ -75,13 +75,13 @@ y_train = np.array(y_train)
 print("Shape of X_train:", X_train.shape)
 print("Shape of y_train:", y_train.shape)
 
-img_path = 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg'
+#img_path = 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg'
 
 # Extract features from the image file
-feature_vector = featureExtraction(img_path, feature_extraction_model)
+#feature_vector = featureExtraction(img_path, feature_extraction_model)
 
 # Print the feature vector
-print("Feature vector:", feature_vector)
+#print("Feature vector:", feature_vector)
 
 
 
