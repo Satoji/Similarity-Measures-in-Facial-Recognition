@@ -63,3 +63,11 @@ is_match(embeddings[0], embeddings[2])
 # verify known photos of other people
 print('Negative Tests')
 is_match(embeddings[0], embeddings[3])
+
+dj = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
+feature_vector = get_embeddings(dj)
+face_extract = extract_face(dj[0])
+
+# Print the feature vector
+print("Feature vector:", feature_vector) #each element in array is a feature of image that are learned by the feature extraction model during training
+print("Extracted face:", face_extract) #rgb pixels
