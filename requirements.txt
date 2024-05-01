@@ -1,0 +1,2 @@
+# Needs pyhon 3.10.0 to run project.py
+tensorflow==2.12.0

@@ -2,6 +2,10 @@ import numpy as np
 import tensorflow as tf
 #from tensorflow.keras.applications.vggface import preprocess_input
 from keras_vggface.utils import preprocess_input
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
 
 # Define Feature Extraction Model
 def create_feature_extraction_model(input_shape=(224, 224, 3)):
@@ -28,9 +32,13 @@ def preprocessFace(img_path):
     return preprocess_input(img_array)
 
 # Define function to extract features from an image
-def featureExtraction(img_paths, model):
-    preprocessed_imgs = np.concatenate([preprocessFace(img_path) for img_path in img_paths], axis=0)
-    return model.predict(preprocessed_imgs)
+#def featureExtraction(img_paths, model):
+#    preprocessed_imgs = np.concatenate([preprocessFace(img_path) for img_path in img_paths], axis=0)
+#    return model.predict(preprocessed_imgs)
+
+def featureExtraction(img_path, model):
+    preprocessed_img = preprocessFace(img_path)
+    return model.predict(preprocessed_img)
 
 # Example usage
 
@@ -71,9 +79,28 @@ for name in names:
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
+print("X_train:", X_train)
+print("y_train:", y_train)
 # Print shapes of X_train and y_train to verify
 print("Shape of X_train:", X_train.shape)
 print("Shape of y_train:", y_train.shape)
+
+label_encoder = LabelEncoder()
+y_train_encoded = label_encoder.fit_transform(y_train)
+
+# Split the data into training and validation sets
+X_train, X_val, y_train_encoded, y_val_encoded = train_test_split(X_train, y_train_encoded, test_size=0.2, random_state=42)
+
+# Define and train a Support Vector Machine (SVM) classifier
+svm_classifier = SVC(kernel='linear')
+svm_classifier.fit(X_train, y_train_encoded)
+
+# Predict labels for the validation set
+y_pred = svm_classifier.predict(X_val)
+
+# Calculate accuracy
+accuracy = accuracy_score(y_val_encoded, y_pred)
+print("Validation Accuracy:", accuracy)
 
 #img_path = 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg'
 

@@ -32,6 +32,12 @@ def extract_features(img_path, model):
     preprocessed_img = preprocess_image(img_path)
     return model.predict(preprocessed_img)
 
+def extract_features2(img_paths, model):
+    preprocessed_imgs = np.concatenate([preprocess_image(img_path) for img_path in img_paths], axis=0)
+    return model.predict(preprocessed_imgs)
+
+
+
 # Example usage
 
 # Create feature extraction model
@@ -75,10 +81,52 @@ y_train = np.array(y_train)
 print("Shape of X_train:", X_train.shape)
 print("Shape of y_train:", y_train.shape)
 
-img_path = 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg'
+'''
+def cosine_similarity(known_embedding, candidate_embedding):
+    dot_product = np.dot(known_embedding, candidate_embedding)
+    norm_vector1 = np.linalg.norm(known_embedding)
+    norm_vector2 = np.linalg.norm(candidate_embedding)
+    similarity_score = dot_product / (norm_vector1 * norm_vector2)
+    return similarity_score
+'''
+
+def cosine_similarity(known_embedding, candidate_embedding):
+    known_embedding = known_embedding.flatten()  # Flatten the arrays if needed
+    candidate_embedding = candidate_embedding.flatten()
+    dot_product = np.dot(known_embedding, candidate_embedding)
+    norm_vector1 = np.linalg.norm(known_embedding)
+    norm_vector2 = np.linalg.norm(candidate_embedding)
+    similarity_score = dot_product / (norm_vector1 * norm_vector2)
+    return similarity_score
+
+
+def euclidean_distance(known_embedding, candidate_embedding): 
+    squared_diff = np.square(known_embedding - candidate_embedding)
+    sum_squared_diff = np.sum(squared_diff)
+    distance = np.sqrt(sum_squared_diff)
+    return distance
+
+def manhattan_distance(known_embedding, candidate_embedding):
+    distance = np.sum(np.abs(known_embedding - candidate_embedding))
+    return distance
+
+def chebyshev_distance(known_embedding, candidate_embedding):
+    distance = np.max(np.abs(known_embedding - candidate_embedding))
+    return distance
+
+dj0 = 'Faces/Dwayne Johnson/Dwayne Johnson_0.jpg'
+dj1 = 'Faces/Tom Cruise/Tom Cruise_0.jpg'
 
 # Extract features from the image file
-feature_vector = extract_features(img_path, feature_extraction_model)
+fV0 = extract_features(dj0, feature_extraction_model)
+fV1 = extract_features(dj1, feature_extraction_model)
 
 # Print the feature vector
-print("Feature vector:", feature_vector)
+print("Feature vector:", fV0)
+print("Feature vector:", fV1)
+
+print("euc dis:", euclidean_distance(fV0,fV1))
+print("man dis:", manhattan_distance(fV0,fV1))
+print("che dis:", chebyshev_distance(fV0,fV1))
+cosine_dist = 1 - cosine_similarity(fV0,fV1)
+print("cos dis:", cosine_dist)
