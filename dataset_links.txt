@@ -1,0 +1,2 @@
+https://www.kaggle.com/datasets/cybersimar08/face-recognition-dataset
+https://www.kaggle.com/datasets/danupnelson/14-celebrity-faces-dataset

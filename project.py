@@ -60,18 +60,14 @@ for name in names:
         img_path = get_image_paths(name, idx)
         try:
             features = featureExtraction2(img_path, feature_extraction_model)
-            # Append features to X_train
             X_train.append(features)
-            # Append label to y_train (you may need to encode the label)
             y_train.append(name)
         except Exception as e:
             print(f"Error processing image {img_path}: {e}")
 
-# Convert lists to numpy arrays
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
-# Print shapes of X_train and y_train to verify
 print("Shape of X_train:", X_train.shape)
 print("Shape of y_train:", y_train.shape)
 
@@ -106,34 +102,25 @@ names = ['Akshay Kumar', 'Alexandra Daddario', 'Alia Bhatt', 'Amitabh Bachchan',
 notinvited = ['Margot Robbie', 'Marmik', 'Natalie Portman', 'Priyanka Chopra',
         'Robert Downey Jr', 'Roger Federer', 'Tom Cruise', 'Vijay Deverakonda', 'Virat Kohli', 'Zac Efron']
 
-#names = ['Akshay Kumar','Henry Cavill','Tom Cruise', 'Will Smith']
-#notinvited = ['Zac Efron']
-
 
 all = names + notinvited
 
 print(f"{all=}")
 
 
-# File path to images
 def get_image_paths(name, idx):
-    #return f'Faces/{name}/{name}_{idx}.jpg'
     return f'Faces/{name}/{name}_{idx}.jpg'
 
 
 invited_embeddings = [featureExtraction1([get_image_paths(name, 0)], feature_extraction_model) for name in names]              #registered
-# Generate embeddings for both arrays
-#names_embeddings = [featureExtraction([get_image_paths(name, 1), get_image_paths(name, 2)]) for name in names]
 names_embeddings = [featureExtraction1([get_image_paths(name, 1)], feature_extraction_model) for name in names]                #different images of registered
 notinvited_embeddings = [featureExtraction1([get_image_paths(name, 0)], feature_extraction_model) for name in notinvited]      #unregistered
 
-# Combine embeddings
 combined_embeddings = names_embeddings + notinvited_embeddings                                      #diff images of registered and unregistered
 
 known_embeddings_array = np.array([embedding[0] for embedding in invited_embeddings])
 covariance_matrix = np.cov(known_embeddings_array.T)
 
-# Output file path
 output_file = "comparison_results.txt"
 
 
@@ -172,7 +159,7 @@ cheDis = []
 
 for combined_embedding, combined_name in zip(combined_embeddings, all):     #diff images of registered and unregistered
     for invited_embedding, invited_name in zip(invited_embeddings, names):  #registered
-        combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
+        combined_embedding_values = combined_embedding[0] 
         invited_embedding_values = invited_embedding[0]
         euclidean_dist, time_taken = measure_time(euclidean_distance, combined_embedding_values, invited_embedding_values)
         total_time_euclidean += time_taken
@@ -231,22 +218,18 @@ chebyshev_threshold = cheThresh50
 for combined_embedding, combined_name in zip(combined_embeddings, all):     #diff images of registered and unregistered
     print(f"1{combined_name=}")
     results.append(f"\nComparison Results for {combined_name}:")
-    eucMatch = False  # Flag to check if there's any match
-    cosMatch = False  # Flag to check if there's any match
-    manMatch = False  # Flag to check if there's any match
+    eucMatch = False  
+    cosMatch = False  
+    manMatch = False  
     chebMatch = False
     minkMatch = False
     outCount += 1
 
     for invited_embedding, invited_name in zip(invited_embeddings, names):  #registered
-        #print(f"2{combined_name=}")
-        #print(f"2{invited_name=}")
         
         combined_embedding_values = combined_embedding[0]  # Extracting the embedding value
         invited_embedding_values = invited_embedding[0]
-        #euclidean_dist, cosine_sim, manhattan_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
         
-        #euclidean_dist, cosine_sim, manhattan_dist, chebyshev_dist = similarity_metrics(combined_embedding_values, invited_embedding_values)
         euclidean_dist, time_taken = measure_time(euclidean_distance, combined_embedding_values, invited_embedding_values)
         total_time_euclidean += time_taken
         cosine_sim, time_taken = measure_time(cosine_similarity, combined_embedding_values, invited_embedding_values)
@@ -256,15 +239,11 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):     #dif
         total_time_manhattan += time_taken
         chebyshev_dist, time_taken = measure_time(chebyshev_distance, combined_embedding_values, invited_embedding_values)
         total_time_chebyshev += time_taken
-
-        
-
         
         result_str = f"{invited_name}: "
         result_str += f"Euclidean Distance: {euclidean_dist}, Cosine Similarity: {cosine_sim}, Manhattan Distance: {manhattan_dist}, chebyshev_dist: {chebyshev_dist}"
         results.append(result_str)
 
-        #chebyshev_dist = chebyshev_distance(combined_embedding_values, invited_embedding_values)
         if chebyshev_dist <= chebyshev_threshold: 
             chebMatch = True
             if combined_name in names and combined_name == invited_name: #if person entering is registered AND match
@@ -305,7 +284,6 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):     #dif
             #invited embeddings are those who are registered (img0 from registered)
             #notinvited embeddings are those who are NOT registered (img0 from nonregistered)
             results.append(f"Euclidean: {combined_name} who is entering the event did not match with {invited_name}")
-            #print(f"We inside here")
 
         if cosine_sim <= cosine_threshold:
             cosMatch = True
@@ -323,7 +301,6 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):     #dif
                 false_negatives['cosine_similarity'] += 1
                 results.append(f"CFN: {combined_name} is registered and DOES not match w/ {invited_name}")
             results.append(f"Cosine: {combined_name} who is entering the event did not match with {invited_name}")
-            #print(f"We inside here")
 
         if manhattan_dist <= manhattan_threshold:
             manMatch = True
@@ -341,7 +318,6 @@ for combined_embedding, combined_name in zip(combined_embeddings, all):     #dif
                 false_negatives['manhattan_distance'] += 1
                 results.append(f"MFN: {combined_name} is registered and DOES not match w/ {invited_name}")
             results.append(f"Manhattan: {combined_name} who is entering the event did not match with {invited_name}")
-            #print(f"We inside here")
         inCount += 1
         
         
@@ -377,12 +353,10 @@ print("FN:", false_negatives['chebyshev_dist'])
 print(f"{inCount=}")
 print(f"{outCount=}")
 
-# Time in seconds
 print("Total time for Euclidean distance:", total_time_euclidean*1000, "ms")
 print("Total time for Cosine similarity:", total_time_cosine*1000, "ms")
 print("Total time for Manhattan distance:", total_time_manhattan*1000, "ms")
 print("Total time for Chebyshev distance:", total_time_chebyshev*1000, "ms")
-
 
 
 print(f"eucMin: {eucMin}")
@@ -394,19 +368,15 @@ print(f"manMax: {manMax}")
 print(f"cheMin: {cheMin}")
 print(f"cheMax: {cheMax}")
 
-# Calculate FAR and FRR for Euclidean Distance
 FAR_euclidean = false_positives['euclidean_distance'] / (false_positives['euclidean_distance'] + true_negatives['euclidean_distance'])
 FRR_euclidean = false_negatives['euclidean_distance'] / (false_negatives['euclidean_distance'] + true_positives['euclidean_distance'])
 
-# Calculate FAR and FRR for Cosine Similarity
 FAR_cosine = false_positives['cosine_similarity'] / (false_positives['cosine_similarity'] + true_negatives['cosine_similarity'])
 FRR_cosine = false_negatives['cosine_similarity'] / (false_negatives['cosine_similarity'] + true_positives['cosine_similarity'])
 
-# Calculate FAR and FRR for Manhattan Distance
 FAR_manhattan = false_positives['manhattan_distance'] / (false_positives['manhattan_distance'] + true_negatives['manhattan_distance'])
 FRR_manhattan = false_negatives['manhattan_distance'] / (false_negatives['manhattan_distance'] + true_positives['manhattan_distance'])
 
-# Calculate FAR and FRR for Chebyshev Distance
 FAR_chebyshev = false_positives['chebyshev_dist'] / (false_positives['chebyshev_dist'] + true_negatives['chebyshev_dist'])
 FRR_chebyshev = false_negatives['chebyshev_dist'] / (false_negatives['chebyshev_dist'] + true_positives['chebyshev_dist'])
 
@@ -422,27 +392,27 @@ print("FRR for Manhattan Distance:", FRR_manhattan)
 print("FAR for Chebyshev Distance:", FAR_chebyshev)
 print("FRR for Chebyshev Distance:", FRR_chebyshev)
 
+
+print("cosThresh0:",cosThresh0)
 print("cosThresh25:",cosThresh25)
+print("cosThresh50:",cosThresh50)
 print("cosThresh75:",cosThresh75)
+print("cosThresh100:",cosThresh100)
+
+print("eucThresh0:",eucThresh0)
 print("eucThresh25:",eucThresh25)
+print("eucThresh50:",eucThresh50)
 print("eucThresh75:",eucThresh75)
+print("eucThresh100:",eucThresh100)
+
+print("manThresh0:",manThresh0)
 print("manThresh25:",manThresh25)
+print("manThresh50:",manThresh50)
 print("manThresh75:",manThresh75)
+print("manThresh100:",manThresh100)
+
+print("cheThresh0:",cheThresh0)
 print("cheThresh25:",cheThresh25)
+print("cheThresh50:",cheThresh50)
 print("cheThresh75:",cheThresh75)
-
-
-dj0 = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
-dj1 = ['Faces/Dwayne Johnson/Dwayne Johnson_0.jpg']
-
-# Extract features from the image file
-fV0 = featureExtraction2(dj0[0], feature_extraction_model)
-fV1 = featureExtraction2(dj1[1], feature_extraction_model)
-
-# Print the feature vector
-print("Feature vector:", fV0)
-print("Feature vector:", fV1)
-print("cos dis:", 1-cosine_similarity(fV0,fV1))
-print("euc dis:", euclidean_distance(fV0,fV1))
-print("man dis:", manhattan_distance(fV0,fV1))
-print("che dis:", chebyshev_distance(fV0,fV1))
+print("cheThresh100:",cheThresh100)
