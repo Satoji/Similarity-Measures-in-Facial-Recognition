@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+# Average threshold values calculated from Excel Sheet attached
 allThresholds = {
     'euclidean': [30.10294418, 45.40843372, 60.71392326, 76.0194128, 91.32490234],
     'cosine': [0.05700353384, 0.1257356226, 0.1944677114, 0.2631998003, 0.3319318891],
